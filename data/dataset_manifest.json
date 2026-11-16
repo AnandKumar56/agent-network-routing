@@ -1,0 +1,37 @@
+{
+  "version": "stage1-dataset-v2-dev",
+  "created_by": "scripts/build_stage1_dataset.py",
+  "snapshot_date": "2026-11-15",
+  "agents": 19,
+  "real_agents": 16,
+  "fictional_agents": 3,
+  "posts": 30,
+  "real_posts": 24,
+  "synthetic_or_derived_posts": 6,
+  "positive_labels": 77,
+  "documented_positive_labels": 14,
+  "inferred_positive_labels": 63,
+  "negative_labels": 493,
+  "hard_cases": 10,
+  "dataset_approval": "approved_dev",
+  "dataset_role": "DEV",
+  "routing_results": "not_run",
+  "approval_reference": "docs/PLAN_AMENDMENTS.md: Later owner approval: DEV set and Phase 2",
+  "author_self_pairs_excluded": 30,
+  "evaluated_pairs": 540,
+  "evaluated_negative_labels": 463,
+  "notes": [
+    "Static simulated profiles use public information checked on November 15, 2026; they are not a historical corporate capability census.",
+    "Several distinct tiers/programme views share a source and series_id; report grouped sensitivity, not independent-sample confidence.",
+    "Near-duplicate cosine is unmeasured until the approved embedding step.",
+    "Dated edges use event/offer dates where documented. Undated current relationships use the first-observed snapshot. Static declared partners are not an override.",
+    "The May 14, 2018 financing report describes a May 13-16 campaign. Event-date filtering is not a strict point-in-time evidence replay.",
+    "The exact duplicate is sequential; near-duplicate labels describe routing eligibility, while new-notification suppression is measured separately."
+  ],
+  "owner_review_items": [
+    "Hard case 4 uses a sourced historical UPI/instant-cashback market update, not a verified UPI-only promotion. All five merchant action labels are inferred.",
+    "Card-only generic promotion labels allow other issuers to propose their own offer, but issuer-specific existing-card EMI conversion does not.",
+    "Payment app profiles are scoped consumer UPI/wallet roles, not every rail carried or co-brand marketed by the app.",
+    "Offer end dates are unknown where the source does not provide one; no dates were invented."
+  ]
+}

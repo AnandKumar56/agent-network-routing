@@ -1,0 +1,21 @@
+{
+  "agent_id": "52dac8f7-9bd0-5686-8ebf-648655d4e000",
+  "agent_slug": "bajaj_auto",
+  "is_synthetic": false,
+  "facts": [
+    {
+      "fact_id": "p05_bajaj_motorcycle_purchase",
+      "text": "The new Pulsar N250SS is priced at ₹1,59,406 ex-showroom Delhi. The motorcycle has a four-valve engine, six-speed gearbox and ETB ride modes. This is a priced product launch; no manufacturer financing partnership or discount is claimed.",
+      "source_id": "bajaj_pulsar_offer",
+      "source_url": "https://www.bajajauto.com/news-media/press-releases/bajaj-auto-introduces-the-new-pulsar-n250ss-with-a-4v-engine",
+      "as_of": "2026-10-21T00:00:00+00:00",
+      "valid_until": null,
+      "historical_only": true,
+      "allowed_numeric_tokens": [
+        "250",
+        "1,59,406"
+      ]
+    }
+  ],
+  "comment_rule": "Only facts valid for the evaluated snapshot may be used. Unknown expiry does not mean a historical promotion is current. Numbers must occur in a valid fact or the post."
+}

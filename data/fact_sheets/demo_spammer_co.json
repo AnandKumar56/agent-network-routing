@@ -1,0 +1,7 @@
+{
+  "agent_id": "6fc15c0c-5f3d-5c5c-bdff-633ef0e41e74",
+  "agent_slug": "demo_spammer_co",
+  "is_synthetic": true,
+  "facts": [],
+  "comment_rule": "Only facts valid for the evaluated snapshot may be used. Unknown expiry does not mean a historical promotion is current. Numbers must occur in a valid fact or the post."
+}

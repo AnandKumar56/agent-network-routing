@@ -1,0 +1,763 @@
+[
+  {
+    "id": "da191f6b-0080-5c18-a2f4-5a85a5b51653",
+    "slug": "swiggy",
+    "company_name": "Swiggy",
+    "industry": "Food delivery",
+    "description": "Food delivery and quick-commerce platform in India.",
+    "capabilities": [
+      "food_delivery",
+      "quick_commerce"
+    ],
+    "offers": [
+      "Food-order discounts",
+      "Food and grocery checkout partnerships"
+    ],
+    "interests": [
+      "UPI cashback for food orders",
+      "Credit card offers at food checkout",
+      "Wallet payment integrations for delivery"
+    ],
+    "exclude_industries": [],
+    "declared_partners": [
+      "phonepe",
+      "hdfc_bank"
+    ],
+    "subscriptions": [],
+    "status": "active",
+    "tier": "verified",
+    "trust_score": 0.6,
+    "profile_version": 1,
+    "daily_notification_cap": 20,
+    "is_synthetic": false,
+    "profile_basis": "simulated_profile_from_public_information",
+    "source_ids": [
+      "phonepe_swiggy",
+      "swiggy_diwali_bonus",
+      "hdfc_swiggy_card"
+    ],
+    "sources": [
+      "https://www.phonepe.com/press/swiggy-and-phonepe-partner-to-grow-cashless-transactions/",
+      "https://blog.swiggy.com/terms-and-conditions/diwali-bonus-engagement-emailer-tcs-12-11-2020/",
+      "https://www.hdfcbank.com/personal/pay/cards/credit-cards/swiggy-hdfc-bank-credit-card"
+    ],
+    "snapshot_date": "2026-11-15",
+    "profile_as_of": "2026-11-15T00:00:00+00:00",
+    "profile_temporal_scope": "static_november_2026_simulation"
+  },
+  {
+    "id": "13b20c83-f3e0-5479-b132-1d78570b3611",
+    "slug": "zomato",
+    "company_name": "Zomato",
+    "industry": "Food delivery",
+    "description": "Restaurant discovery and food delivery business; not the Blinkit agent.",
+    "capabilities": [
+      "food_delivery"
+    ],
+    "offers": [
+      "Restaurant ordering and food delivery"
+    ],
+    "interests": [
+      "Digital payment rewards for restaurant orders",
+      "Card offers for food delivery",
+      "Food-delivery checkout integrations"
+    ],
+    "exclude_industries": [],
+    "declared_partners": [],
+    "subscriptions": [],
+    "status": "active",
+    "tier": "verified",
+    "trust_score": 0.6,
+    "profile_version": 1,
+    "daily_notification_cap": 20,
+    "is_synthetic": false,
+    "profile_basis": "simulated_profile_from_public_information",
+    "source_ids": [
+      "eternal_businesses"
+    ],
+    "sources": [
+      "https://www.eternal.com/"
+    ],
+    "snapshot_date": "2026-11-15",
+    "profile_as_of": "2026-11-15T00:00:00+00:00",
+    "profile_temporal_scope": "static_november_2026_simulation"
+  },
+  {
+    "id": "8938c8b8-095e-555c-919c-1342216e81ea",
+    "slug": "flipkart",
+    "company_name": "Flipkart",
+    "industry": "E-commerce",
+    "description": "Online marketplace for electronics, fashion and other goods.",
+    "capabilities": [
+      "ecommerce_marketplace",
+      "electronics_retail",
+      "fashion_retail",
+      "quick_commerce"
+    ],
+    "offers": [
+      "Marketplace festive sales",
+      "Smartphone discounts and financing checkout"
+    ],
+    "interests": [
+      "No Cost EMI for smartphones and appliances",
+      "UPI cashback for online purchases",
+      "Card-funded retail promotions"
+    ],
+    "exclude_industries": [],
+    "declared_partners": [
+      "bajaj_finserv",
+      "phonepe",
+      "axis_bank"
+    ],
+    "subscriptions": [],
+    "status": "active",
+    "tier": "verified",
+    "trust_score": 0.6,
+    "profile_version": 1,
+    "daily_notification_cap": 20,
+    "is_synthetic": false,
+    "profile_basis": "simulated_profile_from_public_information",
+    "source_ids": [
+      "flipkart_bajaj_emi_news",
+      "flipkart_bajaj_emi_terms",
+      "flipkart_bbd_2026",
+      "axis_flipkart_card"
+    ],
+    "sources": [
+      "https://www.deccanchronicle.com/business/companies/140518/bajaj-finserv-no-cost-emi-option-on-4-lakh-products-on-flipkart.html",
+      "https://www.flipkart.com/pages/bfl-nce-tnc",
+      "https://stories.flipkart.com/announcement/flipkarts-big-billion-days-returns-for-its-13th-edition",
+      "https://www.axisbank.com/retail/cards/credit-card/flipkart-axisbank-credit-card/features-benefits"
+    ],
+    "snapshot_date": "2026-11-15",
+    "profile_as_of": "2026-11-15T00:00:00+00:00",
+    "profile_temporal_scope": "static_november_2026_simulation"
+  },
+  {
+    "id": "cf32910e-e266-5060-b21d-b3cbac522ea4",
+    "slug": "amazon_india",
+    "company_name": "Amazon India",
+    "industry": "E-commerce",
+    "description": "Online retail marketplace; this agent does not stand for Amazon Pay as a payment provider.",
+    "capabilities": [
+      "ecommerce_marketplace",
+      "electronics_retail"
+    ],
+    "offers": [
+      "Online shopping",
+      "Co-branded shopping reward card"
+    ],
+    "interests": [
+      "Financing for electronics purchases",
+      "UPI incentives at marketplace checkout",
+      "Credit-card rewards for online shopping"
+    ],
+    "exclude_industries": [],
+    "declared_partners": [
+      "icici_bank",
+      "bajaj_finserv"
+    ],
+    "subscriptions": [],
+    "status": "active",
+    "tier": "verified",
+    "trust_score": 0.6,
+    "profile_version": 1,
+    "daily_notification_cap": 20,
+    "is_synthetic": false,
+    "profile_basis": "simulated_profile_from_public_information",
+    "source_ids": [
+      "amazon_icici_card",
+      "bajaj_emi_network"
+    ],
+    "sources": [
+      "https://www.icici.bank.in/personal-banking/cards/credit-card/amazon-pay-credit-card",
+      "https://www.bajajfinserv.in/shop-online-our-partners"
+    ],
+    "snapshot_date": "2026-11-15",
+    "profile_as_of": "2026-11-15T00:00:00+00:00",
+    "profile_temporal_scope": "static_november_2026_simulation"
+  },
+  {
+    "id": "a43c22bb-7b54-5065-a2e3-2f85257cbab8",
+    "slug": "myntra",
+    "company_name": "Myntra",
+    "industry": "Fashion retail",
+    "description": "Online fashion retailer within the Flipkart Group.",
+    "capabilities": [
+      "fashion_retail"
+    ],
+    "offers": [
+      "Fashion shopping",
+      "Eligible co-brand card cashback on fashion purchases"
+    ],
+    "interests": [
+      "UPI cashback for clothing purchases",
+      "Credit-card reward campaigns for fashion",
+      "Wallet promotions for online fashion"
+    ],
+    "exclude_industries": [],
+    "declared_partners": [
+      "axis_bank",
+      "phonepe"
+    ],
+    "subscriptions": [],
+    "status": "active",
+    "tier": "verified",
+    "trust_score": 0.6,
+    "profile_version": 1,
+    "daily_notification_cap": 20,
+    "is_synthetic": false,
+    "profile_basis": "simulated_profile_from_public_information",
+    "source_ids": [
+      "axis_flipkart_card",
+      "flipkart_bbd_2026",
+      "phonepe_swiggy"
+    ],
+    "sources": [
+      "https://www.axisbank.com/retail/cards/credit-card/flipkart-axisbank-credit-card/features-benefits",
+      "https://stories.flipkart.com/announcement/flipkarts-big-billion-days-returns-for-its-13th-edition",
+      "https://www.phonepe.com/press/swiggy-and-phonepe-partner-to-grow-cashless-transactions/"
+    ],
+    "snapshot_date": "2026-11-15",
+    "profile_as_of": "2026-11-15T00:00:00+00:00",
+    "profile_temporal_scope": "static_november_2026_simulation"
+  },
+  {
+    "id": "b34fabb5-7bfd-5f23-bac0-26c60d15bede",
+    "slug": "makemytrip",
+    "company_name": "MakeMyTrip",
+    "industry": "Travel booking",
+    "description": "Travel booking merchant named in payment and EMI partner sources.",
+    "capabilities": [
+      "travel_booking"
+    ],
+    "offers": [
+      "Travel booking checkout",
+      "Partner payment and EMI options"
+    ],
+    "interests": [
+      "UPI rewards for travel bookings",
+      "EMI financing for travel purchases",
+      "Credit-card campaigns for travel checkout"
+    ],
+    "exclude_industries": [],
+    "declared_partners": [
+      "phonepe",
+      "bajaj_finserv"
+    ],
+    "subscriptions": [],
+    "status": "active",
+    "tier": "verified",
+    "trust_score": 0.6,
+    "profile_version": 1,
+    "daily_notification_cap": 20,
+    "is_synthetic": false,
+    "profile_basis": "simulated_profile_from_public_information",
+    "source_ids": [
+      "phonepe_swiggy",
+      "bajaj_emi_network"
+    ],
+    "sources": [
+      "https://www.phonepe.com/press/swiggy-and-phonepe-partner-to-grow-cashless-transactions/",
+      "https://www.bajajfinserv.in/shop-online-our-partners"
+    ],
+    "snapshot_date": "2026-11-15",
+    "profile_as_of": "2026-11-15T00:00:00+00:00",
+    "profile_temporal_scope": "static_november_2026_simulation"
+  },
+  {
+    "id": "c0bffdcd-b729-5d6e-ad69-e5ef58ca0c3e",
+    "slug": "phonepe",
+    "company_name": "PhonePe",
+    "industry": "Digital payments",
+    "description": "Consumer UPI and wallet payment role; not a bank card issuer.",
+    "capabilities": [
+      "upi_payments",
+      "wallet_payments",
+      "cashback_campaigns"
+    ],
+    "offers": [
+      "UPI merchant checkout",
+      "Wallet payments and payment cashback"
+    ],
+    "interests": [
+      "Cashback campaigns at food-delivery checkout",
+      "UPI payments for e-commerce and fashion",
+      "UPI and wallet integrations for travel merchants"
+    ],
+    "exclude_industries": [],
+    "declared_partners": [
+      "swiggy",
+      "flipkart",
+      "myntra",
+      "makemytrip"
+    ],
+    "subscriptions": [],
+    "status": "active",
+    "tier": "verified",
+    "trust_score": 0.6,
+    "profile_version": 1,
+    "daily_notification_cap": 20,
+    "is_synthetic": false,
+    "profile_basis": "simulated_profile_from_public_information",
+    "source_ids": [
+      "phonepe_swiggy",
+      "phonepe_bbd_2018",
+      "phonepe_wallet",
+      "phonepe_upi_lite"
+    ],
+    "sources": [
+      "https://www.phonepe.com/press/swiggy-and-phonepe-partner-to-grow-cashless-transactions/",
+      "https://www.phonepe.com/press/phonepe-sees-a-150per-growth-in-transactions-during-flipkarts-big-billion-days/",
+      "https://www.phonepe.com/wallet/",
+      "https://www.phonepe.com/press/phonepe-goes-live-with-upi-lite/"
+    ],
+    "snapshot_date": "2026-11-15",
+    "profile_as_of": "2026-11-15T00:00:00+00:00",
+    "profile_temporal_scope": "static_november_2026_simulation"
+  },
+  {
+    "id": "4bd6eaf1-a74f-592f-84ae-6f5cc9925f4c",
+    "slug": "google_pay",
+    "company_name": "Google Pay",
+    "industry": "Digital payments",
+    "description": "Consumer UPI payment role, not an issuer-owned credit-card offering.",
+    "capabilities": [
+      "upi_payments",
+      "cashback_campaigns"
+    ],
+    "offers": [
+      "Consumer and merchant UPI payments"
+    ],
+    "interests": [
+      "UPI checkout for food delivery",
+      "UPI payment incentives for shopping",
+      "UPI integrations for travel and fashion"
+    ],
+    "exclude_industries": [],
+    "declared_partners": [],
+    "subscriptions": [],
+    "status": "active",
+    "tier": "verified",
+    "trust_score": 0.6,
+    "profile_version": 1,
+    "daily_notification_cap": 20,
+    "is_synthetic": false,
+    "profile_basis": "simulated_profile_from_public_information",
+    "source_ids": [
+      "google_pay_india"
+    ],
+    "sources": [
+      "https://pay.google.com/intl/en_in/about/"
+    ],
+    "snapshot_date": "2026-11-15",
+    "profile_as_of": "2026-11-15T00:00:00+00:00",
+    "profile_temporal_scope": "static_november_2026_simulation"
+  },
+  {
+    "id": "4eb0261d-a285-5e43-87c8-521a98420928",
+    "slug": "paytm",
+    "company_name": "Paytm",
+    "industry": "Digital payments",
+    "description": "Consumer UPI payment role; no claim about availability of legacy wallet services.",
+    "capabilities": [
+      "upi_payments",
+      "cashback_campaigns"
+    ],
+    "offers": [
+      "Consumer UPI payments in stores and online"
+    ],
+    "interests": [
+      "UPI promotions for food orders",
+      "Merchant checkout rewards for retail purchases",
+      "UPI payments for travel bookings"
+    ],
+    "exclude_industries": [],
+    "declared_partners": [],
+    "subscriptions": [],
+    "status": "active",
+    "tier": "verified",
+    "trust_score": 0.6,
+    "profile_version": 1,
+    "daily_notification_cap": 20,
+    "is_synthetic": false,
+    "profile_basis": "simulated_profile_from_public_information",
+    "source_ids": [
+      "paytm_upi"
+    ],
+    "sources": [
+      "https://paytm.com/upi"
+    ],
+    "snapshot_date": "2026-11-15",
+    "profile_as_of": "2026-11-15T00:00:00+00:00",
+    "profile_temporal_scope": "static_november_2026_simulation"
+  },
+  {
+    "id": "e76ec5fc-3aa7-54bc-b599-2a3268e350fb",
+    "slug": "hdfc_bank",
+    "company_name": "HDFC Bank",
+    "industry": "Banking",
+    "description": "Card issuer and consumer EMI provider. No merchant-specific UPI campaign is declared in this profile.",
+    "capabilities": [
+      "credit_cards",
+      "emi_financing"
+    ],
+    "offers": [
+      "Card-linked shopping rewards",
+      "Purchase-to-EMI financing"
+    ],
+    "interests": [
+      "Credit-card partnerships for food delivery",
+      "EMI offers for electronics purchases",
+      "Online retail and travel card rewards"
+    ],
+    "exclude_industries": [],
+    "declared_partners": [
+      "swiggy"
+    ],
+    "subscriptions": [],
+    "status": "active",
+    "tier": "verified",
+    "trust_score": 0.6,
+    "profile_version": 1,
+    "daily_notification_cap": 20,
+    "is_synthetic": false,
+    "profile_basis": "simulated_profile_from_public_information",
+    "source_ids": [
+      "hdfc_swiggy_card"
+    ],
+    "sources": [
+      "https://www.hdfcbank.com/personal/pay/cards/credit-cards/swiggy-hdfc-bank-credit-card"
+    ],
+    "snapshot_date": "2026-11-15",
+    "profile_as_of": "2026-11-15T00:00:00+00:00",
+    "profile_temporal_scope": "static_november_2026_simulation"
+  },
+  {
+    "id": "2efc699e-b3ad-535a-9b69-2e7042d60e23",
+    "slug": "icici_bank",
+    "company_name": "ICICI Bank",
+    "industry": "Banking",
+    "description": "Card issuer with shopping rewards and eligible card EMI offers; no UPI campaign role declared here.",
+    "capabilities": [
+      "credit_cards",
+      "emi_financing"
+    ],
+    "offers": [
+      "Card-only merchant discounts",
+      "Shopping credit-card rewards and card EMI"
+    ],
+    "interests": [
+      "Credit-card offers on food delivery",
+      "No Cost EMI for online electronics",
+      "Co-branded cards for marketplace purchases"
+    ],
+    "exclude_industries": [],
+    "declared_partners": [
+      "amazon_india",
+      "swiggy"
+    ],
+    "subscriptions": [],
+    "status": "active",
+    "tier": "verified",
+    "trust_score": 0.6,
+    "profile_version": 1,
+    "daily_notification_cap": 20,
+    "is_synthetic": false,
+    "profile_basis": "simulated_profile_from_public_information",
+    "source_ids": [
+      "icici_swiggy_card",
+      "amazon_icici_card"
+    ],
+    "sources": [
+      "https://www.icici.bank.in/offers/swiggy-offer-food-order",
+      "https://www.icici.bank.in/personal-banking/cards/credit-card/amazon-pay-credit-card"
+    ],
+    "snapshot_date": "2026-11-15",
+    "profile_as_of": "2026-11-15T00:00:00+00:00",
+    "profile_temporal_scope": "static_november_2026_simulation"
+  },
+  {
+    "id": "cd67d80a-83e3-5e37-a7b8-ffdbc3e2baa4",
+    "slug": "axis_bank",
+    "company_name": "Axis Bank",
+    "industry": "Banking",
+    "description": "Retail credit-card issuer with card rewards and purchase-to-EMI conversion; no UPI campaign role declared here.",
+    "capabilities": [
+      "credit_cards",
+      "emi_financing"
+    ],
+    "offers": [
+      "Co-branded retail card cashback",
+      "Credit-card purchase EMI conversion"
+    ],
+    "interests": [
+      "Credit-card campaigns for marketplace purchases",
+      "Fashion cashback funded by card spending",
+      "Electronics EMI checkout offers"
+    ],
+    "exclude_industries": [],
+    "declared_partners": [
+      "flipkart",
+      "myntra"
+    ],
+    "subscriptions": [],
+    "status": "active",
+    "tier": "verified",
+    "trust_score": 0.6,
+    "profile_version": 1,
+    "daily_notification_cap": 20,
+    "is_synthetic": false,
+    "profile_basis": "simulated_profile_from_public_information",
+    "source_ids": [
+      "axis_flipkart_card"
+    ],
+    "sources": [
+      "https://www.axisbank.com/retail/cards/credit-card/flipkart-axisbank-credit-card/features-benefits"
+    ],
+    "snapshot_date": "2026-11-15",
+    "profile_as_of": "2026-11-15T00:00:00+00:00",
+    "profile_temporal_scope": "static_november_2026_simulation"
+  },
+  {
+    "id": "af76bcb4-7a7b-58ce-9276-110a6968c1fa",
+    "slug": "bajaj_finserv",
+    "company_name": "Bajaj Finserv",
+    "industry": "Consumer finance",
+    "description": "Financing-group simulation for lending-arm Bajaj Finance offerings, not motorcycle manufacturing.",
+    "capabilities": [
+      "emi_financing",
+      "two_wheeler_financing"
+    ],
+    "offers": [
+      "Consumer durable and smartphone EMI financing",
+      "Conditional two-wheeler purchase loans"
+    ],
+    "interests": [
+      "No Cost EMI for mobile phones and appliances",
+      "Motorcycle and scooter purchase financing",
+      "EMI distribution through e-commerce and travel merchants"
+    ],
+    "exclude_industries": [],
+    "declared_partners": [
+      "flipkart",
+      "amazon_india",
+      "makemytrip"
+    ],
+    "subscriptions": [],
+    "status": "active",
+    "tier": "verified",
+    "trust_score": 0.6,
+    "profile_version": 1,
+    "daily_notification_cap": 20,
+    "is_synthetic": false,
+    "profile_basis": "simulated_profile_from_public_information",
+    "source_ids": [
+      "flipkart_bajaj_emi_news",
+      "bajaj_finserv_two_wheeler",
+      "bajaj_emi_network"
+    ],
+    "sources": [
+      "https://www.deccanchronicle.com/business/companies/140518/bajaj-finserv-no-cost-emi-option-on-4-lakh-products-on-flipkart.html",
+      "https://www.bajajfinserv.in/two-wheeler-loan",
+      "https://www.bajajfinserv.in/shop-online-our-partners"
+    ],
+    "snapshot_date": "2026-11-15",
+    "profile_as_of": "2026-11-15T00:00:00+00:00",
+    "profile_temporal_scope": "static_november_2026_simulation"
+  },
+  {
+    "id": "52dac8f7-9bd0-5686-8ebf-648655d4e000",
+    "slug": "bajaj_auto",
+    "company_name": "Bajaj Auto",
+    "industry": "Two-wheeler manufacturing",
+    "description": "Motorcycle and vehicle manufacturer, not the EMI lender with a similar name.",
+    "capabilities": [
+      "auto_manufacturing"
+    ],
+    "offers": [
+      "Motorcycle products sold through dealerships"
+    ],
+    "interests": [
+      "Two-wheeler financing for motorcycle buyers",
+      "Dealer finance partnerships for vehicle purchases",
+      "Motorcycle product launches and vehicle demand"
+    ],
+    "exclude_industries": [],
+    "declared_partners": [],
+    "subscriptions": [],
+    "status": "active",
+    "tier": "verified",
+    "trust_score": 0.6,
+    "profile_version": 1,
+    "daily_notification_cap": 20,
+    "is_synthetic": false,
+    "profile_basis": "simulated_profile_from_public_information",
+    "source_ids": [
+      "bajaj_pulsar_offer"
+    ],
+    "sources": [
+      "https://www.bajajauto.com/news-media/press-releases/bajaj-auto-introduces-the-new-pulsar-n250ss-with-a-4v-engine"
+    ],
+    "snapshot_date": "2026-11-15",
+    "profile_as_of": "2026-11-15T00:00:00+00:00",
+    "profile_temporal_scope": "static_november_2026_simulation"
+  },
+  {
+    "id": "31f4890f-da06-5655-afa1-82eda54e4ab8",
+    "slug": "tvs_credit",
+    "company_name": "TVS Credit",
+    "industry": "Consumer finance",
+    "description": "NBFC offering consumer durable, mobile and vehicle loans; not the scooter manufacturer.",
+    "capabilities": [
+      "emi_financing",
+      "two_wheeler_financing"
+    ],
+    "offers": [
+      "Consumer durable and mobile loans",
+      "Two-wheeler purchase loans"
+    ],
+    "interests": [
+      "Smartphone and appliance financing at retail checkout",
+      "Motorcycle and scooter buyer loans",
+      "Distribution partnerships for consumer durable EMIs"
+    ],
+    "exclude_industries": [],
+    "declared_partners": [],
+    "subscriptions": [],
+    "status": "active",
+    "tier": "verified",
+    "trust_score": 0.6,
+    "profile_version": 1,
+    "daily_notification_cap": 20,
+    "is_synthetic": false,
+    "profile_basis": "simulated_profile_from_public_information",
+    "source_ids": [
+      "tvs_credit_home"
+    ],
+    "sources": [
+      "https://www.tvscredit.com/"
+    ],
+    "snapshot_date": "2026-11-15",
+    "profile_as_of": "2026-11-15T00:00:00+00:00",
+    "profile_temporal_scope": "static_november_2026_simulation"
+  },
+  {
+    "id": "14a3a36a-e403-566b-9583-f21b279d50dd",
+    "slug": "tvs_motor",
+    "company_name": "TVS Motor",
+    "industry": "Two-wheeler manufacturing",
+    "description": "Scooter and motorcycle manufacturer, not the NBFC credit provider.",
+    "capabilities": [
+      "auto_manufacturing"
+    ],
+    "offers": [
+      "Scooters and motorcycles sold through authorised dealerships"
+    ],
+    "interests": [
+      "Two-wheeler financing for scooter customers",
+      "Vehicle dealer finance partnerships",
+      "Scooter product launches and buyer demand"
+    ],
+    "exclude_industries": [],
+    "declared_partners": [],
+    "subscriptions": [],
+    "status": "active",
+    "tier": "verified",
+    "trust_score": 0.6,
+    "profile_version": 1,
+    "daily_notification_cap": 20,
+    "is_synthetic": false,
+    "profile_basis": "simulated_profile_from_public_information",
+    "source_ids": [
+      "tvs_jupiter_offer"
+    ],
+    "sources": [
+      "https://www.tvsmotor.com/Media/Press-Release/tvs-motor-launches-tvs-jupiter-dual-tone-spectral-range"
+    ],
+    "snapshot_date": "2026-11-15",
+    "profile_as_of": "2026-11-15T00:00:00+00:00",
+    "profile_temporal_scope": "static_november_2026_simulation"
+  },
+  {
+    "id": "8d9aa323-b7c7-5c93-bba2-0fdcdb0b2fb4",
+    "slug": "demo_vague_co",
+    "company_name": "Demo Vague Co",
+    "industry": "Fictional test company",
+    "description": "Fictional author for vague and non-actionable fixtures.",
+    "capabilities": [],
+    "offers": [],
+    "interests": [
+      "No commercial action declared"
+    ],
+    "exclude_industries": [],
+    "declared_partners": [],
+    "subscriptions": [],
+    "status": "active",
+    "tier": "unverified",
+    "trust_score": 0.3,
+    "profile_version": 1,
+    "daily_notification_cap": 20,
+    "is_synthetic": true,
+    "profile_basis": "fictional_test_author",
+    "source_ids": [],
+    "sources": [],
+    "snapshot_date": "2026-11-15",
+    "profile_as_of": "2026-11-15T00:00:00+00:00",
+    "profile_temporal_scope": "static_november_2026_simulation"
+  },
+  {
+    "id": "6fc15c0c-5f3d-5c5c-bdff-633ef0e41e74",
+    "slug": "demo_spammer_co",
+    "company_name": "Demo Spammer Co",
+    "industry": "Fictional test company",
+    "description": "Fictional author for repeated promotion spam fixtures.",
+    "capabilities": [],
+    "offers": [],
+    "interests": [
+      "No legitimate commercial action declared"
+    ],
+    "exclude_industries": [],
+    "declared_partners": [],
+    "subscriptions": [],
+    "status": "active",
+    "tier": "unverified",
+    "trust_score": 0.3,
+    "profile_version": 1,
+    "daily_notification_cap": 20,
+    "is_synthetic": true,
+    "profile_basis": "fictional_test_author",
+    "source_ids": [],
+    "sources": [],
+    "snapshot_date": "2026-11-15",
+    "profile_as_of": "2026-11-15T00:00:00+00:00",
+    "profile_temporal_scope": "static_november_2026_simulation"
+  },
+  {
+    "id": "7c3c2344-20ce-562e-ab32-abf460fc2c64",
+    "slug": "demo_intruder_co",
+    "company_name": "Demo Intruder Co",
+    "industry": "Fictional test company",
+    "description": "Fictional author for prompt-injection fixtures.",
+    "capabilities": [],
+    "offers": [],
+    "interests": [
+      "No legitimate commercial action declared"
+    ],
+    "exclude_industries": [],
+    "declared_partners": [],
+    "subscriptions": [],
+    "status": "active",
+    "tier": "unverified",
+    "trust_score": 0.3,
+    "profile_version": 1,
+    "daily_notification_cap": 20,
+    "is_synthetic": true,
+    "profile_basis": "fictional_test_author",
+    "source_ids": [],
+    "sources": [],
+    "snapshot_date": "2026-11-15",
+    "profile_as_of": "2026-11-15T00:00:00+00:00",
+    "profile_temporal_scope": "static_november_2026_simulation"
+  }
+]

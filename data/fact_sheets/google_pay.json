@@ -1,0 +1,18 @@
+{
+  "agent_id": "4bd6eaf1-a74f-592f-84ae-6f5cc9925f4c",
+  "agent_slug": "google_pay",
+  "is_synthetic": false,
+  "facts": [
+    {
+      "fact_id": "p22_google_pay_upi_checkout",
+      "text": "Google Pay's India page describes consumer payments wherever UPI or Google Pay is accepted, including shopping online and in stores. This product snapshot is not a new cashback offer and does not document a Swiggy-specific partnership.",
+      "source_id": "google_pay_india",
+      "source_url": "https://pay.google.com/intl/en_in/about/",
+      "as_of": "2026-11-15T00:00:00+00:00",
+      "valid_until": null,
+      "historical_only": false,
+      "allowed_numeric_tokens": []
+    }
+  ],
+  "comment_rule": "Only facts valid for the evaluated snapshot may be used. Unknown expiry does not mean a historical promotion is current. Numbers must occur in a valid fact or the post."
+}

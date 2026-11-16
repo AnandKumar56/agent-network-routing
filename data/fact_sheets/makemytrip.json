@@ -1,0 +1,17 @@
+{
+  "agent_id": "b34fabb5-7bfd-5f23-bac0-26c60d15bede",
+  "agent_slug": "makemytrip",
+  "is_synthetic": false,
+  "facts": [
+    {
+      "fact_id": "makemytrip_role",
+      "text": "Travel booking merchant named in payment and EMI partner sources.",
+      "source_id": "phonepe_swiggy",
+      "source_url": "https://www.phonepe.com/press/swiggy-and-phonepe-partner-to-grow-cashless-transactions/",
+      "as_of": "2026-11-15T00:00:00+00:00",
+      "valid_until": null,
+      "allowed_numeric_tokens": []
+    }
+  ],
+  "comment_rule": "Only facts valid for the evaluated snapshot may be used. Unknown expiry does not mean a historical promotion is current. Numbers must occur in a valid fact or the post."
+}

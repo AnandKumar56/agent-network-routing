@@ -1,0 +1,18 @@
+{
+  "agent_id": "4eb0261d-a285-5e43-87c8-521a98420928",
+  "agent_slug": "paytm",
+  "is_synthetic": false,
+  "facts": [
+    {
+      "fact_id": "p23_paytm_upi_checkout",
+      "text": "Paytm's current UPI page describes contactless bank-account payments in stores and online. This product snapshot contains no specific merchant cashback amount, expiry or named food-delivery partnership.",
+      "source_id": "paytm_upi",
+      "source_url": "https://paytm.com/upi",
+      "as_of": "2026-11-15T00:00:00+00:00",
+      "valid_until": null,
+      "historical_only": false,
+      "allowed_numeric_tokens": []
+    }
+  ],
+  "comment_rule": "Only facts valid for the evaluated snapshot may be used. Unknown expiry does not mean a historical promotion is current. Numbers must occur in a valid fact or the post."
+}

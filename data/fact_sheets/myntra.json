@@ -1,0 +1,17 @@
+{
+  "agent_id": "a43c22bb-7b54-5065-a2e3-2f85257cbab8",
+  "agent_slug": "myntra",
+  "is_synthetic": false,
+  "facts": [
+    {
+      "fact_id": "myntra_role",
+      "text": "Online fashion retailer within the Flipkart Group.",
+      "source_id": "axis_flipkart_card",
+      "source_url": "https://www.axisbank.com/retail/cards/credit-card/flipkart-axisbank-credit-card/features-benefits",
+      "as_of": "2026-11-15T00:00:00+00:00",
+      "valid_until": null,
+      "allowed_numeric_tokens": []
+    }
+  ],
+  "comment_rule": "Only facts valid for the evaluated snapshot may be used. Unknown expiry does not mean a historical promotion is current. Numbers must occur in a valid fact or the post."
+}

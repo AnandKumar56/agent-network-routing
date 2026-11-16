@@ -1,0 +1,59 @@
+{
+  "schema": "stage1-checkpoint2-v1",
+  "recorded_utc": "2026-11-15T11:19:36.468841+00:00",
+  "data_hashes": {
+    "agents": "b06b7f3895d5e73e8ee513281476b9f7e1e5e302c0d555d258149620f35e60e3",
+    "posts": "1da0f81f7b55d530d4e7da37e18b021c1caf36f5f8ea692771fe2956c93749f2",
+    "eval_labels": "0265e0a82d4826715216e8f682354e9470f5f943f1e8bb57541d9ed432429740",
+    "routing_rules": "aab6fa3acb882fa6cc4f1b5410cc3e45d2a5cede9c7e5d067658bce3e505a4d8",
+    "relationships": "f7743d4589442de868fb15770e2d94904d0a2a17cd22d9c7475d921d846c6f51",
+    "hard_cases": "14dc6e5682751f3f0e75d2560d3118abdf5ea669a608f0cfc70210b2c9236c3d"
+  },
+  "agent_order": ["swiggy", "zomato", "flipkart", "amazon_india", "myntra", "makemytrip", "phonepe", "google_pay", "paytm", "hdfc_bank", "icici_bank", "axis_bank", "bajaj_finserv", "bajaj_auto", "tvs_credit", "tvs_motor", "demo_vague_co", "demo_spammer_co", "demo_intruder_co"],
+  "post_order": ["p01_flipkart_mobile_emi", "p02_swiggy_diwali", "p03_swiggy_card_only_new", "p04_phonepe_upi_cashback_update", "p05_bajaj_motorcycle_purchase", "p06_tvs_scooter_purchase", "p07_swiggy_phonepe_checkout", "p08_phonepe_swiggy_first_cashback", "p09_phonepe_swiggy_repeat_cashback", "p10_swiggy_card_only_repeat", "p11_swiggy_hdfc_cobrand", "p12_hdfc_online_card_rewards", "p13_axis_myntra_cashback", "p14_flipkart_axis_card_emi", "p15_amazon_prime_card_rewards", "p16_icici_amazon_nonprime_rewards", "p17_amazon_icici_no_cost_emi", "p18_bajaj_finserv_bike_finance", "p19_tvs_credit_bike_finance", "p20_tvs_credit_durable_finance", "p21_tvs_credit_mobile_finance", "p22_google_pay_upi_checkout", "p23_paytm_upi_checkout", "p24_flipkart_bbd_2026", "p25_vague", "p26_exact_repost", "p27_spam", "p28_injection", "p29_near_repost", "p30_non_actionable"],
+  "labels_bits": {
+    "documented": [4096, 64, 1024, 0, 0, 0, 64, 1, 1, 1024, 512, 0, 16, 2048, 1024, 8, 1024, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4096, 0],
+    "silver": [19968, 3968, 2560, 61, 20480, 20480, 3968, 0, 0, 2560, 0, 60, 0, 0, 0, 0, 0, 40960, 40960, 12, 12, 63, 63, 24512, 0, 0, 0, 0, 19968, 0],
+    "negative": [500219, 520254, 520702, 524162, 495615, 471039, 520254, 524222, 524222, 520702, 523774, 523715, 522223, 522235, 523255, 523255, 523255, 479231, 466943, 507891, 507891, 524096, 523968, 499771, 458751, 524283, 393215, 262143, 500219, 458751]
+  },
+  "sweep_counts": [
+    {"threshold": 0.40, "methods": {"M0 raw": [14, 63, 458], "M0 filtered": [14, 63, 341], "M1": [14, 63, 341]}},
+    {"threshold": 0.45, "methods": {"M0 raw": [14, 63, 416], "M0 filtered": [14, 63, 299], "M1": [14, 63, 299]}},
+    {"threshold": 0.50, "methods": {"M0 raw": [14, 63, 366], "M0 filtered": [14, 63, 249], "M1": [14, 63, 249]}},
+    {"threshold": 0.55, "methods": {"M0 raw": [14, 60, 302], "M0 filtered": [14, 60, 189], "M1": [14, 63, 191]}},
+    {"threshold": 0.60, "methods": {"M0 raw": [13, 52, 194], "M0 filtered": [13, 52, 106], "M1": [14, 63, 113]}},
+    {"threshold": 0.65, "methods": {"M0 raw": [11, 37, 84], "M0 filtered": [11, 37, 47], "M1": [14, 62, 72]}},
+    {"threshold": 0.70, "methods": {"M0 raw": [5, 23, 20], "M0 filtered": [5, 23, 10], "M1": [14, 59, 55]}},
+    {"threshold": 0.75, "methods": {"M0 raw": [3, 10, 1], "M0 filtered": [3, 10, 0], "M1": [14, 59, 50]}},
+    {"threshold": 0.80, "methods": {"M0 raw": [0, 1, 0], "M0 filtered": [0, 1, 0], "M1": [14, 59, 50]}}
+  ],
+  "count_order": ["documented_tp", "silver_tp", "shared_negative_fp"],
+  "diagnostic_thresholds": {"M0 raw": 0.65, "M0 filtered": 0.65, "M1": 0.75},
+  "diagnostic_recipient_bits": {
+    "M0 raw": [7720, 1280, 1926, 2493, 0, 4096, 16800, 19477, 3093, 1862, 3186, 3439, 117, 6688, 1797, 925, 7716, 57352, 45608, 43112, 8, 893, 1789, 0, 0, 7720, 0, 0, 7720, 0],
+    "M0 filtered": [7712, 1280, 1540, 61, 0, 4096, 416, 3093, 3093, 1540, 3120, 47, 53, 6688, 1537, 29, 7712, 40968, 41512, 43048, 8, 61, 61, 0, 0, 7712, 0, 0, 7712, 0],
+    "M1": [24064, 4032, 3584, 63, 20480, 20480, 4032, 3647, 3647, 3584, 3584, 1, 20, 24064, 3584, 8, 24064, 44584, 44544, 3596, 3596, 63, 63, 24512, 0, 24064, 0, 0, 24064, 0]
+  },
+  "cosines": {"exact": 1.0000001192092896, "near": 0.9946953654289246},
+  "expired_offer_recipient_counts": {"M0 raw": 6, "M0 filtered": 0, "M1": 0},
+  "temporal_example": {
+    "post": "p02_swiggy_diwali",
+    "as_of": "2020-11-12T00:00:00+00:00",
+    "candidate": "hdfc_bank",
+    "unsafe_before_hints": [{"edge_id": "4a950982-0ba3-54b8-ab8f-d16a9fa0f2d0", "type": "co_brand_card", "basis": "documented", "valid_from": "2023-07-26T00:00:00+00:00", "valid_until": null}],
+    "date_enforced_after_hints": [],
+    "static_declared_partner": true,
+    "after_rule_hits": ["food_checkout_complement"],
+    "after_notified_M1": true
+  },
+  "false_alert_source_groups": {"rule": 38, "rule+dated_edge": 8, "dated_edge": 4},
+  "ablations": [
+    {"variant": "filtered similarity only at M1 threshold", "threshold": 0.75, "scope": "all", "n": 540, "n_positive": 77, "n_negative": 463, "n_predicted": 13, "tp": 13, "fp": 0, "fn": 64, "precision": 1.0, "recall": 0.16883116883116883, "f1": 0.28888888888888886},
+    {"variant": "similarity + rules", "threshold": 0.75, "scope": "all", "n": 540, "n_positive": 77, "n_negative": 463, "n_predicted": 117, "tp": 71, "fp": 46, "fn": 6, "precision": 0.6068376068376068, "recall": 0.922077922077922, "f1": 0.7319587628865979},
+    {"variant": "similarity + dated edges", "threshold": 0.75, "scope": "all", "n": 540, "n_positive": 77, "n_negative": 463, "n_predicted": 41, "tp": 29, "fp": 12, "fn": 48, "precision": 0.7073170731707317, "recall": 0.37662337662337664, "f1": 0.4915254237288136},
+    {"variant": "full M1", "threshold": 0.75, "scope": "all", "n": 540, "n_positive": 77, "n_negative": 463, "n_predicted": 123, "tp": 73, "fp": 50, "fn": 4, "precision": 0.5934959349593496, "recall": 0.948051948051948, "f1": 0.73}
+  ],
+  "new_paid_spend_usd": 0.000041500000000000006,
+  "metric_slices": "all positives plus negatives; documented or silver positives plus the same negatives, ignoring other-basis positives",
+  "scope": "stateless DEV pair baselines; no quota, fan-out, content screen or notification dedup"
+}

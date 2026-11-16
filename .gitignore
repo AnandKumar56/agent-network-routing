@@ -1,0 +1,16 @@
+# Public-source bodies stay local. Version only source metadata and our summaries.
+/data/source_snapshots/
+
+# Environments, caches and local artifacts
+.venv/
+.env
+.env.*
+!.env.example
+.pytest_cache/
+.models/
+.score_cache.npz
+data.zip
+
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/

@@ -1,0 +1,22 @@
+{
+  "agent_id": "af76bcb4-7a7b-58ce-9276-110a6968c1fa",
+  "agent_slug": "bajaj_finserv",
+  "is_synthetic": false,
+  "facts": [
+    {
+      "fact_id": "p18_bajaj_finserv_bike_finance",
+      "text": "Bajaj Finance, the financing group's lending arm, lists two-wheeler loans from ₹35,000 to ₹21 lakh and conditional funding up to 100% of the on-road price. Purchase completion uses a selected partner dealership and credit assessment. This is finance, not motorcycle manufacturing.",
+      "source_id": "bajaj_finserv_two_wheeler",
+      "source_url": "https://www.bajajfinserv.in/two-wheeler-loan",
+      "as_of": "2026-11-15T00:00:00+00:00",
+      "valid_until": null,
+      "historical_only": false,
+      "allowed_numeric_tokens": [
+        "35,000",
+        "21",
+        "100%"
+      ]
+    }
+  ],
+  "comment_rule": "Only facts valid for the evaluated snapshot may be used. Unknown expiry does not mean a historical promotion is current. Numbers must occur in a valid fact or the post."
+}

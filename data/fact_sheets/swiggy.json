@@ -1,0 +1,88 @@
+{
+  "agent_id": "da191f6b-0080-5c18-a2f4-5a85a5b51653",
+  "agent_slug": "swiggy",
+  "is_synthetic": false,
+  "facts": [
+    {
+      "fact_id": "p02_swiggy_diwali",
+      "text": "On November 12, 2020, answer the emailed Diwali questions to unlock food-order coupons: 70% off up to ₹201 for the first 50 users, 60% off up to ₹151 for the first 100, or 50% off up to ₹101 for the first 2000. Minimum order ₹150; first-come redemption and contest terms apply.",
+      "source_id": "swiggy_diwali_bonus",
+      "source_url": "https://blog.swiggy.com/terms-and-conditions/diwali-bonus-engagement-emailer-tcs-12-11-2020/",
+      "as_of": "2020-11-12T00:00:00+00:00",
+      "valid_until": "2020-11-12T23:59:59+00:00",
+      "historical_only": true,
+      "allowed_numeric_tokens": [
+        "12,",
+        "2020,",
+        "70%",
+        "201",
+        "50",
+        "60%",
+        "151",
+        "100,",
+        "50%",
+        "101",
+        "2000",
+        "150"
+      ]
+    },
+    {
+      "fact_id": "p03_swiggy_card_only_new",
+      "text": "Get ₹50 off food orders of at least ₹599 with eligible ICICI Bank credit cards, Friday to Sunday from October 3 to December 28, 2025. New/dormant means no ICICI-card Swiggy transaction in the previous 60 days. Once per user, card and calendar month. UPI, debit cards, net banking, corporate cards and Amazon Pay ICICI cards are excluded.",
+      "source_id": "icici_swiggy_card",
+      "source_url": "https://www.icici.bank.in/offers/swiggy-offer-food-order",
+      "as_of": "2025-10-03T00:00:00+00:00",
+      "valid_until": "2025-12-28T23:59:59+00:00",
+      "historical_only": true,
+      "allowed_numeric_tokens": [
+        "50",
+        "599",
+        "3",
+        "28,",
+        "2025",
+        "60"
+      ]
+    },
+    {
+      "fact_id": "p07_swiggy_phonepe_checkout",
+      "text": "Swiggy and PhonePe have partnered for one-tap checkout. Users can pay through PhonePe UPI, wallet, credit or debit card. The March 2018 rollout begins on the Android app; other platforms are described as coming later.",
+      "source_id": "phonepe_swiggy",
+      "source_url": "https://www.phonepe.com/press/swiggy-and-phonepe-partner-to-grow-cashless-transactions/",
+      "as_of": "2018-03-22T00:00:00+00:00",
+      "valid_until": null,
+      "historical_only": true,
+      "allowed_numeric_tokens": [
+        "2018"
+      ]
+    },
+    {
+      "fact_id": "p10_swiggy_card_only_repeat",
+      "text": "Repeat ICICI-card customers can get ₹50 off Swiggy food orders of at least ₹649, Friday to Sunday from October 3 to December 28, 2025. Once per user, card and calendar month. UPI, debit cards, net banking, corporate cards and Amazon Pay ICICI cards are excluded.",
+      "source_id": "icici_swiggy_card",
+      "source_url": "https://www.icici.bank.in/offers/swiggy-offer-food-order",
+      "as_of": "2025-10-03T00:00:00+00:00",
+      "valid_until": "2025-12-28T23:59:59+00:00",
+      "historical_only": true,
+      "allowed_numeric_tokens": [
+        "50",
+        "649,",
+        "3",
+        "28,",
+        "2025"
+      ]
+    },
+    {
+      "fact_id": "p11_swiggy_hdfc_cobrand",
+      "text": "The Swiggy HDFC Bank credit-card page lists 10% cashback on eligible Swiggy food, Instamart and Dineout spending. Existing holders are transitioning in phases to BLCK or Ornge; until then current-card benefits continue. Caps and card terms apply.",
+      "source_id": "hdfc_swiggy_card",
+      "source_url": "https://www.hdfcbank.com/personal/pay/cards/credit-cards/swiggy-hdfc-bank-credit-card",
+      "as_of": "2026-11-15T00:00:00+00:00",
+      "valid_until": null,
+      "historical_only": false,
+      "allowed_numeric_tokens": [
+        "10%"
+      ]
+    }
+  ],
+  "comment_rule": "Only facts valid for the evaluated snapshot may be used. Unknown expiry does not mean a historical promotion is current. Numbers must occur in a valid fact or the post."
+}

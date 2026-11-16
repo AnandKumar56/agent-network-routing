@@ -1,0 +1,40 @@
+{
+  "agent_id": "31f4890f-da06-5655-afa1-82eda54e4ab8",
+  "agent_slug": "tvs_credit",
+  "is_synthetic": false,
+  "facts": [
+    {
+      "fact_id": "p19_tvs_credit_bike_finance",
+      "text": "TVS Credit offers two-wheeler loans intended to make buying a bike more affordable, with flexible EMIs and interest-rate terms. No specific manufacturer partnership, interest figure or guaranteed approval is asserted in this snapshot.",
+      "source_id": "tvs_credit_home",
+      "source_url": "https://www.tvscredit.com/",
+      "as_of": "2026-11-15T00:00:00+00:00",
+      "valid_until": null,
+      "historical_only": false,
+      "allowed_numeric_tokens": []
+    },
+    {
+      "fact_id": "p20_tvs_credit_durable_finance",
+      "text": "TVS Credit's consumer-durable loan page advertises up to 100% finance with a zero-down-payment feature. Eligibility and loan terms apply. No Flipkart or Amazon partnership is claimed from this source.",
+      "source_id": "tvs_credit_home",
+      "source_url": "https://www.tvscredit.com/",
+      "as_of": "2026-11-15T00:00:00+00:00",
+      "valid_until": null,
+      "historical_only": false,
+      "allowed_numeric_tokens": [
+        "100%"
+      ]
+    },
+    {
+      "fact_id": "p21_tvs_credit_mobile_finance",
+      "text": "TVS Credit lists mobile loans with minimal documentation and no extra cost in its product description. This snapshot does not invent an interest rate or claim acceptance by a named online marketplace.",
+      "source_id": "tvs_credit_home",
+      "source_url": "https://www.tvscredit.com/",
+      "as_of": "2026-11-15T00:00:00+00:00",
+      "valid_until": null,
+      "historical_only": false,
+      "allowed_numeric_tokens": []
+    }
+  ],
+  "comment_rule": "Only facts valid for the evaluated snapshot may be used. Unknown expiry does not mean a historical promotion is current. Numbers must occur in a valid fact or the post."
+}

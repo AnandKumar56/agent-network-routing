@@ -1,0 +1,20 @@
+{
+  "agent_id": "14a3a36a-e403-566b-9583-f21b279d50dd",
+  "agent_slug": "tvs_motor",
+  "is_synthetic": false,
+  "facts": [
+    {
+      "fact_id": "p06_tvs_scooter_purchase",
+      "text": "The TVS Jupiter dual-tone spectral range adds Spectral Blue and Spectral Copper styling. The scooter range will be available soon at authorised dealerships for ₹89,825 ex-showroom Delhi. No financing or immediate stock guarantee is claimed.",
+      "source_id": "tvs_jupiter_offer",
+      "source_url": "https://www.tvsmotor.com/Media/Press-Release/tvs-motor-launches-tvs-jupiter-dual-tone-spectral-range",
+      "as_of": "2026-08-27T00:00:00+00:00",
+      "valid_until": null,
+      "historical_only": true,
+      "allowed_numeric_tokens": [
+        "89,825"
+      ]
+    }
+  ],
+  "comment_rule": "Only facts valid for the evaluated snapshot may be used. Unknown expiry does not mean a historical promotion is current. Numbers must occur in a valid fact or the post."
+}

@@ -1,0 +1,63 @@
+{
+  "version": "stage1-taxonomy-v1",
+  "capabilities": [
+    "food_delivery",
+    "quick_commerce",
+    "ecommerce_marketplace",
+    "electronics_retail",
+    "fashion_retail",
+    "travel_booking",
+    "upi_payments",
+    "wallet_payments",
+    "credit_cards",
+    "debit_cards",
+    "emi_financing",
+    "bnpl",
+    "banking_accounts",
+    "insurance",
+    "loyalty_rewards",
+    "auto_manufacturing",
+    "two_wheeler_financing",
+    "cashback_campaigns"
+  ],
+  "categories": [
+    "food_delivery",
+    "quick_commerce",
+    "ecommerce_marketplace",
+    "electronics_retail",
+    "fashion_retail",
+    "travel_booking",
+    "auto_manufacturing"
+  ],
+  "offer_types": [
+    "discount",
+    "cashback",
+    "emi",
+    "cobrand_card",
+    "festive_sale",
+    "launch",
+    "partnership_request",
+    "market_update",
+    "other"
+  ],
+  "instruments": [
+    "upi",
+    "credit_card",
+    "debit_card",
+    "emi",
+    "no_cost_emi",
+    "wallet",
+    "bnpl",
+    "net_banking"
+  ],
+  "instrument_to_capability": {
+    "upi": "upi_payments",
+    "credit_card": "credit_cards",
+    "debit_card": "debit_cards",
+    "emi": "emi_financing",
+    "no_cost_emi": "emi_financing",
+    "wallet": "wallet_payments",
+    "bnpl": "bnpl",
+    "net_banking": "banking_accounts"
+  }
+}

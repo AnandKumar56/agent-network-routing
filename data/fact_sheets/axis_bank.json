@@ -1,0 +1,23 @@
+{
+  "agent_id": "cd67d80a-83e3-5e37-a7b8-ffdbc3e2baa4",
+  "agent_slug": "axis_bank",
+  "is_synthetic": false,
+  "facts": [
+    {
+      "fact_id": "p13_axis_myntra_cashback",
+      "text": "The Flipkart Axis Bank credit-card page lists 7.5% cashback on eligible Myntra spending, capped at ₹4000 per statement quarter. The page notes terms changed from August 28, 2026. Card and transaction terms apply.",
+      "source_id": "axis_flipkart_card",
+      "source_url": "https://www.axisbank.com/retail/cards/credit-card/flipkart-axisbank-credit-card/features-benefits",
+      "as_of": "2026-11-15T00:00:00+00:00",
+      "valid_until": null,
+      "historical_only": false,
+      "allowed_numeric_tokens": [
+        "7.5%",
+        "4000",
+        "28,",
+        "2026"
+      ]
+    }
+  ],
+  "comment_rule": "Only facts valid for the evaluated snapshot may be used. Unknown expiry does not mean a historical promotion is current. Numbers must occur in a valid fact or the post."
+}

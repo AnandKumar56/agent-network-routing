@@ -1,0 +1,32 @@
+{
+  "agent_id": "cf32910e-e266-5060-b21d-b3cbac522ea4",
+  "agent_slug": "amazon_india",
+  "is_synthetic": false,
+  "facts": [
+    {
+      "fact_id": "p15_amazon_prime_card_rewards",
+      "text": "Amazon Pay ICICI Bank credit-card holders with Prime membership can earn up to 5% rewards on eligible Amazon purchases, credited to Amazon Pay balance. This card has no joining or annual fee; card terms and exclusions apply.",
+      "source_id": "amazon_icici_card",
+      "source_url": "https://www.icici.bank.in/personal-banking/cards/credit-card/amazon-pay-credit-card",
+      "as_of": "2026-11-15T00:00:00+00:00",
+      "valid_until": null,
+      "historical_only": false,
+      "allowed_numeric_tokens": [
+        "5%"
+      ]
+    },
+    {
+      "fact_id": "p17_amazon_icici_no_cost_emi",
+      "text": "The Amazon Pay ICICI Bank credit-card FAQ lists 3 months of No Cost EMI on eligible Amazon.in transactions. This statement concerns that card programme; eligibility and product terms need confirmation before purchase.",
+      "source_id": "amazon_icici_card",
+      "source_url": "https://www.icici.bank.in/personal-banking/cards/credit-card/amazon-pay-credit-card",
+      "as_of": "2026-11-15T00:00:00+00:00",
+      "valid_until": null,
+      "historical_only": false,
+      "allowed_numeric_tokens": [
+        "3"
+      ]
+    }
+  ],
+  "comment_rule": "Only facts valid for the evaluated snapshot may be used. Unknown expiry does not mean a historical promotion is current. Numbers must occur in a valid fact or the post."
+}

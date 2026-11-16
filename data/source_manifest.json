@@ -1,0 +1,191 @@
+[
+  {
+    "source_id": "flipkart_bajaj_emi_terms",
+    "source_url": "https://www.flipkart.com/pages/bfl-nce-tnc",
+    "checked_at_utc": "2026-11-15T05:29:31.350423+00:00",
+    "snapshot_sha256": "7495aa9c667b5d3f06f469a4917878c9747418311f5edde53f4c7754ff3a46b5",
+    "source_date": null,
+    "semantic_review": "reviewed_for_listed_claims",
+    "review_notes": "First-party EMI checkout terms; no publication date or expiry supplied."
+  },
+  {
+    "source_id": "flipkart_bajaj_emi_news",
+    "source_url": "https://www.deccanchronicle.com/business/companies/140518/bajaj-finserv-no-cost-emi-option-on-4-lakh-products-on-flipkart.html",
+    "checked_at_utc": "2026-11-15T05:31:08.148143+00:00",
+    "snapshot_sha256": "8146fa9e938220463ed5ded5fb1f9924679402d11dc3a7b7c435205071b757fb",
+    "source_date": "2018-05-14",
+    "semantic_review": "reviewed_for_listed_claims",
+    "review_notes": "Dated ANI/DC report: May 13-16 sale, discounts, mobiles and Bajaj Finserv No Cost EMI."
+  },
+  {
+    "source_id": "phonepe_swiggy",
+    "source_url": "https://www.phonepe.com/press/swiggy-and-phonepe-partner-to-grow-cashless-transactions/",
+    "checked_at_utc": "2026-11-15T05:29:31.601359+00:00",
+    "snapshot_sha256": "4ec0a4b10b11b50fa4161ec706331ba7a2b0364c4b5dc80fc9eb9291f9c9af86",
+    "source_date": "2018-03-22",
+    "semantic_review": "reviewed_for_listed_claims",
+    "review_notes": "First-party partnership and introductory cashback. Mixed payment instruments; no offer expiry supplied."
+  },
+  {
+    "source_id": "icici_swiggy_card",
+    "source_url": "https://www.icici.bank.in/offers/swiggy-offer-food-order",
+    "checked_at_utc": "2026-11-15T05:29:31.612013+00:00",
+    "snapshot_sha256": "09dc8b3d2084ff794ee8c54d18eb62925bb1de9b8cbc788c1f20bd6046fa8cb0",
+    "source_date": "2025-10-03",
+    "semantic_review": "reviewed_for_listed_claims",
+    "review_notes": "First-party historical card-only offer; distinct new/dormant and repeat-customer terms."
+  },
+  {
+    "source_id": "swiggy_diwali_bonus",
+    "source_url": "https://blog.swiggy.com/terms-and-conditions/diwali-bonus-engagement-emailer-tcs-12-11-2020/",
+    "checked_at_utc": "2026-11-15T05:35:00.627560+00:00",
+    "snapshot_sha256": "afe7a2e271f61d946e1d45b18b0520ee0ee576253d003974e2975c03adec3abd",
+    "source_date": "2020-11-11",
+    "semantic_review": "reviewed_for_listed_claims",
+    "review_notes": "First-party Diwali food coupons, valid November 12 only; limited quantities and minimum order apply."
+  },
+  {
+    "source_id": "hdfc_swiggy_card",
+    "source_url": "https://www.hdfcbank.com/personal/pay/cards/credit-cards/swiggy-hdfc-bank-credit-card",
+    "checked_at_utc": "2026-11-15T05:31:08.278390+00:00",
+    "snapshot_sha256": "7c60d5114462848b66a317c01e9541dc7cea9fa6b04a55f10e1fc0d004cb174c",
+    "source_date": null,
+    "semantic_review": "reviewed_for_listed_claims",
+    "review_notes": "Current first-party card page; benefits remain during phased transition to BLCK/Ornge. No general expiry supplied."
+  },
+  {
+    "source_id": "axis_flipkart_card",
+    "source_url": "https://www.axisbank.com/retail/cards/credit-card/flipkart-axisbank-credit-card/features-benefits",
+    "checked_at_utc": "2026-11-15T05:31:50.811396+00:00",
+    "snapshot_sha256": "74c8e9a2ce099b557a526eef9fe42f9b94276f1bc2b287983f39b9c75aa9b046",
+    "source_date": null,
+    "semantic_review": "reviewed_for_listed_claims",
+    "review_notes": "First-party current multi-cobrand card page; explicit Myntra quarterly cap and purchase-to-EMI condition."
+  },
+  {
+    "source_id": "amazon_icici_card",
+    "source_url": "https://www.icici.bank.in/personal-banking/cards/credit-card/amazon-pay-credit-card",
+    "checked_at_utc": "2026-11-15T05:32:45.251199+00:00",
+    "snapshot_sha256": "c80d6c00b203e966e67eb43824b37143027fbd78eb8106dded6bfe26bc2f08f9",
+    "source_date": null,
+    "semantic_review": "reviewed_for_listed_claims",
+    "review_notes": "First-party current card page; rewards credited to Amazon Pay balance, not asserted as cash in a bank account."
+  },
+  {
+    "source_id": "bajaj_pulsar_offer",
+    "source_url": "https://www.bajajauto.com/news-media/press-releases/bajaj-auto-introduces-the-new-pulsar-n250ss-with-a-4v-engine",
+    "checked_at_utc": "2026-11-15T05:35:00.645989+00:00",
+    "snapshot_sha256": "7eb984684e3fe6d70017c9207bd6358e50b9dda3d4c1550909eb4786b676fb84",
+    "source_date": "2026-10-21",
+    "semantic_review": "reviewed_for_listed_claims",
+    "review_notes": "First-party priced motorcycle launch, not a claimed discount or manufacturer financing partnership."
+  },
+  {
+    "source_id": "tvs_jupiter_offer",
+    "source_url": "https://www.tvsmotor.com/Media/Press-Release/tvs-motor-launches-tvs-jupiter-dual-tone-spectral-range",
+    "checked_at_utc": "2026-11-15T05:35:00.643720+00:00",
+    "snapshot_sha256": "bc43d624276084b8939d29cffc06872d138a0f6333db41155655af4dc1634359",
+    "source_date": "2026-08-27",
+    "semantic_review": "reviewed_for_listed_claims",
+    "review_notes": "First-party priced scooter launch; availability described as soon, not immediate guaranteed stock."
+  },
+  {
+    "source_id": "bajaj_finserv_two_wheeler",
+    "source_url": "https://www.bajajfinserv.in/two-wheeler-loan",
+    "checked_at_utc": "2026-11-15T05:33:34.870333+00:00",
+    "snapshot_sha256": "684ca7fef353eab45cac7c9a1e459f2048b204ef459ef1336933bf7c9eaab189",
+    "source_date": null,
+    "semantic_review": "reviewed_for_listed_claims",
+    "review_notes": "First-party Bajaj Finance lending-arm page; conditional funding, not Bajaj Auto manufacturing capability."
+  },
+  {
+    "source_id": "tvs_credit_home",
+    "source_url": "https://www.tvscredit.com/",
+    "checked_at_utc": "2026-11-15T05:32:45.259770+00:00",
+    "snapshot_sha256": "a61a3568ee8d87d2151faa2aa69e4f4efdd3e4463298ba118f69c8a22700d5d0",
+    "source_date": null,
+    "semantic_review": "reviewed_for_listed_claims",
+    "review_notes": "First-party NBFC page distinguishes two-wheeler, consumer-durable and mobile loans."
+  },
+  {
+    "source_id": "google_pay_india",
+    "source_url": "https://pay.google.com/intl/en_in/about/",
+    "checked_at_utc": "2026-11-15T05:31:50.856632+00:00",
+    "snapshot_sha256": "0995673b8ec4f87a2de12a5b341b8e3e79af2241292f2df23b05fcff46f4a039",
+    "source_date": null,
+    "semantic_review": "reviewed_for_listed_claims",
+    "review_notes": "First-party consumer UPI role. No specific cashback campaign or Swiggy partnership is claimed."
+  },
+  {
+    "source_id": "paytm_upi",
+    "source_url": "https://paytm.com/upi",
+    "checked_at_utc": "2026-11-15T05:36:58.774671+00:00",
+    "snapshot_sha256": "997ceb0a3dd76324c3825e67d51c37159639647b6c4ff13e272b2ef1f795bed1",
+    "source_date": null,
+    "semantic_review": "reviewed_for_listed_claims",
+    "review_notes": "First-party current consumer UPI role; no legacy wallet availability or specific merchant partnership is asserted."
+  },
+  {
+    "source_id": "eternal_businesses",
+    "source_url": "https://www.eternal.com/",
+    "checked_at_utc": "2026-11-15T05:36:58.782396+00:00",
+    "snapshot_sha256": "9447c2f87717576a615fdc9b839e4f044ec3bc33e2af8f0894db8423920ce170",
+    "source_date": null,
+    "semantic_review": "reviewed_for_listed_claims",
+    "review_notes": "First-party parent page identifies Zomato's restaurant/food delivery business; Blinkit is not treated as Zomato."
+  },
+  {
+    "source_id": "bajaj_emi_network",
+    "source_url": "https://www.bajajfinserv.in/shop-online-our-partners",
+    "checked_at_utc": "2026-11-15T05:36:58.788211+00:00",
+    "snapshot_sha256": "3f5613a9451ebd27916caf034cdc378a567a0cc9d4460cf1c7bc9d423b407dbe",
+    "source_date": null,
+    "semantic_review": "reviewed_for_listed_claims",
+    "review_notes": "First-party current network names Flipkart, Amazon and MakeMyTrip. Not used as proof of 2018 availability at every merchant."
+  },
+  {
+    "source_id": "flipkart_bbd_2026",
+    "source_url": "https://stories.flipkart.com/announcement/flipkarts-big-billion-days-returns-for-its-13th-edition",
+    "checked_at_utc": "2026-11-15T05:32:45.240828+00:00",
+    "snapshot_sha256": "a75ced4631d9cbfed812440d5a9fb3995a89487d9108e35c7c2b3a70db7a0d1f",
+    "source_date": "2026-10-06",
+    "semantic_review": "reviewed_for_listed_claims",
+    "review_notes": "First-party festive sale announcement; start date and early access documented, end date not stated here."
+  },
+  {
+    "source_id": "phonepe_bbd_2018",
+    "source_url": "https://www.phonepe.com/press/phonepe-sees-a-150per-growth-in-transactions-during-flipkarts-big-billion-days/",
+    "checked_at_utc": "2026-11-15T05:34:47.407110+00:00",
+    "snapshot_sha256": "9c52442ebcd5e5ebae25eaf707a70fcbed181bac4b24603038b671c4c07a0b0e",
+    "source_date": "2018-10-22",
+    "semantic_review": "reviewed_for_listed_claims",
+    "review_notes": "First-party historical mixed-instrument checkout update. UPI share and instant cashbacks reported; UPI-only promotional terms are NOT documented."
+  },
+  {
+    "source_id": "phonepe_wallet",
+    "source_url": "https://www.phonepe.com/wallet/",
+    "checked_at_utc": "2026-11-15T05:31:08.165549+00:00",
+    "snapshot_sha256": "28e7a9e450c7d24bb04fc03ca3a0c7cd9b27d840cc1445636bbcb4dc62f8a14d",
+    "source_date": null,
+    "semantic_review": "reviewed_for_listed_claims",
+    "review_notes": "First-party wallet cashback page. QR acceptance does not change wallet funding into an UPI-only cashback offer."
+  },
+  {
+    "source_id": "phonepe_upi_lite",
+    "source_url": "https://www.phonepe.com/press/phonepe-goes-live-with-upi-lite/",
+    "checked_at_utc": "2026-11-15T05:36:58.544387+00:00",
+    "snapshot_sha256": "cd22edbb65571eb35d8eb6122fa0ba95b86ddb4db63e17e0f4516aa6ab0cc8b6",
+    "source_date": "2023-05-02",
+    "semantic_review": "reviewed_for_listed_claims",
+    "review_notes": "First-party dated UPI LITE launch, accepted at UPI merchants; no cashback promise appears in this release."
+  },
+  {
+    "source_id": "hdfc_swiggy_launch_2023",
+    "source_url": "https://blog.swiggy.com/news/hdfc-bank-launches-co-branded-credit-card-with-swiggy/",
+    "checked_at_utc": "2026-11-15T09:31:38.930463+00:00",
+    "snapshot_sha256": "52220263d3ae49bd20366e338fae64acde957f89103bdb3d2161051d061b5113",
+    "source_date": "2023-07-26",
+    "semantic_review": "reviewed_for_listed_claims",
+    "review_notes": "First-party launch announcement dates the Swiggy/HDFC co-brand to July 26, 2023. This dates the relationship, not current offer terms."
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "agent_id": "13b20c83-f3e0-5479-b132-1d78570b3611",
+  "agent_slug": "zomato",
+  "is_synthetic": false,
+  "facts": [
+    {
+      "fact_id": "zomato_role",
+      "text": "Restaurant discovery and food delivery business; not the Blinkit agent.",
+      "source_id": "eternal_businesses",
+      "source_url": "https://www.eternal.com/",
+      "as_of": "2026-11-15T00:00:00+00:00",
+      "valid_until": null,
+      "allowed_numeric_tokens": []
+    }
+  ],
+  "comment_rule": "Only facts valid for the evaluated snapshot may be used. Unknown expiry does not mean a historical promotion is current. Numbers must occur in a valid fact or the post."
+}

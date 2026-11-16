@@ -1,0 +1,4977 @@
+[
+  {
+    "post_id": "0b449369-8e9e-56eb-8e60-7a1661ff9383",
+    "post_slug": "p01_flipkart_mobile_emi",
+    "expected_recipients": [
+      {
+        "agent_id": "af76bcb4-7a7b-58ce-9276-110a6968c1fa",
+        "agent_slug": "bajaj_finserv",
+        "basis": "documented",
+        "reason": "The dated sale report explicitly offers Bajaj Finserv No Cost EMI on mobiles.",
+        "source_id": "flipkart_bajaj_emi_news",
+        "evidence_url": "https://www.deccanchronicle.com/business/companies/140518/bajaj-finserv-no-cost-emi-option-on-4-lakh-products-on-flipkart.html"
+      },
+      {
+        "agent_id": "31f4890f-da06-5655-afa1-82eda54e4ab8",
+        "agent_slug": "tvs_credit",
+        "basis": "inferred",
+        "reason": "Could propose smartphone or appliance financing using its EMI role; this is not verified participation in the named campaign.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "e76ec5fc-3aa7-54bc-b599-2a3268e350fb",
+        "agent_slug": "hdfc_bank",
+        "basis": "inferred",
+        "reason": "Could propose smartphone or appliance financing using its EMI role; this is not verified participation in the named campaign.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "2efc699e-b3ad-535a-9b69-2e7042d60e23",
+        "agent_slug": "icici_bank",
+        "basis": "inferred",
+        "reason": "Could propose smartphone or appliance financing using its EMI role; this is not verified participation in the named campaign.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "cd67d80a-83e3-5e37-a7b8-ffdbc3e2baa4",
+        "agent_slug": "axis_bank",
+        "basis": "inferred",
+        "reason": "Could propose smartphone or appliance financing using its EMI role; this is not verified participation in the named campaign.",
+        "source_id": null,
+        "evidence_url": null
+      }
+    ],
+    "must_not_notify": [
+      {
+        "agent_id": "da191f6b-0080-5c18-a2f4-5a85a5b51653",
+        "agent_slug": "swiggy",
+        "basis": "inferred",
+        "reason": "No sufficiently specific complementary action is supported for this benchmark post and scoped profile.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "13b20c83-f3e0-5479-b132-1d78570b3611",
+        "agent_slug": "zomato",
+        "basis": "inferred",
+        "reason": "No sufficiently specific complementary action is supported for this benchmark post and scoped profile.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "8938c8b8-095e-555c-919c-1342216e81ea",
+        "agent_slug": "flipkart",
+        "basis": "inferred",
+        "reason": "The author is excluded by routing policy.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "cf32910e-e266-5060-b21d-b3cbac522ea4",
+        "agent_slug": "amazon_india",
+        "basis": "inferred",
+        "reason": "A seeded competitor pair is excluded without an explicit subscription.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "a43c22bb-7b54-5065-a2e3-2f85257cbab8",
+        "agent_slug": "myntra",
+        "basis": "inferred",
+        "reason": "No sufficiently specific complementary action is supported for this benchmark post and scoped profile.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "b34fabb5-7bfd-5f23-bac0-26c60d15bede",
+        "agent_slug": "makemytrip",
+        "basis": "inferred",
+        "reason": "No sufficiently specific complementary action is supported for this benchmark post and scoped profile.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "c0bffdcd-b729-5d6e-ad69-e5ef58ca0c3e",
+        "agent_slug": "phonepe",
+        "basis": "inferred",
+        "reason": "The declared payment-instrument role cannot match this post's instrument focus.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "4bd6eaf1-a74f-592f-84ae-6f5cc9925f4c",
+        "agent_slug": "google_pay",
+        "basis": "inferred",
+        "reason": "The declared payment-instrument role cannot match this post's instrument focus.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "4eb0261d-a285-5e43-87c8-521a98420928",
+        "agent_slug": "paytm",
+        "basis": "inferred",
+        "reason": "The declared payment-instrument role cannot match this post's instrument focus.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "52dac8f7-9bd0-5686-8ebf-648655d4e000",
+        "agent_slug": "bajaj_auto",
+        "basis": "inferred",
+        "reason": "A vehicle manufacturer's role does not finance or promote this food, retail or payment offer.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "14a3a36a-e403-566b-9583-f21b279d50dd",
+        "agent_slug": "tvs_motor",
+        "basis": "inferred",
+        "reason": "A vehicle manufacturer's role does not finance or promote this food, retail or payment offer.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "8d9aa323-b7c7-5c93-bba2-0fdcdb0b2fb4",
+        "agent_slug": "demo_vague_co",
+        "basis": "inferred",
+        "reason": "This fictional safety-fixture author has no commercial capability or interest.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "6fc15c0c-5f3d-5c5c-bdff-633ef0e41e74",
+        "agent_slug": "demo_spammer_co",
+        "basis": "inferred",
+        "reason": "This fictional safety-fixture author has no commercial capability or interest.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "7c3c2344-20ce-562e-ab32-abf460fc2c64",
+        "agent_slug": "demo_intruder_co",
+        "basis": "inferred",
+        "reason": "This fictional safety-fixture author has no commercial capability or interest.",
+        "source_id": null,
+        "evidence_url": null
+      }
+    ],
+    "now": "2018-05-13T00:00:00+00:00",
+    "label_version": "stage1-dataset-v2-dev",
+    "label_scope": "business_complementarity_not_redemption_entitlement",
+    "owner_review_required": false,
+    "approval_scope": "dev_only",
+    "series_id": "flipkart_bsd_2018"
+  },
+  {
+    "post_id": "e80fa6ca-e4b2-54ac-a6aa-33a6d1f074cf",
+    "post_slug": "p02_swiggy_diwali",
+    "expected_recipients": [
+      {
+        "agent_id": "c0bffdcd-b729-5d6e-ad69-e5ef58ca0c3e",
+        "agent_slug": "phonepe",
+        "basis": "documented",
+        "reason": "The 2018 first-party partnership documents Swiggy checkout; stacking the Diwali coupon is not proved.",
+        "source_id": "phonepe_swiggy",
+        "evidence_url": "https://www.phonepe.com/press/swiggy-and-phonepe-partner-to-grow-cashless-transactions/"
+      },
+      {
+        "agent_id": "4bd6eaf1-a74f-592f-84ae-6f5cc9925f4c",
+        "agent_slug": "google_pay",
+        "basis": "inferred",
+        "reason": "Could propose a checkout incentive using its declared payment role; redemption or offer stacking is not established.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "4eb0261d-a285-5e43-87c8-521a98420928",
+        "agent_slug": "paytm",
+        "basis": "inferred",
+        "reason": "Could propose a checkout incentive using its declared payment role; redemption or offer stacking is not established.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "e76ec5fc-3aa7-54bc-b599-2a3268e350fb",
+        "agent_slug": "hdfc_bank",
+        "basis": "inferred",
+        "reason": "Could propose a checkout incentive using its declared payment role; redemption or offer stacking is not established.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "2efc699e-b3ad-535a-9b69-2e7042d60e23",
+        "agent_slug": "icici_bank",
+        "basis": "inferred",
+        "reason": "Could propose a checkout incentive using its declared payment role; redemption or offer stacking is not established.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "cd67d80a-83e3-5e37-a7b8-ffdbc3e2baa4",
+        "agent_slug": "axis_bank",
+        "basis": "inferred",
+        "reason": "Could propose a checkout incentive using its declared payment role; redemption or offer stacking is not established.",
+        "source_id": null,
+        "evidence_url": null
+      }
+    ],
+    "must_not_notify": [
+      {
+        "agent_id": "da191f6b-0080-5c18-a2f4-5a85a5b51653",
+        "agent_slug": "swiggy",
+        "basis": "inferred",
+        "reason": "The author is excluded by routing policy.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "13b20c83-f3e0-5479-b132-1d78570b3611",
+        "agent_slug": "zomato",
+        "basis": "inferred",
+        "reason": "A seeded competitor pair is excluded without an explicit subscription.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "8938c8b8-095e-555c-919c-1342216e81ea",
+        "agent_slug": "flipkart",
+        "basis": "inferred",
+        "reason": "No sufficiently specific complementary action is supported for this benchmark post and scoped profile.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "cf32910e-e266-5060-b21d-b3cbac522ea4",
+        "agent_slug": "amazon_india",
+        "basis": "inferred",
+        "reason": "No sufficiently specific complementary action is supported for this benchmark post and scoped profile.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "a43c22bb-7b54-5065-a2e3-2f85257cbab8",
+        "agent_slug": "myntra",
+        "basis": "inferred",
+        "reason": "No sufficiently specific complementary action is supported for this benchmark post and scoped profile.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "b34fabb5-7bfd-5f23-bac0-26c60d15bede",
+        "agent_slug": "makemytrip",
+        "basis": "inferred",
+        "reason": "No sufficiently specific complementary action is supported for this benchmark post and scoped profile.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "af76bcb4-7a7b-58ce-9276-110a6968c1fa",
+        "agent_slug": "bajaj_finserv",
+        "basis": "inferred",
+        "reason": "No sufficiently specific complementary action is supported for this benchmark post and scoped profile.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "52dac8f7-9bd0-5686-8ebf-648655d4e000",
+        "agent_slug": "bajaj_auto",
+        "basis": "inferred",
+        "reason": "A vehicle manufacturer's role does not finance or promote this food, retail or payment offer.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "31f4890f-da06-5655-afa1-82eda54e4ab8",
+        "agent_slug": "tvs_credit",
+        "basis": "inferred",
+        "reason": "No sufficiently specific complementary action is supported for this benchmark post and scoped profile.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "14a3a36a-e403-566b-9583-f21b279d50dd",
+        "agent_slug": "tvs_motor",
+        "basis": "inferred",
+        "reason": "A vehicle manufacturer's role does not finance or promote this food, retail or payment offer.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "8d9aa323-b7c7-5c93-bba2-0fdcdb0b2fb4",
+        "agent_slug": "demo_vague_co",
+        "basis": "inferred",
+        "reason": "This fictional safety-fixture author has no commercial capability or interest.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "6fc15c0c-5f3d-5c5c-bdff-633ef0e41e74",
+        "agent_slug": "demo_spammer_co",
+        "basis": "inferred",
+        "reason": "This fictional safety-fixture author has no commercial capability or interest.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "7c3c2344-20ce-562e-ab32-abf460fc2c64",
+        "agent_slug": "demo_intruder_co",
+        "basis": "inferred",
+        "reason": "This fictional safety-fixture author has no commercial capability or interest.",
+        "source_id": null,
+        "evidence_url": null
+      }
+    ],
+    "now": "2020-11-12T00:00:00+00:00",
+    "label_version": "stage1-dataset-v2-dev",
+    "label_scope": "business_complementarity_not_redemption_entitlement",
+    "owner_review_required": false,
+    "approval_scope": "dev_only",
+    "series_id": "swiggy_diwali_2020"
+  },
+  {
+    "post_id": "b64c85c6-ed61-57d6-bb15-f8ea9847d2c1",
+    "post_slug": "p03_swiggy_card_only_new",
+    "expected_recipients": [
+      {
+        "agent_id": "2efc699e-b3ad-535a-9b69-2e7042d60e23",
+        "agent_slug": "icici_bank",
+        "basis": "documented",
+        "reason": "The exact card-only food offer names ICICI Bank as issuer.",
+        "source_id": "icici_swiggy_card",
+        "evidence_url": "https://www.icici.bank.in/offers/swiggy-offer-food-order"
+      },
+      {
+        "agent_id": "e76ec5fc-3aa7-54bc-b599-2a3268e350fb",
+        "agent_slug": "hdfc_bank",
+        "basis": "inferred",
+        "reason": "Could propose another credit-card food promotion; this offer is not redeemable with that issuer's card.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "cd67d80a-83e3-5e37-a7b8-ffdbc3e2baa4",
+        "agent_slug": "axis_bank",
+        "basis": "inferred",
+        "reason": "Could propose another credit-card food promotion; this offer is not redeemable with that issuer's card.",
+        "source_id": null,
+        "evidence_url": null
+      }
+    ],
+    "must_not_notify": [
+      {
+        "agent_id": "da191f6b-0080-5c18-a2f4-5a85a5b51653",
+        "agent_slug": "swiggy",
+        "basis": "inferred",
+        "reason": "The author is excluded by routing policy.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "13b20c83-f3e0-5479-b132-1d78570b3611",
+        "agent_slug": "zomato",
+        "basis": "inferred",
+        "reason": "A seeded competitor pair is excluded without an explicit subscription.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "8938c8b8-095e-555c-919c-1342216e81ea",
+        "agent_slug": "flipkart",
+        "basis": "inferred",
+        "reason": "No sufficiently specific complementary action is supported for this benchmark post and scoped profile.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "cf32910e-e266-5060-b21d-b3cbac522ea4",
+        "agent_slug": "amazon_india",
+        "basis": "inferred",
+        "reason": "No sufficiently specific complementary action is supported for this benchmark post and scoped profile.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "a43c22bb-7b54-5065-a2e3-2f85257cbab8",
+        "agent_slug": "myntra",
+        "basis": "inferred",
+        "reason": "No sufficiently specific complementary action is supported for this benchmark post and scoped profile.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "b34fabb5-7bfd-5f23-bac0-26c60d15bede",
+        "agent_slug": "makemytrip",
+        "basis": "inferred",
+        "reason": "No sufficiently specific complementary action is supported for this benchmark post and scoped profile.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "c0bffdcd-b729-5d6e-ad69-e5ef58ca0c3e",
+        "agent_slug": "phonepe",
+        "basis": "documented",
+        "reason": "The source excludes UPI; this consumer payment profile has no credit-card issuer role.",
+        "source_id": "icici_swiggy_card",
+        "evidence_url": "https://www.icici.bank.in/offers/swiggy-offer-food-order"
+      },
+      {
+        "agent_id": "4bd6eaf1-a74f-592f-84ae-6f5cc9925f4c",
+        "agent_slug": "google_pay",
+        "basis": "documented",
+        "reason": "The source excludes UPI; this consumer payment profile has no credit-card issuer role.",
+        "source_id": "icici_swiggy_card",
+        "evidence_url": "https://www.icici.bank.in/offers/swiggy-offer-food-order"
+      },
+      {
+        "agent_id": "4eb0261d-a285-5e43-87c8-521a98420928",
+        "agent_slug": "paytm",
+        "basis": "documented",
+        "reason": "The source excludes UPI; this consumer payment profile has no credit-card issuer role.",
+        "source_id": "icici_swiggy_card",
+        "evidence_url": "https://www.icici.bank.in/offers/swiggy-offer-food-order"
+      },
+      {
+        "agent_id": "af76bcb4-7a7b-58ce-9276-110a6968c1fa",
+        "agent_slug": "bajaj_finserv",
+        "basis": "inferred",
+        "reason": "The declared payment-instrument role cannot match this post's instrument focus.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "52dac8f7-9bd0-5686-8ebf-648655d4e000",
+        "agent_slug": "bajaj_auto",
+        "basis": "inferred",
+        "reason": "A vehicle manufacturer's role does not finance or promote this food, retail or payment offer.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "31f4890f-da06-5655-afa1-82eda54e4ab8",
+        "agent_slug": "tvs_credit",
+        "basis": "inferred",
+        "reason": "The declared payment-instrument role cannot match this post's instrument focus.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "14a3a36a-e403-566b-9583-f21b279d50dd",
+        "agent_slug": "tvs_motor",
+        "basis": "inferred",
+        "reason": "A vehicle manufacturer's role does not finance or promote this food, retail or payment offer.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "8d9aa323-b7c7-5c93-bba2-0fdcdb0b2fb4",
+        "agent_slug": "demo_vague_co",
+        "basis": "inferred",
+        "reason": "This fictional safety-fixture author has no commercial capability or interest.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "6fc15c0c-5f3d-5c5c-bdff-633ef0e41e74",
+        "agent_slug": "demo_spammer_co",
+        "basis": "inferred",
+        "reason": "This fictional safety-fixture author has no commercial capability or interest.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "7c3c2344-20ce-562e-ab32-abf460fc2c64",
+        "agent_slug": "demo_intruder_co",
+        "basis": "inferred",
+        "reason": "This fictional safety-fixture author has no commercial capability or interest.",
+        "source_id": null,
+        "evidence_url": null
+      }
+    ],
+    "now": "2025-10-03T00:00:00+00:00",
+    "label_version": "stage1-dataset-v2-dev",
+    "label_scope": "business_complementarity_not_redemption_entitlement",
+    "owner_review_required": false,
+    "approval_scope": "dev_only",
+    "series_id": "icici_swiggy_2025"
+  },
+  {
+    "post_id": "84e6703b-5390-5b8f-af9c-2ec904ea09a9",
+    "post_slug": "p04_phonepe_upi_cashback_update",
+    "expected_recipients": [
+      {
+        "agent_id": "da191f6b-0080-5c18-a2f4-5a85a5b51653",
+        "agent_slug": "swiggy",
+        "basis": "inferred",
+        "reason": "Could act on a UPI checkout/cashback model at its own merchant checkout; this historical campaign does not grant it cashback eligibility.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "8938c8b8-095e-555c-919c-1342216e81ea",
+        "agent_slug": "flipkart",
+        "basis": "inferred",
+        "reason": "Could act on a UPI checkout/cashback model at its own merchant checkout; this historical campaign does not grant it cashback eligibility.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "cf32910e-e266-5060-b21d-b3cbac522ea4",
+        "agent_slug": "amazon_india",
+        "basis": "inferred",
+        "reason": "Could act on a UPI checkout/cashback model at its own merchant checkout; this historical campaign does not grant it cashback eligibility.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "a43c22bb-7b54-5065-a2e3-2f85257cbab8",
+        "agent_slug": "myntra",
+        "basis": "inferred",
+        "reason": "Could act on a UPI checkout/cashback model at its own merchant checkout; this historical campaign does not grant it cashback eligibility.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "b34fabb5-7bfd-5f23-bac0-26c60d15bede",
+        "agent_slug": "makemytrip",
+        "basis": "inferred",
+        "reason": "Could act on a UPI checkout/cashback model at its own merchant checkout; this historical campaign does not grant it cashback eligibility.",
+        "source_id": null,
+        "evidence_url": null
+      }
+    ],
+    "must_not_notify": [
+      {
+        "agent_id": "13b20c83-f3e0-5479-b132-1d78570b3611",
+        "agent_slug": "zomato",
+        "basis": "inferred",
+        "reason": "No sufficiently specific complementary action is supported for this benchmark post and scoped profile.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "c0bffdcd-b729-5d6e-ad69-e5ef58ca0c3e",
+        "agent_slug": "phonepe",
+        "basis": "inferred",
+        "reason": "The author is excluded by routing policy.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "4bd6eaf1-a74f-592f-84ae-6f5cc9925f4c",
+        "agent_slug": "google_pay",
+        "basis": "inferred",
+        "reason": "A seeded competitor pair is excluded without an explicit subscription.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "4eb0261d-a285-5e43-87c8-521a98420928",
+        "agent_slug": "paytm",
+        "basis": "inferred",
+        "reason": "A seeded competitor pair is excluded without an explicit subscription.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "e76ec5fc-3aa7-54bc-b599-2a3268e350fb",
+        "agent_slug": "hdfc_bank",
+        "basis": "inferred",
+        "reason": "The declared payment-instrument role cannot match this post's instrument focus.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "2efc699e-b3ad-535a-9b69-2e7042d60e23",
+        "agent_slug": "icici_bank",
+        "basis": "inferred",
+        "reason": "The declared payment-instrument role cannot match this post's instrument focus.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "cd67d80a-83e3-5e37-a7b8-ffdbc3e2baa4",
+        "agent_slug": "axis_bank",
+        "basis": "inferred",
+        "reason": "The declared payment-instrument role cannot match this post's instrument focus.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "af76bcb4-7a7b-58ce-9276-110a6968c1fa",
+        "agent_slug": "bajaj_finserv",
+        "basis": "inferred",
+        "reason": "The declared payment-instrument role cannot match this post's instrument focus.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "52dac8f7-9bd0-5686-8ebf-648655d4e000",
+        "agent_slug": "bajaj_auto",
+        "basis": "inferred",
+        "reason": "A vehicle manufacturer's role does not finance or promote this food, retail or payment offer.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "31f4890f-da06-5655-afa1-82eda54e4ab8",
+        "agent_slug": "tvs_credit",
+        "basis": "inferred",
+        "reason": "The declared payment-instrument role cannot match this post's instrument focus.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "14a3a36a-e403-566b-9583-f21b279d50dd",
+        "agent_slug": "tvs_motor",
+        "basis": "inferred",
+        "reason": "A vehicle manufacturer's role does not finance or promote this food, retail or payment offer.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "8d9aa323-b7c7-5c93-bba2-0fdcdb0b2fb4",
+        "agent_slug": "demo_vague_co",
+        "basis": "inferred",
+        "reason": "This fictional safety-fixture author has no commercial capability or interest.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "6fc15c0c-5f3d-5c5c-bdff-633ef0e41e74",
+        "agent_slug": "demo_spammer_co",
+        "basis": "inferred",
+        "reason": "This fictional safety-fixture author has no commercial capability or interest.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "7c3c2344-20ce-562e-ab32-abf460fc2c64",
+        "agent_slug": "demo_intruder_co",
+        "basis": "inferred",
+        "reason": "This fictional safety-fixture author has no commercial capability or interest.",
+        "source_id": null,
+        "evidence_url": null
+      }
+    ],
+    "now": "2018-10-22T00:00:00+00:00",
+    "label_version": "stage1-dataset-v2-dev",
+    "label_scope": "business_complementarity_not_redemption_entitlement",
+    "owner_review_required": false,
+    "approval_scope": "dev_only",
+    "series_id": "phonepe_bbd_2018"
+  },
+  {
+    "post_id": "d3f17b8d-8cee-55c9-84f9-ffeee3eb60be",
+    "post_slug": "p05_bajaj_motorcycle_purchase",
+    "expected_recipients": [
+      {
+        "agent_id": "af76bcb4-7a7b-58ce-9276-110a6968c1fa",
+        "agent_slug": "bajaj_finserv",
+        "basis": "inferred",
+        "reason": "Could finance eligible two-wheeler buyers using its lending role; a named manufacturer/dealer partnership is not verified.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "31f4890f-da06-5655-afa1-82eda54e4ab8",
+        "agent_slug": "tvs_credit",
+        "basis": "inferred",
+        "reason": "Could finance eligible two-wheeler buyers using its lending role; a named manufacturer/dealer partnership is not verified.",
+        "source_id": null,
+        "evidence_url": null
+      }
+    ],
+    "must_not_notify": [
+      {
+        "agent_id": "da191f6b-0080-5c18-a2f4-5a85a5b51653",
+        "agent_slug": "swiggy",
+        "basis": "inferred",
+        "reason": "No two-wheeler lending or manufacturing action is declared in this candidate profile.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "13b20c83-f3e0-5479-b132-1d78570b3611",
+        "agent_slug": "zomato",
+        "basis": "inferred",
+        "reason": "No two-wheeler lending or manufacturing action is declared in this candidate profile.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "8938c8b8-095e-555c-919c-1342216e81ea",
+        "agent_slug": "flipkart",
+        "basis": "inferred",
+        "reason": "No two-wheeler lending or manufacturing action is declared in this candidate profile.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "cf32910e-e266-5060-b21d-b3cbac522ea4",
+        "agent_slug": "amazon_india",
+        "basis": "inferred",
+        "reason": "No two-wheeler lending or manufacturing action is declared in this candidate profile.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "a43c22bb-7b54-5065-a2e3-2f85257cbab8",
+        "agent_slug": "myntra",
+        "basis": "inferred",
+        "reason": "No two-wheeler lending or manufacturing action is declared in this candidate profile.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "b34fabb5-7bfd-5f23-bac0-26c60d15bede",
+        "agent_slug": "makemytrip",
+        "basis": "inferred",
+        "reason": "No two-wheeler lending or manufacturing action is declared in this candidate profile.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "c0bffdcd-b729-5d6e-ad69-e5ef58ca0c3e",
+        "agent_slug": "phonepe",
+        "basis": "inferred",
+        "reason": "No two-wheeler lending or manufacturing action is declared in this candidate profile.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "4bd6eaf1-a74f-592f-84ae-6f5cc9925f4c",
+        "agent_slug": "google_pay",
+        "basis": "inferred",
+        "reason": "No two-wheeler lending or manufacturing action is declared in this candidate profile.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "4eb0261d-a285-5e43-87c8-521a98420928",
+        "agent_slug": "paytm",
+        "basis": "inferred",
+        "reason": "No two-wheeler lending or manufacturing action is declared in this candidate profile.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "e76ec5fc-3aa7-54bc-b599-2a3268e350fb",
+        "agent_slug": "hdfc_bank",
+        "basis": "inferred",
+        "reason": "No two-wheeler lending or manufacturing action is declared in this candidate profile.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "2efc699e-b3ad-535a-9b69-2e7042d60e23",
+        "agent_slug": "icici_bank",
+        "basis": "inferred",
+        "reason": "No two-wheeler lending or manufacturing action is declared in this candidate profile.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "cd67d80a-83e3-5e37-a7b8-ffdbc3e2baa4",
+        "agent_slug": "axis_bank",
+        "basis": "inferred",
+        "reason": "No two-wheeler lending or manufacturing action is declared in this candidate profile.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "52dac8f7-9bd0-5686-8ebf-648655d4e000",
+        "agent_slug": "bajaj_auto",
+        "basis": "inferred",
+        "reason": "The author is excluded by routing policy.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "14a3a36a-e403-566b-9583-f21b279d50dd",
+        "agent_slug": "tvs_motor",
+        "basis": "inferred",
+        "reason": "A seeded competitor pair is excluded without an explicit subscription.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "8d9aa323-b7c7-5c93-bba2-0fdcdb0b2fb4",
+        "agent_slug": "demo_vague_co",
+        "basis": "inferred",
+        "reason": "This fictional safety-fixture author has no commercial capability or interest.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "6fc15c0c-5f3d-5c5c-bdff-633ef0e41e74",
+        "agent_slug": "demo_spammer_co",
+        "basis": "inferred",
+        "reason": "This fictional safety-fixture author has no commercial capability or interest.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "7c3c2344-20ce-562e-ab32-abf460fc2c64",
+        "agent_slug": "demo_intruder_co",
+        "basis": "inferred",
+        "reason": "This fictional safety-fixture author has no commercial capability or interest.",
+        "source_id": null,
+        "evidence_url": null
+      }
+    ],
+    "now": "2026-10-21T00:00:00+00:00",
+    "label_version": "stage1-dataset-v2-dev",
+    "label_scope": "business_complementarity_not_redemption_entitlement",
+    "owner_review_required": false,
+    "approval_scope": "dev_only",
+    "series_id": "bajaj_n250ss_2026"
+  },
+  {
+    "post_id": "9cb196fe-21c2-5df7-a8ca-f059a0829934",
+    "post_slug": "p06_tvs_scooter_purchase",
+    "expected_recipients": [
+      {
+        "agent_id": "af76bcb4-7a7b-58ce-9276-110a6968c1fa",
+        "agent_slug": "bajaj_finserv",
+        "basis": "inferred",
+        "reason": "Could finance eligible two-wheeler buyers using its lending role; a named manufacturer/dealer partnership is not verified.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "31f4890f-da06-5655-afa1-82eda54e4ab8",
+        "agent_slug": "tvs_credit",
+        "basis": "inferred",
+        "reason": "Could finance eligible two-wheeler buyers using its lending role; a named manufacturer/dealer partnership is not verified.",
+        "source_id": null,
+        "evidence_url": null
+      }
+    ],
+    "must_not_notify": [
+      {
+        "agent_id": "da191f6b-0080-5c18-a2f4-5a85a5b51653",
+        "agent_slug": "swiggy",
+        "basis": "inferred",
+        "reason": "No two-wheeler lending or manufacturing action is declared in this candidate profile.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "13b20c83-f3e0-5479-b132-1d78570b3611",
+        "agent_slug": "zomato",
+        "basis": "inferred",
+        "reason": "No two-wheeler lending or manufacturing action is declared in this candidate profile.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "8938c8b8-095e-555c-919c-1342216e81ea",
+        "agent_slug": "flipkart",
+        "basis": "inferred",
+        "reason": "No two-wheeler lending or manufacturing action is declared in this candidate profile.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "cf32910e-e266-5060-b21d-b3cbac522ea4",
+        "agent_slug": "amazon_india",
+        "basis": "inferred",
+        "reason": "No two-wheeler lending or manufacturing action is declared in this candidate profile.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "a43c22bb-7b54-5065-a2e3-2f85257cbab8",
+        "agent_slug": "myntra",
+        "basis": "inferred",
+        "reason": "No two-wheeler lending or manufacturing action is declared in this candidate profile.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "b34fabb5-7bfd-5f23-bac0-26c60d15bede",
+        "agent_slug": "makemytrip",
+        "basis": "inferred",
+        "reason": "No two-wheeler lending or manufacturing action is declared in this candidate profile.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "c0bffdcd-b729-5d6e-ad69-e5ef58ca0c3e",
+        "agent_slug": "phonepe",
+        "basis": "inferred",
+        "reason": "No two-wheeler lending or manufacturing action is declared in this candidate profile.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "4bd6eaf1-a74f-592f-84ae-6f5cc9925f4c",
+        "agent_slug": "google_pay",
+        "basis": "inferred",
+        "reason": "No two-wheeler lending or manufacturing action is declared in this candidate profile.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "4eb0261d-a285-5e43-87c8-521a98420928",
+        "agent_slug": "paytm",
+        "basis": "inferred",
+        "reason": "No two-wheeler lending or manufacturing action is declared in this candidate profile.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "e76ec5fc-3aa7-54bc-b599-2a3268e350fb",
+        "agent_slug": "hdfc_bank",
+        "basis": "inferred",
+        "reason": "No two-wheeler lending or manufacturing action is declared in this candidate profile.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "2efc699e-b3ad-535a-9b69-2e7042d60e23",
+        "agent_slug": "icici_bank",
+        "basis": "inferred",
+        "reason": "No two-wheeler lending or manufacturing action is declared in this candidate profile.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "cd67d80a-83e3-5e37-a7b8-ffdbc3e2baa4",
+        "agent_slug": "axis_bank",
+        "basis": "inferred",
+        "reason": "No two-wheeler lending or manufacturing action is declared in this candidate profile.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "52dac8f7-9bd0-5686-8ebf-648655d4e000",
+        "agent_slug": "bajaj_auto",
+        "basis": "inferred",
+        "reason": "A seeded competitor pair is excluded without an explicit subscription.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "14a3a36a-e403-566b-9583-f21b279d50dd",
+        "agent_slug": "tvs_motor",
+        "basis": "inferred",
+        "reason": "The author is excluded by routing policy.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "8d9aa323-b7c7-5c93-bba2-0fdcdb0b2fb4",
+        "agent_slug": "demo_vague_co",
+        "basis": "inferred",
+        "reason": "This fictional safety-fixture author has no commercial capability or interest.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "6fc15c0c-5f3d-5c5c-bdff-633ef0e41e74",
+        "agent_slug": "demo_spammer_co",
+        "basis": "inferred",
+        "reason": "This fictional safety-fixture author has no commercial capability or interest.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "7c3c2344-20ce-562e-ab32-abf460fc2c64",
+        "agent_slug": "demo_intruder_co",
+        "basis": "inferred",
+        "reason": "This fictional safety-fixture author has no commercial capability or interest.",
+        "source_id": null,
+        "evidence_url": null
+      }
+    ],
+    "now": "2026-08-27T00:00:00+00:00",
+    "label_version": "stage1-dataset-v2-dev",
+    "label_scope": "business_complementarity_not_redemption_entitlement",
+    "owner_review_required": false,
+    "approval_scope": "dev_only",
+    "series_id": "tvs_jupiter_2026"
+  },
+  {
+    "post_id": "69341a23-5f29-5965-9471-9923f58347b4",
+    "post_slug": "p07_swiggy_phonepe_checkout",
+    "expected_recipients": [
+      {
+        "agent_id": "c0bffdcd-b729-5d6e-ad69-e5ef58ca0c3e",
+        "agent_slug": "phonepe",
+        "basis": "documented",
+        "reason": "The announcement explicitly names PhonePe as Swiggy checkout partner.",
+        "source_id": "phonepe_swiggy",
+        "evidence_url": "https://www.phonepe.com/press/swiggy-and-phonepe-partner-to-grow-cashless-transactions/"
+      },
+      {
+        "agent_id": "4bd6eaf1-a74f-592f-84ae-6f5cc9925f4c",
+        "agent_slug": "google_pay",
+        "basis": "inferred",
+        "reason": "Could propose a checkout incentive using its declared payment role; redemption or offer stacking is not established.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "4eb0261d-a285-5e43-87c8-521a98420928",
+        "agent_slug": "paytm",
+        "basis": "inferred",
+        "reason": "Could propose a checkout incentive using its declared payment role; redemption or offer stacking is not established.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "e76ec5fc-3aa7-54bc-b599-2a3268e350fb",
+        "agent_slug": "hdfc_bank",
+        "basis": "inferred",
+        "reason": "Could propose a checkout incentive using its declared payment role; redemption or offer stacking is not established.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "2efc699e-b3ad-535a-9b69-2e7042d60e23",
+        "agent_slug": "icici_bank",
+        "basis": "inferred",
+        "reason": "Could propose a checkout incentive using its declared payment role; redemption or offer stacking is not established.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "cd67d80a-83e3-5e37-a7b8-ffdbc3e2baa4",
+        "agent_slug": "axis_bank",
+        "basis": "inferred",
+        "reason": "Could propose a checkout incentive using its declared payment role; redemption or offer stacking is not established.",
+        "source_id": null,
+        "evidence_url": null
+      }
+    ],
+    "must_not_notify": [
+      {
+        "agent_id": "da191f6b-0080-5c18-a2f4-5a85a5b51653",
+        "agent_slug": "swiggy",
+        "basis": "inferred",
+        "reason": "The author is excluded by routing policy.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "13b20c83-f3e0-5479-b132-1d78570b3611",
+        "agent_slug": "zomato",
+        "basis": "inferred",
+        "reason": "A seeded competitor pair is excluded without an explicit subscription.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "8938c8b8-095e-555c-919c-1342216e81ea",
+        "agent_slug": "flipkart",
+        "basis": "inferred",
+        "reason": "No sufficiently specific complementary action is supported for this benchmark post and scoped profile.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "cf32910e-e266-5060-b21d-b3cbac522ea4",
+        "agent_slug": "amazon_india",
+        "basis": "inferred",
+        "reason": "No sufficiently specific complementary action is supported for this benchmark post and scoped profile.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "a43c22bb-7b54-5065-a2e3-2f85257cbab8",
+        "agent_slug": "myntra",
+        "basis": "inferred",
+        "reason": "No sufficiently specific complementary action is supported for this benchmark post and scoped profile.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "b34fabb5-7bfd-5f23-bac0-26c60d15bede",
+        "agent_slug": "makemytrip",
+        "basis": "inferred",
+        "reason": "No sufficiently specific complementary action is supported for this benchmark post and scoped profile.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "af76bcb4-7a7b-58ce-9276-110a6968c1fa",
+        "agent_slug": "bajaj_finserv",
+        "basis": "inferred",
+        "reason": "The declared payment-instrument role cannot match this post's instrument focus.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "52dac8f7-9bd0-5686-8ebf-648655d4e000",
+        "agent_slug": "bajaj_auto",
+        "basis": "inferred",
+        "reason": "A vehicle manufacturer's role does not finance or promote this food, retail or payment offer.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "31f4890f-da06-5655-afa1-82eda54e4ab8",
+        "agent_slug": "tvs_credit",
+        "basis": "inferred",
+        "reason": "The declared payment-instrument role cannot match this post's instrument focus.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "14a3a36a-e403-566b-9583-f21b279d50dd",
+        "agent_slug": "tvs_motor",
+        "basis": "inferred",
+        "reason": "A vehicle manufacturer's role does not finance or promote this food, retail or payment offer.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "8d9aa323-b7c7-5c93-bba2-0fdcdb0b2fb4",
+        "agent_slug": "demo_vague_co",
+        "basis": "inferred",
+        "reason": "This fictional safety-fixture author has no commercial capability or interest.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "6fc15c0c-5f3d-5c5c-bdff-633ef0e41e74",
+        "agent_slug": "demo_spammer_co",
+        "basis": "inferred",
+        "reason": "This fictional safety-fixture author has no commercial capability or interest.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "7c3c2344-20ce-562e-ab32-abf460fc2c64",
+        "agent_slug": "demo_intruder_co",
+        "basis": "inferred",
+        "reason": "This fictional safety-fixture author has no commercial capability or interest.",
+        "source_id": null,
+        "evidence_url": null
+      }
+    ],
+    "now": "2018-03-22T00:00:00+00:00",
+    "label_version": "stage1-dataset-v2-dev",
+    "label_scope": "business_complementarity_not_redemption_entitlement",
+    "owner_review_required": false,
+    "approval_scope": "dev_only",
+    "series_id": "phonepe_swiggy_2018"
+  },
+  {
+    "post_id": "33342aba-a2c1-5995-a0ab-01bc06bc0904",
+    "post_slug": "p08_phonepe_swiggy_first_cashback",
+    "expected_recipients": [
+      {
+        "agent_id": "da191f6b-0080-5c18-a2f4-5a85a5b51653",
+        "agent_slug": "swiggy",
+        "basis": "documented",
+        "reason": "The introductory first-order cashback is explicitly for Swiggy checkout.",
+        "source_id": "phonepe_swiggy",
+        "evidence_url": "https://www.phonepe.com/press/swiggy-and-phonepe-partner-to-grow-cashless-transactions/"
+      }
+    ],
+    "must_not_notify": [
+      {
+        "agent_id": "13b20c83-f3e0-5479-b132-1d78570b3611",
+        "agent_slug": "zomato",
+        "basis": "inferred",
+        "reason": "The cashback is specifically tied to Swiggy checkout; another merchant or provider has no direct role in this offer.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "8938c8b8-095e-555c-919c-1342216e81ea",
+        "agent_slug": "flipkart",
+        "basis": "inferred",
+        "reason": "The cashback is specifically tied to Swiggy checkout; another merchant or provider has no direct role in this offer.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "cf32910e-e266-5060-b21d-b3cbac522ea4",
+        "agent_slug": "amazon_india",
+        "basis": "inferred",
+        "reason": "The cashback is specifically tied to Swiggy checkout; another merchant or provider has no direct role in this offer.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "a43c22bb-7b54-5065-a2e3-2f85257cbab8",
+        "agent_slug": "myntra",
+        "basis": "inferred",
+        "reason": "The cashback is specifically tied to Swiggy checkout; another merchant or provider has no direct role in this offer.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "b34fabb5-7bfd-5f23-bac0-26c60d15bede",
+        "agent_slug": "makemytrip",
+        "basis": "inferred",
+        "reason": "The cashback is specifically tied to Swiggy checkout; another merchant or provider has no direct role in this offer.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "c0bffdcd-b729-5d6e-ad69-e5ef58ca0c3e",
+        "agent_slug": "phonepe",
+        "basis": "inferred",
+        "reason": "The author is excluded by routing policy.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "4bd6eaf1-a74f-592f-84ae-6f5cc9925f4c",
+        "agent_slug": "google_pay",
+        "basis": "inferred",
+        "reason": "A seeded competitor pair is excluded without an explicit subscription.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "4eb0261d-a285-5e43-87c8-521a98420928",
+        "agent_slug": "paytm",
+        "basis": "inferred",
+        "reason": "A seeded competitor pair is excluded without an explicit subscription.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "e76ec5fc-3aa7-54bc-b599-2a3268e350fb",
+        "agent_slug": "hdfc_bank",
+        "basis": "inferred",
+        "reason": "The cashback is specifically tied to Swiggy checkout; another merchant or provider has no direct role in this offer.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "2efc699e-b3ad-535a-9b69-2e7042d60e23",
+        "agent_slug": "icici_bank",
+        "basis": "inferred",
+        "reason": "The cashback is specifically tied to Swiggy checkout; another merchant or provider has no direct role in this offer.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "cd67d80a-83e3-5e37-a7b8-ffdbc3e2baa4",
+        "agent_slug": "axis_bank",
+        "basis": "inferred",
+        "reason": "The cashback is specifically tied to Swiggy checkout; another merchant or provider has no direct role in this offer.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "af76bcb4-7a7b-58ce-9276-110a6968c1fa",
+        "agent_slug": "bajaj_finserv",
+        "basis": "inferred",
+        "reason": "The declared payment-instrument role cannot match this post's instrument focus.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "52dac8f7-9bd0-5686-8ebf-648655d4e000",
+        "agent_slug": "bajaj_auto",
+        "basis": "inferred",
+        "reason": "A vehicle manufacturer's role does not finance or promote this food, retail or payment offer.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "31f4890f-da06-5655-afa1-82eda54e4ab8",
+        "agent_slug": "tvs_credit",
+        "basis": "inferred",
+        "reason": "The declared payment-instrument role cannot match this post's instrument focus.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "14a3a36a-e403-566b-9583-f21b279d50dd",
+        "agent_slug": "tvs_motor",
+        "basis": "inferred",
+        "reason": "A vehicle manufacturer's role does not finance or promote this food, retail or payment offer.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "8d9aa323-b7c7-5c93-bba2-0fdcdb0b2fb4",
+        "agent_slug": "demo_vague_co",
+        "basis": "inferred",
+        "reason": "This fictional safety-fixture author has no commercial capability or interest.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "6fc15c0c-5f3d-5c5c-bdff-633ef0e41e74",
+        "agent_slug": "demo_spammer_co",
+        "basis": "inferred",
+        "reason": "This fictional safety-fixture author has no commercial capability or interest.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "7c3c2344-20ce-562e-ab32-abf460fc2c64",
+        "agent_slug": "demo_intruder_co",
+        "basis": "inferred",
+        "reason": "This fictional safety-fixture author has no commercial capability or interest.",
+        "source_id": null,
+        "evidence_url": null
+      }
+    ],
+    "now": "2018-03-22T00:00:00+00:00",
+    "label_version": "stage1-dataset-v2-dev",
+    "label_scope": "business_complementarity_not_redemption_entitlement",
+    "owner_review_required": false,
+    "approval_scope": "dev_only",
+    "series_id": "phonepe_swiggy_2018"
+  },
+  {
+    "post_id": "fb1faa48-a07f-5c47-a498-eab14d829a4e",
+    "post_slug": "p09_phonepe_swiggy_repeat_cashback",
+    "expected_recipients": [
+      {
+        "agent_id": "da191f6b-0080-5c18-a2f4-5a85a5b51653",
+        "agent_slug": "swiggy",
+        "basis": "documented",
+        "reason": "The subsequent-order cashback is explicitly for Swiggy checkout.",
+        "source_id": "phonepe_swiggy",
+        "evidence_url": "https://www.phonepe.com/press/swiggy-and-phonepe-partner-to-grow-cashless-transactions/"
+      }
+    ],
+    "must_not_notify": [
+      {
+        "agent_id": "13b20c83-f3e0-5479-b132-1d78570b3611",
+        "agent_slug": "zomato",
+        "basis": "inferred",
+        "reason": "The cashback is specifically tied to Swiggy checkout; another merchant or provider has no direct role in this offer.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "8938c8b8-095e-555c-919c-1342216e81ea",
+        "agent_slug": "flipkart",
+        "basis": "inferred",
+        "reason": "The cashback is specifically tied to Swiggy checkout; another merchant or provider has no direct role in this offer.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "cf32910e-e266-5060-b21d-b3cbac522ea4",
+        "agent_slug": "amazon_india",
+        "basis": "inferred",
+        "reason": "The cashback is specifically tied to Swiggy checkout; another merchant or provider has no direct role in this offer.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "a43c22bb-7b54-5065-a2e3-2f85257cbab8",
+        "agent_slug": "myntra",
+        "basis": "inferred",
+        "reason": "The cashback is specifically tied to Swiggy checkout; another merchant or provider has no direct role in this offer.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "b34fabb5-7bfd-5f23-bac0-26c60d15bede",
+        "agent_slug": "makemytrip",
+        "basis": "inferred",
+        "reason": "The cashback is specifically tied to Swiggy checkout; another merchant or provider has no direct role in this offer.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "c0bffdcd-b729-5d6e-ad69-e5ef58ca0c3e",
+        "agent_slug": "phonepe",
+        "basis": "inferred",
+        "reason": "The author is excluded by routing policy.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "4bd6eaf1-a74f-592f-84ae-6f5cc9925f4c",
+        "agent_slug": "google_pay",
+        "basis": "inferred",
+        "reason": "A seeded competitor pair is excluded without an explicit subscription.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "4eb0261d-a285-5e43-87c8-521a98420928",
+        "agent_slug": "paytm",
+        "basis": "inferred",
+        "reason": "A seeded competitor pair is excluded without an explicit subscription.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "e76ec5fc-3aa7-54bc-b599-2a3268e350fb",
+        "agent_slug": "hdfc_bank",
+        "basis": "inferred",
+        "reason": "The cashback is specifically tied to Swiggy checkout; another merchant or provider has no direct role in this offer.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "2efc699e-b3ad-535a-9b69-2e7042d60e23",
+        "agent_slug": "icici_bank",
+        "basis": "inferred",
+        "reason": "The cashback is specifically tied to Swiggy checkout; another merchant or provider has no direct role in this offer.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "cd67d80a-83e3-5e37-a7b8-ffdbc3e2baa4",
+        "agent_slug": "axis_bank",
+        "basis": "inferred",
+        "reason": "The cashback is specifically tied to Swiggy checkout; another merchant or provider has no direct role in this offer.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "af76bcb4-7a7b-58ce-9276-110a6968c1fa",
+        "agent_slug": "bajaj_finserv",
+        "basis": "inferred",
+        "reason": "The declared payment-instrument role cannot match this post's instrument focus.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "52dac8f7-9bd0-5686-8ebf-648655d4e000",
+        "agent_slug": "bajaj_auto",
+        "basis": "inferred",
+        "reason": "A vehicle manufacturer's role does not finance or promote this food, retail or payment offer.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "31f4890f-da06-5655-afa1-82eda54e4ab8",
+        "agent_slug": "tvs_credit",
+        "basis": "inferred",
+        "reason": "The declared payment-instrument role cannot match this post's instrument focus.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "14a3a36a-e403-566b-9583-f21b279d50dd",
+        "agent_slug": "tvs_motor",
+        "basis": "inferred",
+        "reason": "A vehicle manufacturer's role does not finance or promote this food, retail or payment offer.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "8d9aa323-b7c7-5c93-bba2-0fdcdb0b2fb4",
+        "agent_slug": "demo_vague_co",
+        "basis": "inferred",
+        "reason": "This fictional safety-fixture author has no commercial capability or interest.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "6fc15c0c-5f3d-5c5c-bdff-633ef0e41e74",
+        "agent_slug": "demo_spammer_co",
+        "basis": "inferred",
+        "reason": "This fictional safety-fixture author has no commercial capability or interest.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "7c3c2344-20ce-562e-ab32-abf460fc2c64",
+        "agent_slug": "demo_intruder_co",
+        "basis": "inferred",
+        "reason": "This fictional safety-fixture author has no commercial capability or interest.",
+        "source_id": null,
+        "evidence_url": null
+      }
+    ],
+    "now": "2018-03-22T00:00:00+00:00",
+    "label_version": "stage1-dataset-v2-dev",
+    "label_scope": "business_complementarity_not_redemption_entitlement",
+    "owner_review_required": false,
+    "approval_scope": "dev_only",
+    "series_id": "phonepe_swiggy_2018"
+  },
+  {
+    "post_id": "f7f911c6-4ce8-5713-984b-9da397e101ef",
+    "post_slug": "p10_swiggy_card_only_repeat",
+    "expected_recipients": [
+      {
+        "agent_id": "2efc699e-b3ad-535a-9b69-2e7042d60e23",
+        "agent_slug": "icici_bank",
+        "basis": "documented",
+        "reason": "The repeat-customer credit-card offer names ICICI Bank.",
+        "source_id": "icici_swiggy_card",
+        "evidence_url": "https://www.icici.bank.in/offers/swiggy-offer-food-order"
+      },
+      {
+        "agent_id": "e76ec5fc-3aa7-54bc-b599-2a3268e350fb",
+        "agent_slug": "hdfc_bank",
+        "basis": "inferred",
+        "reason": "Could propose another credit-card food promotion; this offer is not redeemable with that issuer's card.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "cd67d80a-83e3-5e37-a7b8-ffdbc3e2baa4",
+        "agent_slug": "axis_bank",
+        "basis": "inferred",
+        "reason": "Could propose another credit-card food promotion; this offer is not redeemable with that issuer's card.",
+        "source_id": null,
+        "evidence_url": null
+      }
+    ],
+    "must_not_notify": [
+      {
+        "agent_id": "da191f6b-0080-5c18-a2f4-5a85a5b51653",
+        "agent_slug": "swiggy",
+        "basis": "inferred",
+        "reason": "The author is excluded by routing policy.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "13b20c83-f3e0-5479-b132-1d78570b3611",
+        "agent_slug": "zomato",
+        "basis": "inferred",
+        "reason": "A seeded competitor pair is excluded without an explicit subscription.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "8938c8b8-095e-555c-919c-1342216e81ea",
+        "agent_slug": "flipkart",
+        "basis": "inferred",
+        "reason": "No sufficiently specific complementary action is supported for this benchmark post and scoped profile.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "cf32910e-e266-5060-b21d-b3cbac522ea4",
+        "agent_slug": "amazon_india",
+        "basis": "inferred",
+        "reason": "No sufficiently specific complementary action is supported for this benchmark post and scoped profile.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "a43c22bb-7b54-5065-a2e3-2f85257cbab8",
+        "agent_slug": "myntra",
+        "basis": "inferred",
+        "reason": "No sufficiently specific complementary action is supported for this benchmark post and scoped profile.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "b34fabb5-7bfd-5f23-bac0-26c60d15bede",
+        "agent_slug": "makemytrip",
+        "basis": "inferred",
+        "reason": "No sufficiently specific complementary action is supported for this benchmark post and scoped profile.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "c0bffdcd-b729-5d6e-ad69-e5ef58ca0c3e",
+        "agent_slug": "phonepe",
+        "basis": "documented",
+        "reason": "The source excludes UPI; this consumer payment profile has no credit-card issuer role.",
+        "source_id": "icici_swiggy_card",
+        "evidence_url": "https://www.icici.bank.in/offers/swiggy-offer-food-order"
+      },
+      {
+        "agent_id": "4bd6eaf1-a74f-592f-84ae-6f5cc9925f4c",
+        "agent_slug": "google_pay",
+        "basis": "documented",
+        "reason": "The source excludes UPI; this consumer payment profile has no credit-card issuer role.",
+        "source_id": "icici_swiggy_card",
+        "evidence_url": "https://www.icici.bank.in/offers/swiggy-offer-food-order"
+      },
+      {
+        "agent_id": "4eb0261d-a285-5e43-87c8-521a98420928",
+        "agent_slug": "paytm",
+        "basis": "documented",
+        "reason": "The source excludes UPI; this consumer payment profile has no credit-card issuer role.",
+        "source_id": "icici_swiggy_card",
+        "evidence_url": "https://www.icici.bank.in/offers/swiggy-offer-food-order"
+      },
+      {
+        "agent_id": "af76bcb4-7a7b-58ce-9276-110a6968c1fa",
+        "agent_slug": "bajaj_finserv",
+        "basis": "inferred",
+        "reason": "The declared payment-instrument role cannot match this post's instrument focus.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "52dac8f7-9bd0-5686-8ebf-648655d4e000",
+        "agent_slug": "bajaj_auto",
+        "basis": "inferred",
+        "reason": "A vehicle manufacturer's role does not finance or promote this food, retail or payment offer.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "31f4890f-da06-5655-afa1-82eda54e4ab8",
+        "agent_slug": "tvs_credit",
+        "basis": "inferred",
+        "reason": "The declared payment-instrument role cannot match this post's instrument focus.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "14a3a36a-e403-566b-9583-f21b279d50dd",
+        "agent_slug": "tvs_motor",
+        "basis": "inferred",
+        "reason": "A vehicle manufacturer's role does not finance or promote this food, retail or payment offer.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "8d9aa323-b7c7-5c93-bba2-0fdcdb0b2fb4",
+        "agent_slug": "demo_vague_co",
+        "basis": "inferred",
+        "reason": "This fictional safety-fixture author has no commercial capability or interest.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "6fc15c0c-5f3d-5c5c-bdff-633ef0e41e74",
+        "agent_slug": "demo_spammer_co",
+        "basis": "inferred",
+        "reason": "This fictional safety-fixture author has no commercial capability or interest.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "7c3c2344-20ce-562e-ab32-abf460fc2c64",
+        "agent_slug": "demo_intruder_co",
+        "basis": "inferred",
+        "reason": "This fictional safety-fixture author has no commercial capability or interest.",
+        "source_id": null,
+        "evidence_url": null
+      }
+    ],
+    "now": "2025-10-03T00:00:00+00:00",
+    "label_version": "stage1-dataset-v2-dev",
+    "label_scope": "business_complementarity_not_redemption_entitlement",
+    "owner_review_required": false,
+    "approval_scope": "dev_only",
+    "series_id": "icici_swiggy_2025"
+  },
+  {
+    "post_id": "d779a7df-69c8-52dd-ab5c-cbd372a703f4",
+    "post_slug": "p11_swiggy_hdfc_cobrand",
+    "expected_recipients": [
+      {
+        "agent_id": "e76ec5fc-3aa7-54bc-b599-2a3268e350fb",
+        "agent_slug": "hdfc_bank",
+        "basis": "documented",
+        "reason": "The first-party issuer page documents the Swiggy co-brand and app cashback.",
+        "source_id": "hdfc_swiggy_card",
+        "evidence_url": "https://www.hdfcbank.com/personal/pay/cards/credit-cards/swiggy-hdfc-bank-credit-card"
+      }
+    ],
+    "must_not_notify": [
+      {
+        "agent_id": "da191f6b-0080-5c18-a2f4-5a85a5b51653",
+        "agent_slug": "swiggy",
+        "basis": "inferred",
+        "reason": "The author is excluded by routing policy.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "13b20c83-f3e0-5479-b132-1d78570b3611",
+        "agent_slug": "zomato",
+        "basis": "inferred",
+        "reason": "A seeded competitor pair is excluded without an explicit subscription.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "8938c8b8-095e-555c-919c-1342216e81ea",
+        "agent_slug": "flipkart",
+        "basis": "inferred",
+        "reason": "This specific co-brand programme names another direct issuer or merchant; no additional action is labelled.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "cf32910e-e266-5060-b21d-b3cbac522ea4",
+        "agent_slug": "amazon_india",
+        "basis": "inferred",
+        "reason": "This specific co-brand programme names another direct issuer or merchant; no additional action is labelled.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "a43c22bb-7b54-5065-a2e3-2f85257cbab8",
+        "agent_slug": "myntra",
+        "basis": "inferred",
+        "reason": "This specific co-brand programme names another direct issuer or merchant; no additional action is labelled.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "b34fabb5-7bfd-5f23-bac0-26c60d15bede",
+        "agent_slug": "makemytrip",
+        "basis": "inferred",
+        "reason": "This specific co-brand programme names another direct issuer or merchant; no additional action is labelled.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "c0bffdcd-b729-5d6e-ad69-e5ef58ca0c3e",
+        "agent_slug": "phonepe",
+        "basis": "inferred",
+        "reason": "The declared payment-instrument role cannot match this post's instrument focus.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "4bd6eaf1-a74f-592f-84ae-6f5cc9925f4c",
+        "agent_slug": "google_pay",
+        "basis": "inferred",
+        "reason": "The declared payment-instrument role cannot match this post's instrument focus.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "4eb0261d-a285-5e43-87c8-521a98420928",
+        "agent_slug": "paytm",
+        "basis": "inferred",
+        "reason": "The declared payment-instrument role cannot match this post's instrument focus.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "2efc699e-b3ad-535a-9b69-2e7042d60e23",
+        "agent_slug": "icici_bank",
+        "basis": "inferred",
+        "reason": "This specific co-brand programme names another direct issuer or merchant; no additional action is labelled.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "cd67d80a-83e3-5e37-a7b8-ffdbc3e2baa4",
+        "agent_slug": "axis_bank",
+        "basis": "inferred",
+        "reason": "This specific co-brand programme names another direct issuer or merchant; no additional action is labelled.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "af76bcb4-7a7b-58ce-9276-110a6968c1fa",
+        "agent_slug": "bajaj_finserv",
+        "basis": "inferred",
+        "reason": "The declared payment-instrument role cannot match this post's instrument focus.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "52dac8f7-9bd0-5686-8ebf-648655d4e000",
+        "agent_slug": "bajaj_auto",
+        "basis": "inferred",
+        "reason": "A vehicle manufacturer's role does not finance or promote this food, retail or payment offer.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "31f4890f-da06-5655-afa1-82eda54e4ab8",
+        "agent_slug": "tvs_credit",
+        "basis": "inferred",
+        "reason": "The declared payment-instrument role cannot match this post's instrument focus.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "14a3a36a-e403-566b-9583-f21b279d50dd",
+        "agent_slug": "tvs_motor",
+        "basis": "inferred",
+        "reason": "A vehicle manufacturer's role does not finance or promote this food, retail or payment offer.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "8d9aa323-b7c7-5c93-bba2-0fdcdb0b2fb4",
+        "agent_slug": "demo_vague_co",
+        "basis": "inferred",
+        "reason": "This fictional safety-fixture author has no commercial capability or interest.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "6fc15c0c-5f3d-5c5c-bdff-633ef0e41e74",
+        "agent_slug": "demo_spammer_co",
+        "basis": "inferred",
+        "reason": "This fictional safety-fixture author has no commercial capability or interest.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "7c3c2344-20ce-562e-ab32-abf460fc2c64",
+        "agent_slug": "demo_intruder_co",
+        "basis": "inferred",
+        "reason": "This fictional safety-fixture author has no commercial capability or interest.",
+        "source_id": null,
+        "evidence_url": null
+      }
+    ],
+    "now": "2026-11-15T00:00:00+00:00",
+    "label_version": "stage1-dataset-v2-dev",
+    "label_scope": "business_complementarity_not_redemption_entitlement",
+    "owner_review_required": false,
+    "approval_scope": "dev_only",
+    "series_id": "swiggy_hdfc_current"
+  },
+  {
+    "post_id": "10479044-f765-556e-bd5c-a93631e3b80d",
+    "post_slug": "p12_hdfc_online_card_rewards",
+    "expected_recipients": [
+      {
+        "agent_id": "8938c8b8-095e-555c-919c-1342216e81ea",
+        "agent_slug": "flipkart",
+        "basis": "inferred",
+        "reason": "An online merchant could promote eligible card reward spending; exact MCC/product eligibility is not proved here.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "cf32910e-e266-5060-b21d-b3cbac522ea4",
+        "agent_slug": "amazon_india",
+        "basis": "inferred",
+        "reason": "An online merchant could promote eligible card reward spending; exact MCC/product eligibility is not proved here.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "a43c22bb-7b54-5065-a2e3-2f85257cbab8",
+        "agent_slug": "myntra",
+        "basis": "inferred",
+        "reason": "An online merchant could promote eligible card reward spending; exact MCC/product eligibility is not proved here.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "b34fabb5-7bfd-5f23-bac0-26c60d15bede",
+        "agent_slug": "makemytrip",
+        "basis": "inferred",
+        "reason": "An online merchant could promote eligible card reward spending; exact MCC/product eligibility is not proved here.",
+        "source_id": null,
+        "evidence_url": null
+      }
+    ],
+    "must_not_notify": [
+      {
+        "agent_id": "da191f6b-0080-5c18-a2f4-5a85a5b51653",
+        "agent_slug": "swiggy",
+        "basis": "inferred",
+        "reason": "No sufficiently specific complementary action is supported for this benchmark post and scoped profile.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "13b20c83-f3e0-5479-b132-1d78570b3611",
+        "agent_slug": "zomato",
+        "basis": "inferred",
+        "reason": "No sufficiently specific complementary action is supported for this benchmark post and scoped profile.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "c0bffdcd-b729-5d6e-ad69-e5ef58ca0c3e",
+        "agent_slug": "phonepe",
+        "basis": "inferred",
+        "reason": "The declared payment-instrument role cannot match this post's instrument focus.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "4bd6eaf1-a74f-592f-84ae-6f5cc9925f4c",
+        "agent_slug": "google_pay",
+        "basis": "inferred",
+        "reason": "The declared payment-instrument role cannot match this post's instrument focus.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "4eb0261d-a285-5e43-87c8-521a98420928",
+        "agent_slug": "paytm",
+        "basis": "inferred",
+        "reason": "The declared payment-instrument role cannot match this post's instrument focus.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "e76ec5fc-3aa7-54bc-b599-2a3268e350fb",
+        "agent_slug": "hdfc_bank",
+        "basis": "inferred",
+        "reason": "The author is excluded by routing policy.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "2efc699e-b3ad-535a-9b69-2e7042d60e23",
+        "agent_slug": "icici_bank",
+        "basis": "inferred",
+        "reason": "A seeded competitor pair is excluded without an explicit subscription.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "cd67d80a-83e3-5e37-a7b8-ffdbc3e2baa4",
+        "agent_slug": "axis_bank",
+        "basis": "inferred",
+        "reason": "A seeded competitor pair is excluded without an explicit subscription.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "af76bcb4-7a7b-58ce-9276-110a6968c1fa",
+        "agent_slug": "bajaj_finserv",
+        "basis": "inferred",
+        "reason": "The declared payment-instrument role cannot match this post's instrument focus.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "52dac8f7-9bd0-5686-8ebf-648655d4e000",
+        "agent_slug": "bajaj_auto",
+        "basis": "inferred",
+        "reason": "A vehicle manufacturer's role does not finance or promote this food, retail or payment offer.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "31f4890f-da06-5655-afa1-82eda54e4ab8",
+        "agent_slug": "tvs_credit",
+        "basis": "inferred",
+        "reason": "The declared payment-instrument role cannot match this post's instrument focus.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "14a3a36a-e403-566b-9583-f21b279d50dd",
+        "agent_slug": "tvs_motor",
+        "basis": "inferred",
+        "reason": "A vehicle manufacturer's role does not finance or promote this food, retail or payment offer.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "8d9aa323-b7c7-5c93-bba2-0fdcdb0b2fb4",
+        "agent_slug": "demo_vague_co",
+        "basis": "inferred",
+        "reason": "This fictional safety-fixture author has no commercial capability or interest.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "6fc15c0c-5f3d-5c5c-bdff-633ef0e41e74",
+        "agent_slug": "demo_spammer_co",
+        "basis": "inferred",
+        "reason": "This fictional safety-fixture author has no commercial capability or interest.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "7c3c2344-20ce-562e-ab32-abf460fc2c64",
+        "agent_slug": "demo_intruder_co",
+        "basis": "inferred",
+        "reason": "This fictional safety-fixture author has no commercial capability or interest.",
+        "source_id": null,
+        "evidence_url": null
+      }
+    ],
+    "now": "2026-11-15T00:00:00+00:00",
+    "label_version": "stage1-dataset-v2-dev",
+    "label_scope": "business_complementarity_not_redemption_entitlement",
+    "owner_review_required": false,
+    "approval_scope": "dev_only",
+    "series_id": "swiggy_hdfc_current"
+  },
+  {
+    "post_id": "3684c7b7-3a25-5850-9c7c-76cb5437a691",
+    "post_slug": "p13_axis_myntra_cashback",
+    "expected_recipients": [
+      {
+        "agent_id": "a43c22bb-7b54-5065-a2e3-2f85257cbab8",
+        "agent_slug": "myntra",
+        "basis": "documented",
+        "reason": "The issuer explicitly names Myntra spending and its quarterly cashback cap.",
+        "source_id": "axis_flipkart_card",
+        "evidence_url": "https://www.axisbank.com/retail/cards/credit-card/flipkart-axisbank-credit-card/features-benefits"
+      }
+    ],
+    "must_not_notify": [
+      {
+        "agent_id": "da191f6b-0080-5c18-a2f4-5a85a5b51653",
+        "agent_slug": "swiggy",
+        "basis": "inferred",
+        "reason": "This specific co-brand programme names another direct issuer or merchant; no additional action is labelled.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "13b20c83-f3e0-5479-b132-1d78570b3611",
+        "agent_slug": "zomato",
+        "basis": "inferred",
+        "reason": "This specific co-brand programme names another direct issuer or merchant; no additional action is labelled.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "8938c8b8-095e-555c-919c-1342216e81ea",
+        "agent_slug": "flipkart",
+        "basis": "inferred",
+        "reason": "This specific co-brand programme names another direct issuer or merchant; no additional action is labelled.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "cf32910e-e266-5060-b21d-b3cbac522ea4",
+        "agent_slug": "amazon_india",
+        "basis": "inferred",
+        "reason": "This specific co-brand programme names another direct issuer or merchant; no additional action is labelled.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "b34fabb5-7bfd-5f23-bac0-26c60d15bede",
+        "agent_slug": "makemytrip",
+        "basis": "inferred",
+        "reason": "This specific co-brand programme names another direct issuer or merchant; no additional action is labelled.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "c0bffdcd-b729-5d6e-ad69-e5ef58ca0c3e",
+        "agent_slug": "phonepe",
+        "basis": "inferred",
+        "reason": "The declared payment-instrument role cannot match this post's instrument focus.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "4bd6eaf1-a74f-592f-84ae-6f5cc9925f4c",
+        "agent_slug": "google_pay",
+        "basis": "inferred",
+        "reason": "The declared payment-instrument role cannot match this post's instrument focus.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "4eb0261d-a285-5e43-87c8-521a98420928",
+        "agent_slug": "paytm",
+        "basis": "inferred",
+        "reason": "The declared payment-instrument role cannot match this post's instrument focus.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "e76ec5fc-3aa7-54bc-b599-2a3268e350fb",
+        "agent_slug": "hdfc_bank",
+        "basis": "inferred",
+        "reason": "A seeded competitor pair is excluded without an explicit subscription.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "2efc699e-b3ad-535a-9b69-2e7042d60e23",
+        "agent_slug": "icici_bank",
+        "basis": "inferred",
+        "reason": "A seeded competitor pair is excluded without an explicit subscription.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "cd67d80a-83e3-5e37-a7b8-ffdbc3e2baa4",
+        "agent_slug": "axis_bank",
+        "basis": "inferred",
+        "reason": "The author is excluded by routing policy.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "af76bcb4-7a7b-58ce-9276-110a6968c1fa",
+        "agent_slug": "bajaj_finserv",
+        "basis": "inferred",
+        "reason": "The declared payment-instrument role cannot match this post's instrument focus.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "52dac8f7-9bd0-5686-8ebf-648655d4e000",
+        "agent_slug": "bajaj_auto",
+        "basis": "inferred",
+        "reason": "A vehicle manufacturer's role does not finance or promote this food, retail or payment offer.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "31f4890f-da06-5655-afa1-82eda54e4ab8",
+        "agent_slug": "tvs_credit",
+        "basis": "inferred",
+        "reason": "The declared payment-instrument role cannot match this post's instrument focus.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "14a3a36a-e403-566b-9583-f21b279d50dd",
+        "agent_slug": "tvs_motor",
+        "basis": "inferred",
+        "reason": "A vehicle manufacturer's role does not finance or promote this food, retail or payment offer.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "8d9aa323-b7c7-5c93-bba2-0fdcdb0b2fb4",
+        "agent_slug": "demo_vague_co",
+        "basis": "inferred",
+        "reason": "This fictional safety-fixture author has no commercial capability or interest.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "6fc15c0c-5f3d-5c5c-bdff-633ef0e41e74",
+        "agent_slug": "demo_spammer_co",
+        "basis": "inferred",
+        "reason": "This fictional safety-fixture author has no commercial capability or interest.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "7c3c2344-20ce-562e-ab32-abf460fc2c64",
+        "agent_slug": "demo_intruder_co",
+        "basis": "inferred",
+        "reason": "This fictional safety-fixture author has no commercial capability or interest.",
+        "source_id": null,
+        "evidence_url": null
+      }
+    ],
+    "now": "2026-11-15T00:00:00+00:00",
+    "label_version": "stage1-dataset-v2-dev",
+    "label_scope": "business_complementarity_not_redemption_entitlement",
+    "owner_review_required": false,
+    "approval_scope": "dev_only",
+    "series_id": "axis_flipkart_current"
+  },
+  {
+    "post_id": "67759871-c0c2-5a9c-b1bc-8165c8068edc",
+    "post_slug": "p14_flipkart_axis_card_emi",
+    "expected_recipients": [
+      {
+        "agent_id": "cd67d80a-83e3-5e37-a7b8-ffdbc3e2baa4",
+        "agent_slug": "axis_bank",
+        "basis": "documented",
+        "reason": "Only Axis Bank is named for conversion of this card's existing purchases to EMI.",
+        "source_id": "axis_flipkart_card",
+        "evidence_url": "https://www.axisbank.com/retail/cards/credit-card/flipkart-axisbank-credit-card/features-benefits"
+      }
+    ],
+    "must_not_notify": [
+      {
+        "agent_id": "da191f6b-0080-5c18-a2f4-5a85a5b51653",
+        "agent_slug": "swiggy",
+        "basis": "inferred",
+        "reason": "Conversion concerns the named issuer's existing card balance; a different lender is not interchangeable.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "13b20c83-f3e0-5479-b132-1d78570b3611",
+        "agent_slug": "zomato",
+        "basis": "inferred",
+        "reason": "Conversion concerns the named issuer's existing card balance; a different lender is not interchangeable.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "8938c8b8-095e-555c-919c-1342216e81ea",
+        "agent_slug": "flipkart",
+        "basis": "inferred",
+        "reason": "The author is excluded by routing policy.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "cf32910e-e266-5060-b21d-b3cbac522ea4",
+        "agent_slug": "amazon_india",
+        "basis": "inferred",
+        "reason": "A seeded competitor pair is excluded without an explicit subscription.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "a43c22bb-7b54-5065-a2e3-2f85257cbab8",
+        "agent_slug": "myntra",
+        "basis": "inferred",
+        "reason": "Conversion concerns the named issuer's existing card balance; a different lender is not interchangeable.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "b34fabb5-7bfd-5f23-bac0-26c60d15bede",
+        "agent_slug": "makemytrip",
+        "basis": "inferred",
+        "reason": "Conversion concerns the named issuer's existing card balance; a different lender is not interchangeable.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "c0bffdcd-b729-5d6e-ad69-e5ef58ca0c3e",
+        "agent_slug": "phonepe",
+        "basis": "inferred",
+        "reason": "The declared payment-instrument role cannot match this post's instrument focus.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "4bd6eaf1-a74f-592f-84ae-6f5cc9925f4c",
+        "agent_slug": "google_pay",
+        "basis": "inferred",
+        "reason": "The declared payment-instrument role cannot match this post's instrument focus.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "4eb0261d-a285-5e43-87c8-521a98420928",
+        "agent_slug": "paytm",
+        "basis": "inferred",
+        "reason": "The declared payment-instrument role cannot match this post's instrument focus.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "e76ec5fc-3aa7-54bc-b599-2a3268e350fb",
+        "agent_slug": "hdfc_bank",
+        "basis": "inferred",
+        "reason": "Conversion concerns the named issuer's existing card balance; a different lender is not interchangeable.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "2efc699e-b3ad-535a-9b69-2e7042d60e23",
+        "agent_slug": "icici_bank",
+        "basis": "inferred",
+        "reason": "Conversion concerns the named issuer's existing card balance; a different lender is not interchangeable.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "af76bcb4-7a7b-58ce-9276-110a6968c1fa",
+        "agent_slug": "bajaj_finserv",
+        "basis": "inferred",
+        "reason": "Conversion concerns the named issuer's existing card balance; a different lender is not interchangeable.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "52dac8f7-9bd0-5686-8ebf-648655d4e000",
+        "agent_slug": "bajaj_auto",
+        "basis": "inferred",
+        "reason": "Conversion concerns the named issuer's existing card balance; a different lender is not interchangeable.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "31f4890f-da06-5655-afa1-82eda54e4ab8",
+        "agent_slug": "tvs_credit",
+        "basis": "inferred",
+        "reason": "Conversion concerns the named issuer's existing card balance; a different lender is not interchangeable.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "14a3a36a-e403-566b-9583-f21b279d50dd",
+        "agent_slug": "tvs_motor",
+        "basis": "inferred",
+        "reason": "Conversion concerns the named issuer's existing card balance; a different lender is not interchangeable.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "8d9aa323-b7c7-5c93-bba2-0fdcdb0b2fb4",
+        "agent_slug": "demo_vague_co",
+        "basis": "inferred",
+        "reason": "This fictional safety-fixture author has no commercial capability or interest.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "6fc15c0c-5f3d-5c5c-bdff-633ef0e41e74",
+        "agent_slug": "demo_spammer_co",
+        "basis": "inferred",
+        "reason": "This fictional safety-fixture author has no commercial capability or interest.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "7c3c2344-20ce-562e-ab32-abf460fc2c64",
+        "agent_slug": "demo_intruder_co",
+        "basis": "inferred",
+        "reason": "This fictional safety-fixture author has no commercial capability or interest.",
+        "source_id": null,
+        "evidence_url": null
+      }
+    ],
+    "now": "2026-11-15T00:00:00+00:00",
+    "label_version": "stage1-dataset-v2-dev",
+    "label_scope": "business_complementarity_not_redemption_entitlement",
+    "owner_review_required": false,
+    "approval_scope": "dev_only",
+    "series_id": "axis_flipkart_current"
+  },
+  {
+    "post_id": "29a9bbe5-99c9-5856-819a-000fc915afe7",
+    "post_slug": "p15_amazon_prime_card_rewards",
+    "expected_recipients": [
+      {
+        "agent_id": "2efc699e-b3ad-535a-9b69-2e7042d60e23",
+        "agent_slug": "icici_bank",
+        "basis": "documented",
+        "reason": "The issuer page documents the Amazon Pay ICICI card and Prime rewards.",
+        "source_id": "amazon_icici_card",
+        "evidence_url": "https://www.icici.bank.in/personal-banking/cards/credit-card/amazon-pay-credit-card"
+      }
+    ],
+    "must_not_notify": [
+      {
+        "agent_id": "da191f6b-0080-5c18-a2f4-5a85a5b51653",
+        "agent_slug": "swiggy",
+        "basis": "inferred",
+        "reason": "This specific co-brand programme names another direct issuer or merchant; no additional action is labelled.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "13b20c83-f3e0-5479-b132-1d78570b3611",
+        "agent_slug": "zomato",
+        "basis": "inferred",
+        "reason": "This specific co-brand programme names another direct issuer or merchant; no additional action is labelled.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "8938c8b8-095e-555c-919c-1342216e81ea",
+        "agent_slug": "flipkart",
+        "basis": "inferred",
+        "reason": "A seeded competitor pair is excluded without an explicit subscription.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "cf32910e-e266-5060-b21d-b3cbac522ea4",
+        "agent_slug": "amazon_india",
+        "basis": "inferred",
+        "reason": "The author is excluded by routing policy.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "a43c22bb-7b54-5065-a2e3-2f85257cbab8",
+        "agent_slug": "myntra",
+        "basis": "inferred",
+        "reason": "This specific co-brand programme names another direct issuer or merchant; no additional action is labelled.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "b34fabb5-7bfd-5f23-bac0-26c60d15bede",
+        "agent_slug": "makemytrip",
+        "basis": "inferred",
+        "reason": "This specific co-brand programme names another direct issuer or merchant; no additional action is labelled.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "c0bffdcd-b729-5d6e-ad69-e5ef58ca0c3e",
+        "agent_slug": "phonepe",
+        "basis": "inferred",
+        "reason": "The declared payment-instrument role cannot match this post's instrument focus.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "4bd6eaf1-a74f-592f-84ae-6f5cc9925f4c",
+        "agent_slug": "google_pay",
+        "basis": "inferred",
+        "reason": "The declared payment-instrument role cannot match this post's instrument focus.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "4eb0261d-a285-5e43-87c8-521a98420928",
+        "agent_slug": "paytm",
+        "basis": "inferred",
+        "reason": "The declared payment-instrument role cannot match this post's instrument focus.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "e76ec5fc-3aa7-54bc-b599-2a3268e350fb",
+        "agent_slug": "hdfc_bank",
+        "basis": "inferred",
+        "reason": "This specific co-brand programme names another direct issuer or merchant; no additional action is labelled.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "cd67d80a-83e3-5e37-a7b8-ffdbc3e2baa4",
+        "agent_slug": "axis_bank",
+        "basis": "inferred",
+        "reason": "This specific co-brand programme names another direct issuer or merchant; no additional action is labelled.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "af76bcb4-7a7b-58ce-9276-110a6968c1fa",
+        "agent_slug": "bajaj_finserv",
+        "basis": "inferred",
+        "reason": "The declared payment-instrument role cannot match this post's instrument focus.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "52dac8f7-9bd0-5686-8ebf-648655d4e000",
+        "agent_slug": "bajaj_auto",
+        "basis": "inferred",
+        "reason": "A vehicle manufacturer's role does not finance or promote this food, retail or payment offer.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "31f4890f-da06-5655-afa1-82eda54e4ab8",
+        "agent_slug": "tvs_credit",
+        "basis": "inferred",
+        "reason": "The declared payment-instrument role cannot match this post's instrument focus.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "14a3a36a-e403-566b-9583-f21b279d50dd",
+        "agent_slug": "tvs_motor",
+        "basis": "inferred",
+        "reason": "A vehicle manufacturer's role does not finance or promote this food, retail or payment offer.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "8d9aa323-b7c7-5c93-bba2-0fdcdb0b2fb4",
+        "agent_slug": "demo_vague_co",
+        "basis": "inferred",
+        "reason": "This fictional safety-fixture author has no commercial capability or interest.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "6fc15c0c-5f3d-5c5c-bdff-633ef0e41e74",
+        "agent_slug": "demo_spammer_co",
+        "basis": "inferred",
+        "reason": "This fictional safety-fixture author has no commercial capability or interest.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "7c3c2344-20ce-562e-ab32-abf460fc2c64",
+        "agent_slug": "demo_intruder_co",
+        "basis": "inferred",
+        "reason": "This fictional safety-fixture author has no commercial capability or interest.",
+        "source_id": null,
+        "evidence_url": null
+      }
+    ],
+    "now": "2026-11-15T00:00:00+00:00",
+    "label_version": "stage1-dataset-v2-dev",
+    "label_scope": "business_complementarity_not_redemption_entitlement",
+    "owner_review_required": false,
+    "approval_scope": "dev_only",
+    "series_id": "amazon_icici_current"
+  },
+  {
+    "post_id": "5279f2da-9ad2-5c4f-a011-f652e79b2e63",
+    "post_slug": "p16_icici_amazon_nonprime_rewards",
+    "expected_recipients": [
+      {
+        "agent_id": "cf32910e-e266-5060-b21d-b3cbac522ea4",
+        "agent_slug": "amazon_india",
+        "basis": "documented",
+        "reason": "The issuer page explicitly links the non-Prime reward programme to Amazon purchases.",
+        "source_id": "amazon_icici_card",
+        "evidence_url": "https://www.icici.bank.in/personal-banking/cards/credit-card/amazon-pay-credit-card"
+      }
+    ],
+    "must_not_notify": [
+      {
+        "agent_id": "da191f6b-0080-5c18-a2f4-5a85a5b51653",
+        "agent_slug": "swiggy",
+        "basis": "inferred",
+        "reason": "This specific co-brand programme names another direct issuer or merchant; no additional action is labelled.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "13b20c83-f3e0-5479-b132-1d78570b3611",
+        "agent_slug": "zomato",
+        "basis": "inferred",
+        "reason": "This specific co-brand programme names another direct issuer or merchant; no additional action is labelled.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "8938c8b8-095e-555c-919c-1342216e81ea",
+        "agent_slug": "flipkart",
+        "basis": "inferred",
+        "reason": "This specific co-brand programme names another direct issuer or merchant; no additional action is labelled.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "a43c22bb-7b54-5065-a2e3-2f85257cbab8",
+        "agent_slug": "myntra",
+        "basis": "inferred",
+        "reason": "This specific co-brand programme names another direct issuer or merchant; no additional action is labelled.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "b34fabb5-7bfd-5f23-bac0-26c60d15bede",
+        "agent_slug": "makemytrip",
+        "basis": "inferred",
+        "reason": "This specific co-brand programme names another direct issuer or merchant; no additional action is labelled.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "c0bffdcd-b729-5d6e-ad69-e5ef58ca0c3e",
+        "agent_slug": "phonepe",
+        "basis": "inferred",
+        "reason": "The declared payment-instrument role cannot match this post's instrument focus.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "4bd6eaf1-a74f-592f-84ae-6f5cc9925f4c",
+        "agent_slug": "google_pay",
+        "basis": "inferred",
+        "reason": "The declared payment-instrument role cannot match this post's instrument focus.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "4eb0261d-a285-5e43-87c8-521a98420928",
+        "agent_slug": "paytm",
+        "basis": "inferred",
+        "reason": "The declared payment-instrument role cannot match this post's instrument focus.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "e76ec5fc-3aa7-54bc-b599-2a3268e350fb",
+        "agent_slug": "hdfc_bank",
+        "basis": "inferred",
+        "reason": "A seeded competitor pair is excluded without an explicit subscription.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "2efc699e-b3ad-535a-9b69-2e7042d60e23",
+        "agent_slug": "icici_bank",
+        "basis": "inferred",
+        "reason": "The author is excluded by routing policy.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "cd67d80a-83e3-5e37-a7b8-ffdbc3e2baa4",
+        "agent_slug": "axis_bank",
+        "basis": "inferred",
+        "reason": "A seeded competitor pair is excluded without an explicit subscription.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "af76bcb4-7a7b-58ce-9276-110a6968c1fa",
+        "agent_slug": "bajaj_finserv",
+        "basis": "inferred",
+        "reason": "The declared payment-instrument role cannot match this post's instrument focus.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "52dac8f7-9bd0-5686-8ebf-648655d4e000",
+        "agent_slug": "bajaj_auto",
+        "basis": "inferred",
+        "reason": "A vehicle manufacturer's role does not finance or promote this food, retail or payment offer.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "31f4890f-da06-5655-afa1-82eda54e4ab8",
+        "agent_slug": "tvs_credit",
+        "basis": "inferred",
+        "reason": "The declared payment-instrument role cannot match this post's instrument focus.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "14a3a36a-e403-566b-9583-f21b279d50dd",
+        "agent_slug": "tvs_motor",
+        "basis": "inferred",
+        "reason": "A vehicle manufacturer's role does not finance or promote this food, retail or payment offer.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "8d9aa323-b7c7-5c93-bba2-0fdcdb0b2fb4",
+        "agent_slug": "demo_vague_co",
+        "basis": "inferred",
+        "reason": "This fictional safety-fixture author has no commercial capability or interest.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "6fc15c0c-5f3d-5c5c-bdff-633ef0e41e74",
+        "agent_slug": "demo_spammer_co",
+        "basis": "inferred",
+        "reason": "This fictional safety-fixture author has no commercial capability or interest.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "7c3c2344-20ce-562e-ab32-abf460fc2c64",
+        "agent_slug": "demo_intruder_co",
+        "basis": "inferred",
+        "reason": "This fictional safety-fixture author has no commercial capability or interest.",
+        "source_id": null,
+        "evidence_url": null
+      }
+    ],
+    "now": "2026-11-15T00:00:00+00:00",
+    "label_version": "stage1-dataset-v2-dev",
+    "label_scope": "business_complementarity_not_redemption_entitlement",
+    "owner_review_required": false,
+    "approval_scope": "dev_only",
+    "series_id": "amazon_icici_current"
+  },
+  {
+    "post_id": "b758f413-7437-5c02-9519-98305385a52e",
+    "post_slug": "p17_amazon_icici_no_cost_emi",
+    "expected_recipients": [
+      {
+        "agent_id": "2efc699e-b3ad-535a-9b69-2e7042d60e23",
+        "agent_slug": "icici_bank",
+        "basis": "documented",
+        "reason": "The No Cost EMI FAQ concerns the Amazon Pay ICICI card, not interchangeable lenders.",
+        "source_id": "amazon_icici_card",
+        "evidence_url": "https://www.icici.bank.in/personal-banking/cards/credit-card/amazon-pay-credit-card"
+      }
+    ],
+    "must_not_notify": [
+      {
+        "agent_id": "da191f6b-0080-5c18-a2f4-5a85a5b51653",
+        "agent_slug": "swiggy",
+        "basis": "inferred",
+        "reason": "Conversion concerns the named issuer's existing card balance; a different lender is not interchangeable.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "13b20c83-f3e0-5479-b132-1d78570b3611",
+        "agent_slug": "zomato",
+        "basis": "inferred",
+        "reason": "Conversion concerns the named issuer's existing card balance; a different lender is not interchangeable.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "8938c8b8-095e-555c-919c-1342216e81ea",
+        "agent_slug": "flipkart",
+        "basis": "inferred",
+        "reason": "A seeded competitor pair is excluded without an explicit subscription.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "cf32910e-e266-5060-b21d-b3cbac522ea4",
+        "agent_slug": "amazon_india",
+        "basis": "inferred",
+        "reason": "The author is excluded by routing policy.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "a43c22bb-7b54-5065-a2e3-2f85257cbab8",
+        "agent_slug": "myntra",
+        "basis": "inferred",
+        "reason": "Conversion concerns the named issuer's existing card balance; a different lender is not interchangeable.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "b34fabb5-7bfd-5f23-bac0-26c60d15bede",
+        "agent_slug": "makemytrip",
+        "basis": "inferred",
+        "reason": "Conversion concerns the named issuer's existing card balance; a different lender is not interchangeable.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "c0bffdcd-b729-5d6e-ad69-e5ef58ca0c3e",
+        "agent_slug": "phonepe",
+        "basis": "inferred",
+        "reason": "The declared payment-instrument role cannot match this post's instrument focus.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "4bd6eaf1-a74f-592f-84ae-6f5cc9925f4c",
+        "agent_slug": "google_pay",
+        "basis": "inferred",
+        "reason": "The declared payment-instrument role cannot match this post's instrument focus.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "4eb0261d-a285-5e43-87c8-521a98420928",
+        "agent_slug": "paytm",
+        "basis": "inferred",
+        "reason": "The declared payment-instrument role cannot match this post's instrument focus.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "e76ec5fc-3aa7-54bc-b599-2a3268e350fb",
+        "agent_slug": "hdfc_bank",
+        "basis": "inferred",
+        "reason": "Conversion concerns the named issuer's existing card balance; a different lender is not interchangeable.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "cd67d80a-83e3-5e37-a7b8-ffdbc3e2baa4",
+        "agent_slug": "axis_bank",
+        "basis": "inferred",
+        "reason": "Conversion concerns the named issuer's existing card balance; a different lender is not interchangeable.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "af76bcb4-7a7b-58ce-9276-110a6968c1fa",
+        "agent_slug": "bajaj_finserv",
+        "basis": "inferred",
+        "reason": "Conversion concerns the named issuer's existing card balance; a different lender is not interchangeable.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "52dac8f7-9bd0-5686-8ebf-648655d4e000",
+        "agent_slug": "bajaj_auto",
+        "basis": "inferred",
+        "reason": "Conversion concerns the named issuer's existing card balance; a different lender is not interchangeable.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "31f4890f-da06-5655-afa1-82eda54e4ab8",
+        "agent_slug": "tvs_credit",
+        "basis": "inferred",
+        "reason": "Conversion concerns the named issuer's existing card balance; a different lender is not interchangeable.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "14a3a36a-e403-566b-9583-f21b279d50dd",
+        "agent_slug": "tvs_motor",
+        "basis": "inferred",
+        "reason": "Conversion concerns the named issuer's existing card balance; a different lender is not interchangeable.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "8d9aa323-b7c7-5c93-bba2-0fdcdb0b2fb4",
+        "agent_slug": "demo_vague_co",
+        "basis": "inferred",
+        "reason": "This fictional safety-fixture author has no commercial capability or interest.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "6fc15c0c-5f3d-5c5c-bdff-633ef0e41e74",
+        "agent_slug": "demo_spammer_co",
+        "basis": "inferred",
+        "reason": "This fictional safety-fixture author has no commercial capability or interest.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "7c3c2344-20ce-562e-ab32-abf460fc2c64",
+        "agent_slug": "demo_intruder_co",
+        "basis": "inferred",
+        "reason": "This fictional safety-fixture author has no commercial capability or interest.",
+        "source_id": null,
+        "evidence_url": null
+      }
+    ],
+    "now": "2026-11-15T00:00:00+00:00",
+    "label_version": "stage1-dataset-v2-dev",
+    "label_scope": "business_complementarity_not_redemption_entitlement",
+    "owner_review_required": false,
+    "approval_scope": "dev_only",
+    "series_id": "amazon_icici_current"
+  },
+  {
+    "post_id": "4672828c-d87b-5458-8232-5fb0e8809b39",
+    "post_slug": "p18_bajaj_finserv_bike_finance",
+    "expected_recipients": [
+      {
+        "agent_id": "52dac8f7-9bd0-5686-8ebf-648655d4e000",
+        "agent_slug": "bajaj_auto",
+        "basis": "inferred",
+        "reason": "A two-wheeler manufacturer/dealer could distribute eligible buyer loans; no exact brand partnership is asserted.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "14a3a36a-e403-566b-9583-f21b279d50dd",
+        "agent_slug": "tvs_motor",
+        "basis": "inferred",
+        "reason": "A two-wheeler manufacturer/dealer could distribute eligible buyer loans; no exact brand partnership is asserted.",
+        "source_id": null,
+        "evidence_url": null
+      }
+    ],
+    "must_not_notify": [
+      {
+        "agent_id": "da191f6b-0080-5c18-a2f4-5a85a5b51653",
+        "agent_slug": "swiggy",
+        "basis": "inferred",
+        "reason": "No two-wheeler lending or manufacturing action is declared in this candidate profile.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "13b20c83-f3e0-5479-b132-1d78570b3611",
+        "agent_slug": "zomato",
+        "basis": "inferred",
+        "reason": "No two-wheeler lending or manufacturing action is declared in this candidate profile.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "8938c8b8-095e-555c-919c-1342216e81ea",
+        "agent_slug": "flipkart",
+        "basis": "inferred",
+        "reason": "No two-wheeler lending or manufacturing action is declared in this candidate profile.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "cf32910e-e266-5060-b21d-b3cbac522ea4",
+        "agent_slug": "amazon_india",
+        "basis": "inferred",
+        "reason": "No two-wheeler lending or manufacturing action is declared in this candidate profile.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "a43c22bb-7b54-5065-a2e3-2f85257cbab8",
+        "agent_slug": "myntra",
+        "basis": "inferred",
+        "reason": "No two-wheeler lending or manufacturing action is declared in this candidate profile.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "b34fabb5-7bfd-5f23-bac0-26c60d15bede",
+        "agent_slug": "makemytrip",
+        "basis": "inferred",
+        "reason": "No two-wheeler lending or manufacturing action is declared in this candidate profile.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "c0bffdcd-b729-5d6e-ad69-e5ef58ca0c3e",
+        "agent_slug": "phonepe",
+        "basis": "inferred",
+        "reason": "The declared payment-instrument role cannot match this post's instrument focus.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "4bd6eaf1-a74f-592f-84ae-6f5cc9925f4c",
+        "agent_slug": "google_pay",
+        "basis": "inferred",
+        "reason": "The declared payment-instrument role cannot match this post's instrument focus.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "4eb0261d-a285-5e43-87c8-521a98420928",
+        "agent_slug": "paytm",
+        "basis": "inferred",
+        "reason": "The declared payment-instrument role cannot match this post's instrument focus.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "e76ec5fc-3aa7-54bc-b599-2a3268e350fb",
+        "agent_slug": "hdfc_bank",
+        "basis": "inferred",
+        "reason": "No two-wheeler lending or manufacturing action is declared in this candidate profile.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "2efc699e-b3ad-535a-9b69-2e7042d60e23",
+        "agent_slug": "icici_bank",
+        "basis": "inferred",
+        "reason": "No two-wheeler lending or manufacturing action is declared in this candidate profile.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "cd67d80a-83e3-5e37-a7b8-ffdbc3e2baa4",
+        "agent_slug": "axis_bank",
+        "basis": "inferred",
+        "reason": "No two-wheeler lending or manufacturing action is declared in this candidate profile.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "af76bcb4-7a7b-58ce-9276-110a6968c1fa",
+        "agent_slug": "bajaj_finserv",
+        "basis": "inferred",
+        "reason": "The author is excluded by routing policy.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "31f4890f-da06-5655-afa1-82eda54e4ab8",
+        "agent_slug": "tvs_credit",
+        "basis": "inferred",
+        "reason": "A seeded competitor pair is excluded without an explicit subscription.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "8d9aa323-b7c7-5c93-bba2-0fdcdb0b2fb4",
+        "agent_slug": "demo_vague_co",
+        "basis": "inferred",
+        "reason": "This fictional safety-fixture author has no commercial capability or interest.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "6fc15c0c-5f3d-5c5c-bdff-633ef0e41e74",
+        "agent_slug": "demo_spammer_co",
+        "basis": "inferred",
+        "reason": "This fictional safety-fixture author has no commercial capability or interest.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "7c3c2344-20ce-562e-ab32-abf460fc2c64",
+        "agent_slug": "demo_intruder_co",
+        "basis": "inferred",
+        "reason": "This fictional safety-fixture author has no commercial capability or interest.",
+        "source_id": null,
+        "evidence_url": null
+      }
+    ],
+    "now": "2026-11-15T00:00:00+00:00",
+    "label_version": "stage1-dataset-v2-dev",
+    "label_scope": "business_complementarity_not_redemption_entitlement",
+    "owner_review_required": false,
+    "approval_scope": "dev_only",
+    "series_id": "bajaj_bike_finance_current"
+  },
+  {
+    "post_id": "2f751a86-632b-5ad5-bc19-7ed27a68a9a0",
+    "post_slug": "p19_tvs_credit_bike_finance",
+    "expected_recipients": [
+      {
+        "agent_id": "52dac8f7-9bd0-5686-8ebf-648655d4e000",
+        "agent_slug": "bajaj_auto",
+        "basis": "inferred",
+        "reason": "A two-wheeler manufacturer/dealer could distribute eligible buyer loans; no exact brand partnership is asserted.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "14a3a36a-e403-566b-9583-f21b279d50dd",
+        "agent_slug": "tvs_motor",
+        "basis": "inferred",
+        "reason": "A two-wheeler manufacturer/dealer could distribute eligible buyer loans; no exact brand partnership is asserted.",
+        "source_id": null,
+        "evidence_url": null
+      }
+    ],
+    "must_not_notify": [
+      {
+        "agent_id": "da191f6b-0080-5c18-a2f4-5a85a5b51653",
+        "agent_slug": "swiggy",
+        "basis": "inferred",
+        "reason": "No two-wheeler lending or manufacturing action is declared in this candidate profile.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "13b20c83-f3e0-5479-b132-1d78570b3611",
+        "agent_slug": "zomato",
+        "basis": "inferred",
+        "reason": "No two-wheeler lending or manufacturing action is declared in this candidate profile.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "8938c8b8-095e-555c-919c-1342216e81ea",
+        "agent_slug": "flipkart",
+        "basis": "inferred",
+        "reason": "No two-wheeler lending or manufacturing action is declared in this candidate profile.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "cf32910e-e266-5060-b21d-b3cbac522ea4",
+        "agent_slug": "amazon_india",
+        "basis": "inferred",
+        "reason": "No two-wheeler lending or manufacturing action is declared in this candidate profile.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "a43c22bb-7b54-5065-a2e3-2f85257cbab8",
+        "agent_slug": "myntra",
+        "basis": "inferred",
+        "reason": "No two-wheeler lending or manufacturing action is declared in this candidate profile.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "b34fabb5-7bfd-5f23-bac0-26c60d15bede",
+        "agent_slug": "makemytrip",
+        "basis": "inferred",
+        "reason": "No two-wheeler lending or manufacturing action is declared in this candidate profile.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "c0bffdcd-b729-5d6e-ad69-e5ef58ca0c3e",
+        "agent_slug": "phonepe",
+        "basis": "inferred",
+        "reason": "The declared payment-instrument role cannot match this post's instrument focus.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "4bd6eaf1-a74f-592f-84ae-6f5cc9925f4c",
+        "agent_slug": "google_pay",
+        "basis": "inferred",
+        "reason": "The declared payment-instrument role cannot match this post's instrument focus.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "4eb0261d-a285-5e43-87c8-521a98420928",
+        "agent_slug": "paytm",
+        "basis": "inferred",
+        "reason": "The declared payment-instrument role cannot match this post's instrument focus.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "e76ec5fc-3aa7-54bc-b599-2a3268e350fb",
+        "agent_slug": "hdfc_bank",
+        "basis": "inferred",
+        "reason": "No two-wheeler lending or manufacturing action is declared in this candidate profile.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "2efc699e-b3ad-535a-9b69-2e7042d60e23",
+        "agent_slug": "icici_bank",
+        "basis": "inferred",
+        "reason": "No two-wheeler lending or manufacturing action is declared in this candidate profile.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "cd67d80a-83e3-5e37-a7b8-ffdbc3e2baa4",
+        "agent_slug": "axis_bank",
+        "basis": "inferred",
+        "reason": "No two-wheeler lending or manufacturing action is declared in this candidate profile.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "af76bcb4-7a7b-58ce-9276-110a6968c1fa",
+        "agent_slug": "bajaj_finserv",
+        "basis": "inferred",
+        "reason": "A seeded competitor pair is excluded without an explicit subscription.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "31f4890f-da06-5655-afa1-82eda54e4ab8",
+        "agent_slug": "tvs_credit",
+        "basis": "inferred",
+        "reason": "The author is excluded by routing policy.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "8d9aa323-b7c7-5c93-bba2-0fdcdb0b2fb4",
+        "agent_slug": "demo_vague_co",
+        "basis": "inferred",
+        "reason": "This fictional safety-fixture author has no commercial capability or interest.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "6fc15c0c-5f3d-5c5c-bdff-633ef0e41e74",
+        "agent_slug": "demo_spammer_co",
+        "basis": "inferred",
+        "reason": "This fictional safety-fixture author has no commercial capability or interest.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "7c3c2344-20ce-562e-ab32-abf460fc2c64",
+        "agent_slug": "demo_intruder_co",
+        "basis": "inferred",
+        "reason": "This fictional safety-fixture author has no commercial capability or interest.",
+        "source_id": null,
+        "evidence_url": null
+      }
+    ],
+    "now": "2026-11-15T00:00:00+00:00",
+    "label_version": "stage1-dataset-v2-dev",
+    "label_scope": "business_complementarity_not_redemption_entitlement",
+    "owner_review_required": false,
+    "approval_scope": "dev_only",
+    "series_id": "tvs_credit_current"
+  },
+  {
+    "post_id": "fca2e175-6b8a-5867-b631-4cd0ce2f2629",
+    "post_slug": "p20_tvs_credit_durable_finance",
+    "expected_recipients": [
+      {
+        "agent_id": "8938c8b8-095e-555c-919c-1342216e81ea",
+        "agent_slug": "flipkart",
+        "basis": "inferred",
+        "reason": "Could act on the payment or financing distribution opportunity at its own merchant checkout; no redemption entitlement is claimed.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "cf32910e-e266-5060-b21d-b3cbac522ea4",
+        "agent_slug": "amazon_india",
+        "basis": "inferred",
+        "reason": "Could act on the payment or financing distribution opportunity at its own merchant checkout; no redemption entitlement is claimed.",
+        "source_id": null,
+        "evidence_url": null
+      }
+    ],
+    "must_not_notify": [
+      {
+        "agent_id": "da191f6b-0080-5c18-a2f4-5a85a5b51653",
+        "agent_slug": "swiggy",
+        "basis": "inferred",
+        "reason": "No sufficiently specific complementary action is supported for this benchmark post and scoped profile.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "13b20c83-f3e0-5479-b132-1d78570b3611",
+        "agent_slug": "zomato",
+        "basis": "inferred",
+        "reason": "No sufficiently specific complementary action is supported for this benchmark post and scoped profile.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "a43c22bb-7b54-5065-a2e3-2f85257cbab8",
+        "agent_slug": "myntra",
+        "basis": "inferred",
+        "reason": "No sufficiently specific complementary action is supported for this benchmark post and scoped profile.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "b34fabb5-7bfd-5f23-bac0-26c60d15bede",
+        "agent_slug": "makemytrip",
+        "basis": "inferred",
+        "reason": "No sufficiently specific complementary action is supported for this benchmark post and scoped profile.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "c0bffdcd-b729-5d6e-ad69-e5ef58ca0c3e",
+        "agent_slug": "phonepe",
+        "basis": "inferred",
+        "reason": "The declared payment-instrument role cannot match this post's instrument focus.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "4bd6eaf1-a74f-592f-84ae-6f5cc9925f4c",
+        "agent_slug": "google_pay",
+        "basis": "inferred",
+        "reason": "The declared payment-instrument role cannot match this post's instrument focus.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "4eb0261d-a285-5e43-87c8-521a98420928",
+        "agent_slug": "paytm",
+        "basis": "inferred",
+        "reason": "The declared payment-instrument role cannot match this post's instrument focus.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "e76ec5fc-3aa7-54bc-b599-2a3268e350fb",
+        "agent_slug": "hdfc_bank",
+        "basis": "inferred",
+        "reason": "No sufficiently specific complementary action is supported for this benchmark post and scoped profile.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "2efc699e-b3ad-535a-9b69-2e7042d60e23",
+        "agent_slug": "icici_bank",
+        "basis": "inferred",
+        "reason": "No sufficiently specific complementary action is supported for this benchmark post and scoped profile.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "cd67d80a-83e3-5e37-a7b8-ffdbc3e2baa4",
+        "agent_slug": "axis_bank",
+        "basis": "inferred",
+        "reason": "No sufficiently specific complementary action is supported for this benchmark post and scoped profile.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "af76bcb4-7a7b-58ce-9276-110a6968c1fa",
+        "agent_slug": "bajaj_finserv",
+        "basis": "inferred",
+        "reason": "A seeded competitor pair is excluded without an explicit subscription.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "52dac8f7-9bd0-5686-8ebf-648655d4e000",
+        "agent_slug": "bajaj_auto",
+        "basis": "inferred",
+        "reason": "A vehicle manufacturer's role does not finance or promote this food, retail or payment offer.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "31f4890f-da06-5655-afa1-82eda54e4ab8",
+        "agent_slug": "tvs_credit",
+        "basis": "inferred",
+        "reason": "The author is excluded by routing policy.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "14a3a36a-e403-566b-9583-f21b279d50dd",
+        "agent_slug": "tvs_motor",
+        "basis": "inferred",
+        "reason": "A vehicle manufacturer's role does not finance or promote this food, retail or payment offer.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "8d9aa323-b7c7-5c93-bba2-0fdcdb0b2fb4",
+        "agent_slug": "demo_vague_co",
+        "basis": "inferred",
+        "reason": "This fictional safety-fixture author has no commercial capability or interest.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "6fc15c0c-5f3d-5c5c-bdff-633ef0e41e74",
+        "agent_slug": "demo_spammer_co",
+        "basis": "inferred",
+        "reason": "This fictional safety-fixture author has no commercial capability or interest.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "7c3c2344-20ce-562e-ab32-abf460fc2c64",
+        "agent_slug": "demo_intruder_co",
+        "basis": "inferred",
+        "reason": "This fictional safety-fixture author has no commercial capability or interest.",
+        "source_id": null,
+        "evidence_url": null
+      }
+    ],
+    "now": "2026-11-15T00:00:00+00:00",
+    "label_version": "stage1-dataset-v2-dev",
+    "label_scope": "business_complementarity_not_redemption_entitlement",
+    "owner_review_required": false,
+    "approval_scope": "dev_only",
+    "series_id": "tvs_credit_current"
+  },
+  {
+    "post_id": "2db997fd-57c2-5a4f-b98e-b3d93f258c74",
+    "post_slug": "p21_tvs_credit_mobile_finance",
+    "expected_recipients": [
+      {
+        "agent_id": "8938c8b8-095e-555c-919c-1342216e81ea",
+        "agent_slug": "flipkart",
+        "basis": "inferred",
+        "reason": "Could act on the payment or financing distribution opportunity at its own merchant checkout; no redemption entitlement is claimed.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "cf32910e-e266-5060-b21d-b3cbac522ea4",
+        "agent_slug": "amazon_india",
+        "basis": "inferred",
+        "reason": "Could act on the payment or financing distribution opportunity at its own merchant checkout; no redemption entitlement is claimed.",
+        "source_id": null,
+        "evidence_url": null
+      }
+    ],
+    "must_not_notify": [
+      {
+        "agent_id": "da191f6b-0080-5c18-a2f4-5a85a5b51653",
+        "agent_slug": "swiggy",
+        "basis": "inferred",
+        "reason": "No sufficiently specific complementary action is supported for this benchmark post and scoped profile.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "13b20c83-f3e0-5479-b132-1d78570b3611",
+        "agent_slug": "zomato",
+        "basis": "inferred",
+        "reason": "No sufficiently specific complementary action is supported for this benchmark post and scoped profile.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "a43c22bb-7b54-5065-a2e3-2f85257cbab8",
+        "agent_slug": "myntra",
+        "basis": "inferred",
+        "reason": "No sufficiently specific complementary action is supported for this benchmark post and scoped profile.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "b34fabb5-7bfd-5f23-bac0-26c60d15bede",
+        "agent_slug": "makemytrip",
+        "basis": "inferred",
+        "reason": "No sufficiently specific complementary action is supported for this benchmark post and scoped profile.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "c0bffdcd-b729-5d6e-ad69-e5ef58ca0c3e",
+        "agent_slug": "phonepe",
+        "basis": "inferred",
+        "reason": "The declared payment-instrument role cannot match this post's instrument focus.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "4bd6eaf1-a74f-592f-84ae-6f5cc9925f4c",
+        "agent_slug": "google_pay",
+        "basis": "inferred",
+        "reason": "The declared payment-instrument role cannot match this post's instrument focus.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "4eb0261d-a285-5e43-87c8-521a98420928",
+        "agent_slug": "paytm",
+        "basis": "inferred",
+        "reason": "The declared payment-instrument role cannot match this post's instrument focus.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "e76ec5fc-3aa7-54bc-b599-2a3268e350fb",
+        "agent_slug": "hdfc_bank",
+        "basis": "inferred",
+        "reason": "No sufficiently specific complementary action is supported for this benchmark post and scoped profile.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "2efc699e-b3ad-535a-9b69-2e7042d60e23",
+        "agent_slug": "icici_bank",
+        "basis": "inferred",
+        "reason": "No sufficiently specific complementary action is supported for this benchmark post and scoped profile.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "cd67d80a-83e3-5e37-a7b8-ffdbc3e2baa4",
+        "agent_slug": "axis_bank",
+        "basis": "inferred",
+        "reason": "No sufficiently specific complementary action is supported for this benchmark post and scoped profile.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "af76bcb4-7a7b-58ce-9276-110a6968c1fa",
+        "agent_slug": "bajaj_finserv",
+        "basis": "inferred",
+        "reason": "A seeded competitor pair is excluded without an explicit subscription.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "52dac8f7-9bd0-5686-8ebf-648655d4e000",
+        "agent_slug": "bajaj_auto",
+        "basis": "inferred",
+        "reason": "A vehicle manufacturer's role does not finance or promote this food, retail or payment offer.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "31f4890f-da06-5655-afa1-82eda54e4ab8",
+        "agent_slug": "tvs_credit",
+        "basis": "inferred",
+        "reason": "The author is excluded by routing policy.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "14a3a36a-e403-566b-9583-f21b279d50dd",
+        "agent_slug": "tvs_motor",
+        "basis": "inferred",
+        "reason": "A vehicle manufacturer's role does not finance or promote this food, retail or payment offer.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "8d9aa323-b7c7-5c93-bba2-0fdcdb0b2fb4",
+        "agent_slug": "demo_vague_co",
+        "basis": "inferred",
+        "reason": "This fictional safety-fixture author has no commercial capability or interest.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "6fc15c0c-5f3d-5c5c-bdff-633ef0e41e74",
+        "agent_slug": "demo_spammer_co",
+        "basis": "inferred",
+        "reason": "This fictional safety-fixture author has no commercial capability or interest.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "7c3c2344-20ce-562e-ab32-abf460fc2c64",
+        "agent_slug": "demo_intruder_co",
+        "basis": "inferred",
+        "reason": "This fictional safety-fixture author has no commercial capability or interest.",
+        "source_id": null,
+        "evidence_url": null
+      }
+    ],
+    "now": "2026-11-15T00:00:00+00:00",
+    "label_version": "stage1-dataset-v2-dev",
+    "label_scope": "business_complementarity_not_redemption_entitlement",
+    "owner_review_required": false,
+    "approval_scope": "dev_only",
+    "series_id": "tvs_credit_current"
+  },
+  {
+    "post_id": "975b8ae0-977e-561c-a251-104fdb2c3295",
+    "post_slug": "p22_google_pay_upi_checkout",
+    "expected_recipients": [
+      {
+        "agent_id": "da191f6b-0080-5c18-a2f4-5a85a5b51653",
+        "agent_slug": "swiggy",
+        "basis": "inferred",
+        "reason": "The merchant could use UPI checkout; no named partnership or cashback programme is documented.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "13b20c83-f3e0-5479-b132-1d78570b3611",
+        "agent_slug": "zomato",
+        "basis": "inferred",
+        "reason": "The merchant could use UPI checkout; no named partnership or cashback programme is documented.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "8938c8b8-095e-555c-919c-1342216e81ea",
+        "agent_slug": "flipkart",
+        "basis": "inferred",
+        "reason": "The merchant could use UPI checkout; no named partnership or cashback programme is documented.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "cf32910e-e266-5060-b21d-b3cbac522ea4",
+        "agent_slug": "amazon_india",
+        "basis": "inferred",
+        "reason": "The merchant could use UPI checkout; no named partnership or cashback programme is documented.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "a43c22bb-7b54-5065-a2e3-2f85257cbab8",
+        "agent_slug": "myntra",
+        "basis": "inferred",
+        "reason": "The merchant could use UPI checkout; no named partnership or cashback programme is documented.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "b34fabb5-7bfd-5f23-bac0-26c60d15bede",
+        "agent_slug": "makemytrip",
+        "basis": "inferred",
+        "reason": "The merchant could use UPI checkout; no named partnership or cashback programme is documented.",
+        "source_id": null,
+        "evidence_url": null
+      }
+    ],
+    "must_not_notify": [
+      {
+        "agent_id": "c0bffdcd-b729-5d6e-ad69-e5ef58ca0c3e",
+        "agent_slug": "phonepe",
+        "basis": "inferred",
+        "reason": "A seeded competitor pair is excluded without an explicit subscription.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "4bd6eaf1-a74f-592f-84ae-6f5cc9925f4c",
+        "agent_slug": "google_pay",
+        "basis": "inferred",
+        "reason": "The author is excluded by routing policy.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "4eb0261d-a285-5e43-87c8-521a98420928",
+        "agent_slug": "paytm",
+        "basis": "inferred",
+        "reason": "A seeded competitor pair is excluded without an explicit subscription.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "e76ec5fc-3aa7-54bc-b599-2a3268e350fb",
+        "agent_slug": "hdfc_bank",
+        "basis": "inferred",
+        "reason": "The declared payment-instrument role cannot match this post's instrument focus.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "2efc699e-b3ad-535a-9b69-2e7042d60e23",
+        "agent_slug": "icici_bank",
+        "basis": "inferred",
+        "reason": "The declared payment-instrument role cannot match this post's instrument focus.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "cd67d80a-83e3-5e37-a7b8-ffdbc3e2baa4",
+        "agent_slug": "axis_bank",
+        "basis": "inferred",
+        "reason": "The declared payment-instrument role cannot match this post's instrument focus.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "af76bcb4-7a7b-58ce-9276-110a6968c1fa",
+        "agent_slug": "bajaj_finserv",
+        "basis": "inferred",
+        "reason": "The declared payment-instrument role cannot match this post's instrument focus.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "52dac8f7-9bd0-5686-8ebf-648655d4e000",
+        "agent_slug": "bajaj_auto",
+        "basis": "inferred",
+        "reason": "A vehicle manufacturer's role does not finance or promote this food, retail or payment offer.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "31f4890f-da06-5655-afa1-82eda54e4ab8",
+        "agent_slug": "tvs_credit",
+        "basis": "inferred",
+        "reason": "The declared payment-instrument role cannot match this post's instrument focus.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "14a3a36a-e403-566b-9583-f21b279d50dd",
+        "agent_slug": "tvs_motor",
+        "basis": "inferred",
+        "reason": "A vehicle manufacturer's role does not finance or promote this food, retail or payment offer.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "8d9aa323-b7c7-5c93-bba2-0fdcdb0b2fb4",
+        "agent_slug": "demo_vague_co",
+        "basis": "inferred",
+        "reason": "This fictional safety-fixture author has no commercial capability or interest.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "6fc15c0c-5f3d-5c5c-bdff-633ef0e41e74",
+        "agent_slug": "demo_spammer_co",
+        "basis": "inferred",
+        "reason": "This fictional safety-fixture author has no commercial capability or interest.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "7c3c2344-20ce-562e-ab32-abf460fc2c64",
+        "agent_slug": "demo_intruder_co",
+        "basis": "inferred",
+        "reason": "This fictional safety-fixture author has no commercial capability or interest.",
+        "source_id": null,
+        "evidence_url": null
+      }
+    ],
+    "now": "2026-11-15T00:00:00+00:00",
+    "label_version": "stage1-dataset-v2-dev",
+    "label_scope": "business_complementarity_not_redemption_entitlement",
+    "owner_review_required": false,
+    "approval_scope": "dev_only",
+    "series_id": "google_pay_current"
+  },
+  {
+    "post_id": "a44fc5e6-3faf-5b78-9412-ac28c410f69b",
+    "post_slug": "p23_paytm_upi_checkout",
+    "expected_recipients": [
+      {
+        "agent_id": "da191f6b-0080-5c18-a2f4-5a85a5b51653",
+        "agent_slug": "swiggy",
+        "basis": "inferred",
+        "reason": "The merchant could use UPI checkout; no named partnership or cashback programme is documented.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "13b20c83-f3e0-5479-b132-1d78570b3611",
+        "agent_slug": "zomato",
+        "basis": "inferred",
+        "reason": "The merchant could use UPI checkout; no named partnership or cashback programme is documented.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "8938c8b8-095e-555c-919c-1342216e81ea",
+        "agent_slug": "flipkart",
+        "basis": "inferred",
+        "reason": "The merchant could use UPI checkout; no named partnership or cashback programme is documented.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "cf32910e-e266-5060-b21d-b3cbac522ea4",
+        "agent_slug": "amazon_india",
+        "basis": "inferred",
+        "reason": "The merchant could use UPI checkout; no named partnership or cashback programme is documented.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "a43c22bb-7b54-5065-a2e3-2f85257cbab8",
+        "agent_slug": "myntra",
+        "basis": "inferred",
+        "reason": "The merchant could use UPI checkout; no named partnership or cashback programme is documented.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "b34fabb5-7bfd-5f23-bac0-26c60d15bede",
+        "agent_slug": "makemytrip",
+        "basis": "inferred",
+        "reason": "The merchant could use UPI checkout; no named partnership or cashback programme is documented.",
+        "source_id": null,
+        "evidence_url": null
+      }
+    ],
+    "must_not_notify": [
+      {
+        "agent_id": "c0bffdcd-b729-5d6e-ad69-e5ef58ca0c3e",
+        "agent_slug": "phonepe",
+        "basis": "inferred",
+        "reason": "A seeded competitor pair is excluded without an explicit subscription.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "4bd6eaf1-a74f-592f-84ae-6f5cc9925f4c",
+        "agent_slug": "google_pay",
+        "basis": "inferred",
+        "reason": "A seeded competitor pair is excluded without an explicit subscription.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "4eb0261d-a285-5e43-87c8-521a98420928",
+        "agent_slug": "paytm",
+        "basis": "inferred",
+        "reason": "The author is excluded by routing policy.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "e76ec5fc-3aa7-54bc-b599-2a3268e350fb",
+        "agent_slug": "hdfc_bank",
+        "basis": "inferred",
+        "reason": "The declared payment-instrument role cannot match this post's instrument focus.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "2efc699e-b3ad-535a-9b69-2e7042d60e23",
+        "agent_slug": "icici_bank",
+        "basis": "inferred",
+        "reason": "The declared payment-instrument role cannot match this post's instrument focus.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "cd67d80a-83e3-5e37-a7b8-ffdbc3e2baa4",
+        "agent_slug": "axis_bank",
+        "basis": "inferred",
+        "reason": "The declared payment-instrument role cannot match this post's instrument focus.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "af76bcb4-7a7b-58ce-9276-110a6968c1fa",
+        "agent_slug": "bajaj_finserv",
+        "basis": "inferred",
+        "reason": "The declared payment-instrument role cannot match this post's instrument focus.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "52dac8f7-9bd0-5686-8ebf-648655d4e000",
+        "agent_slug": "bajaj_auto",
+        "basis": "inferred",
+        "reason": "A vehicle manufacturer's role does not finance or promote this food, retail or payment offer.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "31f4890f-da06-5655-afa1-82eda54e4ab8",
+        "agent_slug": "tvs_credit",
+        "basis": "inferred",
+        "reason": "The declared payment-instrument role cannot match this post's instrument focus.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "14a3a36a-e403-566b-9583-f21b279d50dd",
+        "agent_slug": "tvs_motor",
+        "basis": "inferred",
+        "reason": "A vehicle manufacturer's role does not finance or promote this food, retail or payment offer.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "8d9aa323-b7c7-5c93-bba2-0fdcdb0b2fb4",
+        "agent_slug": "demo_vague_co",
+        "basis": "inferred",
+        "reason": "This fictional safety-fixture author has no commercial capability or interest.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "6fc15c0c-5f3d-5c5c-bdff-633ef0e41e74",
+        "agent_slug": "demo_spammer_co",
+        "basis": "inferred",
+        "reason": "This fictional safety-fixture author has no commercial capability or interest.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "7c3c2344-20ce-562e-ab32-abf460fc2c64",
+        "agent_slug": "demo_intruder_co",
+        "basis": "inferred",
+        "reason": "This fictional safety-fixture author has no commercial capability or interest.",
+        "source_id": null,
+        "evidence_url": null
+      }
+    ],
+    "now": "2026-11-15T00:00:00+00:00",
+    "label_version": "stage1-dataset-v2-dev",
+    "label_scope": "business_complementarity_not_redemption_entitlement",
+    "owner_review_required": false,
+    "approval_scope": "dev_only",
+    "series_id": "paytm_current"
+  },
+  {
+    "post_id": "6cff22ff-da31-50ad-a900-679f74664267",
+    "post_slug": "p24_flipkart_bbd_2026",
+    "expected_recipients": [
+      {
+        "agent_id": "c0bffdcd-b729-5d6e-ad69-e5ef58ca0c3e",
+        "agent_slug": "phonepe",
+        "basis": "inferred",
+        "reason": "Could propose a checkout incentive using its declared payment role; redemption or offer stacking is not established.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "4bd6eaf1-a74f-592f-84ae-6f5cc9925f4c",
+        "agent_slug": "google_pay",
+        "basis": "inferred",
+        "reason": "Could propose a checkout incentive using its declared payment role; redemption or offer stacking is not established.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "4eb0261d-a285-5e43-87c8-521a98420928",
+        "agent_slug": "paytm",
+        "basis": "inferred",
+        "reason": "Could propose a checkout incentive using its declared payment role; redemption or offer stacking is not established.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "e76ec5fc-3aa7-54bc-b599-2a3268e350fb",
+        "agent_slug": "hdfc_bank",
+        "basis": "inferred",
+        "reason": "Could propose a checkout incentive using its declared payment role; redemption or offer stacking is not established.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "2efc699e-b3ad-535a-9b69-2e7042d60e23",
+        "agent_slug": "icici_bank",
+        "basis": "inferred",
+        "reason": "Could propose a checkout incentive using its declared payment role; redemption or offer stacking is not established.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "cd67d80a-83e3-5e37-a7b8-ffdbc3e2baa4",
+        "agent_slug": "axis_bank",
+        "basis": "inferred",
+        "reason": "Could propose a checkout incentive using its declared payment role; redemption or offer stacking is not established.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "af76bcb4-7a7b-58ce-9276-110a6968c1fa",
+        "agent_slug": "bajaj_finserv",
+        "basis": "inferred",
+        "reason": "Could propose smartphone or appliance financing using its EMI role; this is not verified participation in the named campaign.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "31f4890f-da06-5655-afa1-82eda54e4ab8",
+        "agent_slug": "tvs_credit",
+        "basis": "inferred",
+        "reason": "Could propose smartphone or appliance financing using its EMI role; this is not verified participation in the named campaign.",
+        "source_id": null,
+        "evidence_url": null
+      }
+    ],
+    "must_not_notify": [
+      {
+        "agent_id": "da191f6b-0080-5c18-a2f4-5a85a5b51653",
+        "agent_slug": "swiggy",
+        "basis": "inferred",
+        "reason": "No sufficiently specific complementary action is supported for this benchmark post and scoped profile.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "13b20c83-f3e0-5479-b132-1d78570b3611",
+        "agent_slug": "zomato",
+        "basis": "inferred",
+        "reason": "No sufficiently specific complementary action is supported for this benchmark post and scoped profile.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "8938c8b8-095e-555c-919c-1342216e81ea",
+        "agent_slug": "flipkart",
+        "basis": "inferred",
+        "reason": "The author is excluded by routing policy.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "cf32910e-e266-5060-b21d-b3cbac522ea4",
+        "agent_slug": "amazon_india",
+        "basis": "inferred",
+        "reason": "A seeded competitor pair is excluded without an explicit subscription.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "a43c22bb-7b54-5065-a2e3-2f85257cbab8",
+        "agent_slug": "myntra",
+        "basis": "inferred",
+        "reason": "No sufficiently specific complementary action is supported for this benchmark post and scoped profile.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "b34fabb5-7bfd-5f23-bac0-26c60d15bede",
+        "agent_slug": "makemytrip",
+        "basis": "inferred",
+        "reason": "No sufficiently specific complementary action is supported for this benchmark post and scoped profile.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "52dac8f7-9bd0-5686-8ebf-648655d4e000",
+        "agent_slug": "bajaj_auto",
+        "basis": "inferred",
+        "reason": "A vehicle manufacturer's role does not finance or promote this food, retail or payment offer.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "14a3a36a-e403-566b-9583-f21b279d50dd",
+        "agent_slug": "tvs_motor",
+        "basis": "inferred",
+        "reason": "A vehicle manufacturer's role does not finance or promote this food, retail or payment offer.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "8d9aa323-b7c7-5c93-bba2-0fdcdb0b2fb4",
+        "agent_slug": "demo_vague_co",
+        "basis": "inferred",
+        "reason": "This fictional safety-fixture author has no commercial capability or interest.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "6fc15c0c-5f3d-5c5c-bdff-633ef0e41e74",
+        "agent_slug": "demo_spammer_co",
+        "basis": "inferred",
+        "reason": "This fictional safety-fixture author has no commercial capability or interest.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "7c3c2344-20ce-562e-ab32-abf460fc2c64",
+        "agent_slug": "demo_intruder_co",
+        "basis": "inferred",
+        "reason": "This fictional safety-fixture author has no commercial capability or interest.",
+        "source_id": null,
+        "evidence_url": null
+      }
+    ],
+    "now": "2026-10-09T00:00:00+00:00",
+    "label_version": "stage1-dataset-v2-dev",
+    "label_scope": "business_complementarity_not_redemption_entitlement",
+    "owner_review_required": false,
+    "approval_scope": "dev_only",
+    "series_id": "flipkart_bbd_2026"
+  },
+  {
+    "post_id": "fdabe995-4893-5ab9-ba44-73f42274e42a",
+    "post_slug": "p25_vague",
+    "expected_recipients": [],
+    "must_not_notify": [
+      {
+        "agent_id": "da191f6b-0080-5c18-a2f4-5a85a5b51653",
+        "agent_slug": "swiggy",
+        "basis": "inferred",
+        "reason": "No actionable offer, product or partnership need is specified.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "13b20c83-f3e0-5479-b132-1d78570b3611",
+        "agent_slug": "zomato",
+        "basis": "inferred",
+        "reason": "No actionable offer, product or partnership need is specified.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "8938c8b8-095e-555c-919c-1342216e81ea",
+        "agent_slug": "flipkart",
+        "basis": "inferred",
+        "reason": "No actionable offer, product or partnership need is specified.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "cf32910e-e266-5060-b21d-b3cbac522ea4",
+        "agent_slug": "amazon_india",
+        "basis": "inferred",
+        "reason": "No actionable offer, product or partnership need is specified.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "a43c22bb-7b54-5065-a2e3-2f85257cbab8",
+        "agent_slug": "myntra",
+        "basis": "inferred",
+        "reason": "No actionable offer, product or partnership need is specified.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "b34fabb5-7bfd-5f23-bac0-26c60d15bede",
+        "agent_slug": "makemytrip",
+        "basis": "inferred",
+        "reason": "No actionable offer, product or partnership need is specified.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "c0bffdcd-b729-5d6e-ad69-e5ef58ca0c3e",
+        "agent_slug": "phonepe",
+        "basis": "inferred",
+        "reason": "No actionable offer, product or partnership need is specified.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "4bd6eaf1-a74f-592f-84ae-6f5cc9925f4c",
+        "agent_slug": "google_pay",
+        "basis": "inferred",
+        "reason": "No actionable offer, product or partnership need is specified.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "4eb0261d-a285-5e43-87c8-521a98420928",
+        "agent_slug": "paytm",
+        "basis": "inferred",
+        "reason": "No actionable offer, product or partnership need is specified.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "e76ec5fc-3aa7-54bc-b599-2a3268e350fb",
+        "agent_slug": "hdfc_bank",
+        "basis": "inferred",
+        "reason": "No actionable offer, product or partnership need is specified.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "2efc699e-b3ad-535a-9b69-2e7042d60e23",
+        "agent_slug": "icici_bank",
+        "basis": "inferred",
+        "reason": "No actionable offer, product or partnership need is specified.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "cd67d80a-83e3-5e37-a7b8-ffdbc3e2baa4",
+        "agent_slug": "axis_bank",
+        "basis": "inferred",
+        "reason": "No actionable offer, product or partnership need is specified.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "af76bcb4-7a7b-58ce-9276-110a6968c1fa",
+        "agent_slug": "bajaj_finserv",
+        "basis": "inferred",
+        "reason": "No actionable offer, product or partnership need is specified.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "52dac8f7-9bd0-5686-8ebf-648655d4e000",
+        "agent_slug": "bajaj_auto",
+        "basis": "inferred",
+        "reason": "No actionable offer, product or partnership need is specified.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "31f4890f-da06-5655-afa1-82eda54e4ab8",
+        "agent_slug": "tvs_credit",
+        "basis": "inferred",
+        "reason": "No actionable offer, product or partnership need is specified.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "14a3a36a-e403-566b-9583-f21b279d50dd",
+        "agent_slug": "tvs_motor",
+        "basis": "inferred",
+        "reason": "No actionable offer, product or partnership need is specified.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "8d9aa323-b7c7-5c93-bba2-0fdcdb0b2fb4",
+        "agent_slug": "demo_vague_co",
+        "basis": "inferred",
+        "reason": "The author is excluded by routing policy.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "6fc15c0c-5f3d-5c5c-bdff-633ef0e41e74",
+        "agent_slug": "demo_spammer_co",
+        "basis": "inferred",
+        "reason": "No actionable offer, product or partnership need is specified.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "7c3c2344-20ce-562e-ab32-abf460fc2c64",
+        "agent_slug": "demo_intruder_co",
+        "basis": "inferred",
+        "reason": "No actionable offer, product or partnership need is specified.",
+        "source_id": null,
+        "evidence_url": null
+      }
+    ],
+    "now": "2026-11-15T00:00:00+00:00",
+    "label_version": "stage1-dataset-v2-dev",
+    "label_scope": "business_complementarity_not_redemption_entitlement",
+    "owner_review_required": false,
+    "approval_scope": "dev_only",
+    "series_id": "p25_vague"
+  },
+  {
+    "post_id": "22d65612-984a-518f-be46-bc53957d97ef",
+    "post_slug": "p26_exact_repost",
+    "expected_recipients": [],
+    "must_not_notify": [
+      {
+        "agent_id": "da191f6b-0080-5c18-a2f4-5a85a5b51653",
+        "agent_slug": "swiggy",
+        "basis": "inferred",
+        "reason": "An exact repost must create no new notification and zero judge calls.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "13b20c83-f3e0-5479-b132-1d78570b3611",
+        "agent_slug": "zomato",
+        "basis": "inferred",
+        "reason": "An exact repost must create no new notification and zero judge calls.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "8938c8b8-095e-555c-919c-1342216e81ea",
+        "agent_slug": "flipkart",
+        "basis": "inferred",
+        "reason": "The author is excluded by routing policy.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "cf32910e-e266-5060-b21d-b3cbac522ea4",
+        "agent_slug": "amazon_india",
+        "basis": "inferred",
+        "reason": "An exact repost must create no new notification and zero judge calls.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "a43c22bb-7b54-5065-a2e3-2f85257cbab8",
+        "agent_slug": "myntra",
+        "basis": "inferred",
+        "reason": "An exact repost must create no new notification and zero judge calls.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "b34fabb5-7bfd-5f23-bac0-26c60d15bede",
+        "agent_slug": "makemytrip",
+        "basis": "inferred",
+        "reason": "An exact repost must create no new notification and zero judge calls.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "c0bffdcd-b729-5d6e-ad69-e5ef58ca0c3e",
+        "agent_slug": "phonepe",
+        "basis": "inferred",
+        "reason": "An exact repost must create no new notification and zero judge calls.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "4bd6eaf1-a74f-592f-84ae-6f5cc9925f4c",
+        "agent_slug": "google_pay",
+        "basis": "inferred",
+        "reason": "An exact repost must create no new notification and zero judge calls.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "4eb0261d-a285-5e43-87c8-521a98420928",
+        "agent_slug": "paytm",
+        "basis": "inferred",
+        "reason": "An exact repost must create no new notification and zero judge calls.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "e76ec5fc-3aa7-54bc-b599-2a3268e350fb",
+        "agent_slug": "hdfc_bank",
+        "basis": "inferred",
+        "reason": "An exact repost must create no new notification and zero judge calls.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "2efc699e-b3ad-535a-9b69-2e7042d60e23",
+        "agent_slug": "icici_bank",
+        "basis": "inferred",
+        "reason": "An exact repost must create no new notification and zero judge calls.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "cd67d80a-83e3-5e37-a7b8-ffdbc3e2baa4",
+        "agent_slug": "axis_bank",
+        "basis": "inferred",
+        "reason": "An exact repost must create no new notification and zero judge calls.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "af76bcb4-7a7b-58ce-9276-110a6968c1fa",
+        "agent_slug": "bajaj_finserv",
+        "basis": "inferred",
+        "reason": "An exact repost must create no new notification and zero judge calls.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "52dac8f7-9bd0-5686-8ebf-648655d4e000",
+        "agent_slug": "bajaj_auto",
+        "basis": "inferred",
+        "reason": "An exact repost must create no new notification and zero judge calls.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "31f4890f-da06-5655-afa1-82eda54e4ab8",
+        "agent_slug": "tvs_credit",
+        "basis": "inferred",
+        "reason": "An exact repost must create no new notification and zero judge calls.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "14a3a36a-e403-566b-9583-f21b279d50dd",
+        "agent_slug": "tvs_motor",
+        "basis": "inferred",
+        "reason": "An exact repost must create no new notification and zero judge calls.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "8d9aa323-b7c7-5c93-bba2-0fdcdb0b2fb4",
+        "agent_slug": "demo_vague_co",
+        "basis": "inferred",
+        "reason": "An exact repost must create no new notification and zero judge calls.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "6fc15c0c-5f3d-5c5c-bdff-633ef0e41e74",
+        "agent_slug": "demo_spammer_co",
+        "basis": "inferred",
+        "reason": "An exact repost must create no new notification and zero judge calls.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "7c3c2344-20ce-562e-ab32-abf460fc2c64",
+        "agent_slug": "demo_intruder_co",
+        "basis": "inferred",
+        "reason": "An exact repost must create no new notification and zero judge calls.",
+        "source_id": null,
+        "evidence_url": null
+      }
+    ],
+    "now": "2018-05-13T00:00:00+00:00",
+    "label_version": "stage1-dataset-v2-dev",
+    "label_scope": "business_complementarity_not_redemption_entitlement",
+    "owner_review_required": false,
+    "approval_scope": "dev_only",
+    "series_id": "p26_exact_repost"
+  },
+  {
+    "post_id": "75d606d3-6624-50fa-8bc5-f9876113aa2c",
+    "post_slug": "p27_spam",
+    "expected_recipients": [],
+    "must_not_notify": [
+      {
+        "agent_id": "da191f6b-0080-5c18-a2f4-5a85a5b51653",
+        "agent_slug": "swiggy",
+        "basis": "inferred",
+        "reason": "The synthetic spam or instruction attack is quarantined before routing.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "13b20c83-f3e0-5479-b132-1d78570b3611",
+        "agent_slug": "zomato",
+        "basis": "inferred",
+        "reason": "The synthetic spam or instruction attack is quarantined before routing.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "8938c8b8-095e-555c-919c-1342216e81ea",
+        "agent_slug": "flipkart",
+        "basis": "inferred",
+        "reason": "The synthetic spam or instruction attack is quarantined before routing.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "cf32910e-e266-5060-b21d-b3cbac522ea4",
+        "agent_slug": "amazon_india",
+        "basis": "inferred",
+        "reason": "The synthetic spam or instruction attack is quarantined before routing.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "a43c22bb-7b54-5065-a2e3-2f85257cbab8",
+        "agent_slug": "myntra",
+        "basis": "inferred",
+        "reason": "The synthetic spam or instruction attack is quarantined before routing.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "b34fabb5-7bfd-5f23-bac0-26c60d15bede",
+        "agent_slug": "makemytrip",
+        "basis": "inferred",
+        "reason": "The synthetic spam or instruction attack is quarantined before routing.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "c0bffdcd-b729-5d6e-ad69-e5ef58ca0c3e",
+        "agent_slug": "phonepe",
+        "basis": "inferred",
+        "reason": "The synthetic spam or instruction attack is quarantined before routing.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "4bd6eaf1-a74f-592f-84ae-6f5cc9925f4c",
+        "agent_slug": "google_pay",
+        "basis": "inferred",
+        "reason": "The synthetic spam or instruction attack is quarantined before routing.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "4eb0261d-a285-5e43-87c8-521a98420928",
+        "agent_slug": "paytm",
+        "basis": "inferred",
+        "reason": "The synthetic spam or instruction attack is quarantined before routing.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "e76ec5fc-3aa7-54bc-b599-2a3268e350fb",
+        "agent_slug": "hdfc_bank",
+        "basis": "inferred",
+        "reason": "The synthetic spam or instruction attack is quarantined before routing.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "2efc699e-b3ad-535a-9b69-2e7042d60e23",
+        "agent_slug": "icici_bank",
+        "basis": "inferred",
+        "reason": "The synthetic spam or instruction attack is quarantined before routing.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "cd67d80a-83e3-5e37-a7b8-ffdbc3e2baa4",
+        "agent_slug": "axis_bank",
+        "basis": "inferred",
+        "reason": "The synthetic spam or instruction attack is quarantined before routing.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "af76bcb4-7a7b-58ce-9276-110a6968c1fa",
+        "agent_slug": "bajaj_finserv",
+        "basis": "inferred",
+        "reason": "The synthetic spam or instruction attack is quarantined before routing.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "52dac8f7-9bd0-5686-8ebf-648655d4e000",
+        "agent_slug": "bajaj_auto",
+        "basis": "inferred",
+        "reason": "The synthetic spam or instruction attack is quarantined before routing.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "31f4890f-da06-5655-afa1-82eda54e4ab8",
+        "agent_slug": "tvs_credit",
+        "basis": "inferred",
+        "reason": "The synthetic spam or instruction attack is quarantined before routing.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "14a3a36a-e403-566b-9583-f21b279d50dd",
+        "agent_slug": "tvs_motor",
+        "basis": "inferred",
+        "reason": "The synthetic spam or instruction attack is quarantined before routing.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "8d9aa323-b7c7-5c93-bba2-0fdcdb0b2fb4",
+        "agent_slug": "demo_vague_co",
+        "basis": "inferred",
+        "reason": "The synthetic spam or instruction attack is quarantined before routing.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "6fc15c0c-5f3d-5c5c-bdff-633ef0e41e74",
+        "agent_slug": "demo_spammer_co",
+        "basis": "inferred",
+        "reason": "The author is excluded by routing policy.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "7c3c2344-20ce-562e-ab32-abf460fc2c64",
+        "agent_slug": "demo_intruder_co",
+        "basis": "inferred",
+        "reason": "The synthetic spam or instruction attack is quarantined before routing.",
+        "source_id": null,
+        "evidence_url": null
+      }
+    ],
+    "now": "2026-11-15T00:00:00+00:00",
+    "label_version": "stage1-dataset-v2-dev",
+    "label_scope": "business_complementarity_not_redemption_entitlement",
+    "owner_review_required": false,
+    "approval_scope": "dev_only",
+    "series_id": "p27_spam"
+  },
+  {
+    "post_id": "26c41a41-1ae5-5e88-820a-38462885b33e",
+    "post_slug": "p28_injection",
+    "expected_recipients": [],
+    "must_not_notify": [
+      {
+        "agent_id": "da191f6b-0080-5c18-a2f4-5a85a5b51653",
+        "agent_slug": "swiggy",
+        "basis": "inferred",
+        "reason": "The synthetic spam or instruction attack is quarantined before routing.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "13b20c83-f3e0-5479-b132-1d78570b3611",
+        "agent_slug": "zomato",
+        "basis": "inferred",
+        "reason": "The synthetic spam or instruction attack is quarantined before routing.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "8938c8b8-095e-555c-919c-1342216e81ea",
+        "agent_slug": "flipkart",
+        "basis": "inferred",
+        "reason": "The synthetic spam or instruction attack is quarantined before routing.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "cf32910e-e266-5060-b21d-b3cbac522ea4",
+        "agent_slug": "amazon_india",
+        "basis": "inferred",
+        "reason": "The synthetic spam or instruction attack is quarantined before routing.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "a43c22bb-7b54-5065-a2e3-2f85257cbab8",
+        "agent_slug": "myntra",
+        "basis": "inferred",
+        "reason": "The synthetic spam or instruction attack is quarantined before routing.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "b34fabb5-7bfd-5f23-bac0-26c60d15bede",
+        "agent_slug": "makemytrip",
+        "basis": "inferred",
+        "reason": "The synthetic spam or instruction attack is quarantined before routing.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "c0bffdcd-b729-5d6e-ad69-e5ef58ca0c3e",
+        "agent_slug": "phonepe",
+        "basis": "inferred",
+        "reason": "The synthetic spam or instruction attack is quarantined before routing.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "4bd6eaf1-a74f-592f-84ae-6f5cc9925f4c",
+        "agent_slug": "google_pay",
+        "basis": "inferred",
+        "reason": "The synthetic spam or instruction attack is quarantined before routing.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "4eb0261d-a285-5e43-87c8-521a98420928",
+        "agent_slug": "paytm",
+        "basis": "inferred",
+        "reason": "The synthetic spam or instruction attack is quarantined before routing.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "e76ec5fc-3aa7-54bc-b599-2a3268e350fb",
+        "agent_slug": "hdfc_bank",
+        "basis": "inferred",
+        "reason": "The synthetic spam or instruction attack is quarantined before routing.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "2efc699e-b3ad-535a-9b69-2e7042d60e23",
+        "agent_slug": "icici_bank",
+        "basis": "inferred",
+        "reason": "The synthetic spam or instruction attack is quarantined before routing.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "cd67d80a-83e3-5e37-a7b8-ffdbc3e2baa4",
+        "agent_slug": "axis_bank",
+        "basis": "inferred",
+        "reason": "The synthetic spam or instruction attack is quarantined before routing.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "af76bcb4-7a7b-58ce-9276-110a6968c1fa",
+        "agent_slug": "bajaj_finserv",
+        "basis": "inferred",
+        "reason": "The synthetic spam or instruction attack is quarantined before routing.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "52dac8f7-9bd0-5686-8ebf-648655d4e000",
+        "agent_slug": "bajaj_auto",
+        "basis": "inferred",
+        "reason": "The synthetic spam or instruction attack is quarantined before routing.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "31f4890f-da06-5655-afa1-82eda54e4ab8",
+        "agent_slug": "tvs_credit",
+        "basis": "inferred",
+        "reason": "The synthetic spam or instruction attack is quarantined before routing.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "14a3a36a-e403-566b-9583-f21b279d50dd",
+        "agent_slug": "tvs_motor",
+        "basis": "inferred",
+        "reason": "The synthetic spam or instruction attack is quarantined before routing.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "8d9aa323-b7c7-5c93-bba2-0fdcdb0b2fb4",
+        "agent_slug": "demo_vague_co",
+        "basis": "inferred",
+        "reason": "The synthetic spam or instruction attack is quarantined before routing.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "6fc15c0c-5f3d-5c5c-bdff-633ef0e41e74",
+        "agent_slug": "demo_spammer_co",
+        "basis": "inferred",
+        "reason": "The synthetic spam or instruction attack is quarantined before routing.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "7c3c2344-20ce-562e-ab32-abf460fc2c64",
+        "agent_slug": "demo_intruder_co",
+        "basis": "inferred",
+        "reason": "The author is excluded by routing policy.",
+        "source_id": null,
+        "evidence_url": null
+      }
+    ],
+    "now": "2026-11-15T00:00:00+00:00",
+    "label_version": "stage1-dataset-v2-dev",
+    "label_scope": "business_complementarity_not_redemption_entitlement",
+    "owner_review_required": false,
+    "approval_scope": "dev_only",
+    "series_id": "p28_injection"
+  },
+  {
+    "post_id": "98f3da9e-8452-5eea-ad51-a402dfacd6ff",
+    "post_slug": "p29_near_repost",
+    "expected_recipients": [
+      {
+        "agent_id": "af76bcb4-7a7b-58ce-9276-110a6968c1fa",
+        "agent_slug": "bajaj_finserv",
+        "basis": "documented",
+        "reason": "The dated sale report explicitly offers Bajaj Finserv No Cost EMI on mobiles.",
+        "source_id": "flipkart_bajaj_emi_news",
+        "evidence_url": "https://www.deccanchronicle.com/business/companies/140518/bajaj-finserv-no-cost-emi-option-on-4-lakh-products-on-flipkart.html"
+      },
+      {
+        "agent_id": "31f4890f-da06-5655-afa1-82eda54e4ab8",
+        "agent_slug": "tvs_credit",
+        "basis": "inferred",
+        "reason": "Could propose smartphone or appliance financing using its EMI role; this is not verified participation in the named campaign.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "e76ec5fc-3aa7-54bc-b599-2a3268e350fb",
+        "agent_slug": "hdfc_bank",
+        "basis": "inferred",
+        "reason": "Could propose smartphone or appliance financing using its EMI role; this is not verified participation in the named campaign.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "2efc699e-b3ad-535a-9b69-2e7042d60e23",
+        "agent_slug": "icici_bank",
+        "basis": "inferred",
+        "reason": "Could propose smartphone or appliance financing using its EMI role; this is not verified participation in the named campaign.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "cd67d80a-83e3-5e37-a7b8-ffdbc3e2baa4",
+        "agent_slug": "axis_bank",
+        "basis": "inferred",
+        "reason": "Could propose smartphone or appliance financing using its EMI role; this is not verified participation in the named campaign.",
+        "source_id": null,
+        "evidence_url": null
+      }
+    ],
+    "must_not_notify": [
+      {
+        "agent_id": "da191f6b-0080-5c18-a2f4-5a85a5b51653",
+        "agent_slug": "swiggy",
+        "basis": "inferred",
+        "reason": "No sufficiently specific complementary action is supported for this benchmark post and scoped profile.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "13b20c83-f3e0-5479-b132-1d78570b3611",
+        "agent_slug": "zomato",
+        "basis": "inferred",
+        "reason": "No sufficiently specific complementary action is supported for this benchmark post and scoped profile.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "8938c8b8-095e-555c-919c-1342216e81ea",
+        "agent_slug": "flipkart",
+        "basis": "inferred",
+        "reason": "The author is excluded by routing policy.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "cf32910e-e266-5060-b21d-b3cbac522ea4",
+        "agent_slug": "amazon_india",
+        "basis": "inferred",
+        "reason": "A seeded competitor pair is excluded without an explicit subscription.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "a43c22bb-7b54-5065-a2e3-2f85257cbab8",
+        "agent_slug": "myntra",
+        "basis": "inferred",
+        "reason": "No sufficiently specific complementary action is supported for this benchmark post and scoped profile.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "b34fabb5-7bfd-5f23-bac0-26c60d15bede",
+        "agent_slug": "makemytrip",
+        "basis": "inferred",
+        "reason": "No sufficiently specific complementary action is supported for this benchmark post and scoped profile.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "c0bffdcd-b729-5d6e-ad69-e5ef58ca0c3e",
+        "agent_slug": "phonepe",
+        "basis": "inferred",
+        "reason": "The declared payment-instrument role cannot match this post's instrument focus.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "4bd6eaf1-a74f-592f-84ae-6f5cc9925f4c",
+        "agent_slug": "google_pay",
+        "basis": "inferred",
+        "reason": "The declared payment-instrument role cannot match this post's instrument focus.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "4eb0261d-a285-5e43-87c8-521a98420928",
+        "agent_slug": "paytm",
+        "basis": "inferred",
+        "reason": "The declared payment-instrument role cannot match this post's instrument focus.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "52dac8f7-9bd0-5686-8ebf-648655d4e000",
+        "agent_slug": "bajaj_auto",
+        "basis": "inferred",
+        "reason": "A vehicle manufacturer's role does not finance or promote this food, retail or payment offer.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "14a3a36a-e403-566b-9583-f21b279d50dd",
+        "agent_slug": "tvs_motor",
+        "basis": "inferred",
+        "reason": "A vehicle manufacturer's role does not finance or promote this food, retail or payment offer.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "8d9aa323-b7c7-5c93-bba2-0fdcdb0b2fb4",
+        "agent_slug": "demo_vague_co",
+        "basis": "inferred",
+        "reason": "This fictional safety-fixture author has no commercial capability or interest.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "6fc15c0c-5f3d-5c5c-bdff-633ef0e41e74",
+        "agent_slug": "demo_spammer_co",
+        "basis": "inferred",
+        "reason": "This fictional safety-fixture author has no commercial capability or interest.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "7c3c2344-20ce-562e-ab32-abf460fc2c64",
+        "agent_slug": "demo_intruder_co",
+        "basis": "inferred",
+        "reason": "This fictional safety-fixture author has no commercial capability or interest.",
+        "source_id": null,
+        "evidence_url": null
+      }
+    ],
+    "now": "2018-05-14T00:00:00+00:00",
+    "label_version": "stage1-dataset-v2-dev",
+    "label_scope": "business_complementarity_not_redemption_entitlement",
+    "owner_review_required": false,
+    "approval_scope": "dev_only",
+    "series_id": "p29_near_repost"
+  },
+  {
+    "post_id": "a72b95a2-0c61-562d-bd56-0651ecef693e",
+    "post_slug": "p30_non_actionable",
+    "expected_recipients": [],
+    "must_not_notify": [
+      {
+        "agent_id": "da191f6b-0080-5c18-a2f4-5a85a5b51653",
+        "agent_slug": "swiggy",
+        "basis": "inferred",
+        "reason": "No actionable offer, product or partnership need is specified.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "13b20c83-f3e0-5479-b132-1d78570b3611",
+        "agent_slug": "zomato",
+        "basis": "inferred",
+        "reason": "No actionable offer, product or partnership need is specified.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "8938c8b8-095e-555c-919c-1342216e81ea",
+        "agent_slug": "flipkart",
+        "basis": "inferred",
+        "reason": "No actionable offer, product or partnership need is specified.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "cf32910e-e266-5060-b21d-b3cbac522ea4",
+        "agent_slug": "amazon_india",
+        "basis": "inferred",
+        "reason": "No actionable offer, product or partnership need is specified.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "a43c22bb-7b54-5065-a2e3-2f85257cbab8",
+        "agent_slug": "myntra",
+        "basis": "inferred",
+        "reason": "No actionable offer, product or partnership need is specified.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "b34fabb5-7bfd-5f23-bac0-26c60d15bede",
+        "agent_slug": "makemytrip",
+        "basis": "inferred",
+        "reason": "No actionable offer, product or partnership need is specified.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "c0bffdcd-b729-5d6e-ad69-e5ef58ca0c3e",
+        "agent_slug": "phonepe",
+        "basis": "inferred",
+        "reason": "No actionable offer, product or partnership need is specified.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "4bd6eaf1-a74f-592f-84ae-6f5cc9925f4c",
+        "agent_slug": "google_pay",
+        "basis": "inferred",
+        "reason": "No actionable offer, product or partnership need is specified.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "4eb0261d-a285-5e43-87c8-521a98420928",
+        "agent_slug": "paytm",
+        "basis": "inferred",
+        "reason": "No actionable offer, product or partnership need is specified.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "e76ec5fc-3aa7-54bc-b599-2a3268e350fb",
+        "agent_slug": "hdfc_bank",
+        "basis": "inferred",
+        "reason": "No actionable offer, product or partnership need is specified.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "2efc699e-b3ad-535a-9b69-2e7042d60e23",
+        "agent_slug": "icici_bank",
+        "basis": "inferred",
+        "reason": "No actionable offer, product or partnership need is specified.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "cd67d80a-83e3-5e37-a7b8-ffdbc3e2baa4",
+        "agent_slug": "axis_bank",
+        "basis": "inferred",
+        "reason": "No actionable offer, product or partnership need is specified.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "af76bcb4-7a7b-58ce-9276-110a6968c1fa",
+        "agent_slug": "bajaj_finserv",
+        "basis": "inferred",
+        "reason": "No actionable offer, product or partnership need is specified.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "52dac8f7-9bd0-5686-8ebf-648655d4e000",
+        "agent_slug": "bajaj_auto",
+        "basis": "inferred",
+        "reason": "No actionable offer, product or partnership need is specified.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "31f4890f-da06-5655-afa1-82eda54e4ab8",
+        "agent_slug": "tvs_credit",
+        "basis": "inferred",
+        "reason": "No actionable offer, product or partnership need is specified.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "14a3a36a-e403-566b-9583-f21b279d50dd",
+        "agent_slug": "tvs_motor",
+        "basis": "inferred",
+        "reason": "No actionable offer, product or partnership need is specified.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "8d9aa323-b7c7-5c93-bba2-0fdcdb0b2fb4",
+        "agent_slug": "demo_vague_co",
+        "basis": "inferred",
+        "reason": "The author is excluded by routing policy.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "6fc15c0c-5f3d-5c5c-bdff-633ef0e41e74",
+        "agent_slug": "demo_spammer_co",
+        "basis": "inferred",
+        "reason": "No actionable offer, product or partnership need is specified.",
+        "source_id": null,
+        "evidence_url": null
+      },
+      {
+        "agent_id": "7c3c2344-20ce-562e-ab32-abf460fc2c64",
+        "agent_slug": "demo_intruder_co",
+        "basis": "inferred",
+        "reason": "No actionable offer, product or partnership need is specified.",
+        "source_id": null,
+        "evidence_url": null
+      }
+    ],
+    "now": "2026-11-15T00:00:00+00:00",
+    "label_version": "stage1-dataset-v2-dev",
+    "label_scope": "business_complementarity_not_redemption_entitlement",
+    "owner_review_required": false,
+    "approval_scope": "dev_only",
+    "series_id": "p30_non_actionable"
+  }
+]

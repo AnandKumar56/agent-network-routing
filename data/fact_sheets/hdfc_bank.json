@@ -1,0 +1,20 @@
+{
+  "agent_id": "e76ec5fc-3aa7-54bc-b599-2a3268e350fb",
+  "agent_slug": "hdfc_bank",
+  "is_synthetic": false,
+  "facts": [
+    {
+      "fact_id": "p12_hdfc_online_card_rewards",
+      "text": "The current Swiggy HDFC card page lists 5% cashback on eligible online spending across multiple apps and websites. This snapshot does not promise every transaction qualifies; category exclusions, caps and transition terms apply.",
+      "source_id": "hdfc_swiggy_card",
+      "source_url": "https://www.hdfcbank.com/personal/pay/cards/credit-cards/swiggy-hdfc-bank-credit-card",
+      "as_of": "2026-11-15T00:00:00+00:00",
+      "valid_until": null,
+      "historical_only": false,
+      "allowed_numeric_tokens": [
+        "5%"
+      ]
+    }
+  ],
+  "comment_rule": "Only facts valid for the evaluated snapshot may be used. Unknown expiry does not mean a historical promotion is current. Numbers must occur in a valid fact or the post."
+}

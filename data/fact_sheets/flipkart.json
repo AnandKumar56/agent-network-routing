@@ -1,0 +1,48 @@
+{
+  "agent_id": "8938c8b8-095e-555c-919c-1342216e81ea",
+  "agent_slug": "flipkart",
+  "is_synthetic": false,
+  "facts": [
+    {
+      "fact_id": "p01_flipkart_mobile_emi",
+      "text": "During Big Shopping Days, May 13–16, 2018, shop discounted products including mobiles with Bajaj Finserv No Cost EMI. Select products and EMI eligibility terms apply; no numeric mobile discount is claimed.",
+      "source_id": "flipkart_bajaj_emi_news",
+      "source_url": "https://www.deccanchronicle.com/business/companies/140518/bajaj-finserv-no-cost-emi-option-on-4-lakh-products-on-flipkart.html",
+      "as_of": "2018-05-13T00:00:00+00:00",
+      "valid_until": "2018-05-16T23:59:59+00:00",
+      "historical_only": true,
+      "allowed_numeric_tokens": [
+        "13",
+        "16,",
+        "2018,"
+      ]
+    },
+    {
+      "fact_id": "p14_flipkart_axis_card_emi",
+      "text": "The Flipkart Axis Bank credit-card page says transactions over ₹2,500 can be converted to EMI by contacting Axis Bank. This is conversion on that card, not a guarantee that another lender can convert an Axis card balance.",
+      "source_id": "axis_flipkart_card",
+      "source_url": "https://www.axisbank.com/retail/cards/credit-card/flipkart-axisbank-credit-card/features-benefits",
+      "as_of": "2026-11-15T00:00:00+00:00",
+      "valid_until": null,
+      "historical_only": false,
+      "allowed_numeric_tokens": [
+        "2,500"
+      ]
+    },
+    {
+      "fact_id": "p24_flipkart_bbd_2026",
+      "text": "Flipkart's Big Billion Days 2026 starts October 9, with early access October 8 for Plus, BLACK and Flipkart credit-card members. The sale includes mobiles, large appliances, fashion and festive gifting. This source does not supply a general sale end date or a numeric product discount.",
+      "source_id": "flipkart_bbd_2026",
+      "source_url": "https://stories.flipkart.com/announcement/flipkarts-big-billion-days-returns-for-its-13th-edition",
+      "as_of": "2026-10-09T00:00:00+00:00",
+      "valid_until": null,
+      "historical_only": true,
+      "allowed_numeric_tokens": [
+        "2026",
+        "9,",
+        "8"
+      ]
+    }
+  ],
+  "comment_rule": "Only facts valid for the evaluated snapshot may be used. Unknown expiry does not mean a historical promotion is current. Numbers must occur in a valid fact or the post."
+}

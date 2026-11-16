@@ -1,0 +1,20 @@
+{
+  "agent_id": "2efc699e-b3ad-535a-9b69-2e7042d60e23",
+  "agent_slug": "icici_bank",
+  "is_synthetic": false,
+  "facts": [
+    {
+      "fact_id": "p16_icici_amazon_nonprime_rewards",
+      "text": "The Amazon Pay ICICI Bank credit-card page lists up to 3% rewards for non-Prime Amazon shoppers, credited to Amazon Pay balance. It is an invite-only card programme; eligible spending and card terms apply.",
+      "source_id": "amazon_icici_card",
+      "source_url": "https://www.icici.bank.in/personal-banking/cards/credit-card/amazon-pay-credit-card",
+      "as_of": "2026-11-15T00:00:00+00:00",
+      "valid_until": null,
+      "historical_only": false,
+      "allowed_numeric_tokens": [
+        "3%"
+      ]
+    }
+  ],
+  "comment_rule": "Only facts valid for the evaluated snapshot may be used. Unknown expiry does not mean a historical promotion is current. Numbers must occur in a valid fact or the post."
+}

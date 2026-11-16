@@ -1,0 +1,215 @@
+{
+  "version": "stage1-rules-v1",
+  "instrument_to_capability": {
+    "upi": "upi_payments",
+    "credit_card": "credit_cards",
+    "debit_card": "debit_cards",
+    "emi": "emi_financing",
+    "no_cost_emi": "emi_financing",
+    "wallet": "wallet_payments",
+    "bnpl": "bnpl",
+    "net_banking": "banking_accounts"
+  },
+  "competitor_pairs": [
+    [
+      "swiggy",
+      "zomato"
+    ],
+    [
+      "flipkart",
+      "amazon_india"
+    ],
+    [
+      "phonepe",
+      "google_pay"
+    ],
+    [
+      "phonepe",
+      "paytm"
+    ],
+    [
+      "google_pay",
+      "paytm"
+    ],
+    [
+      "hdfc_bank",
+      "icici_bank"
+    ],
+    [
+      "hdfc_bank",
+      "axis_bank"
+    ],
+    [
+      "icici_bank",
+      "axis_bank"
+    ],
+    [
+      "bajaj_finserv",
+      "tvs_credit"
+    ],
+    [
+      "bajaj_auto",
+      "tvs_motor"
+    ]
+  ],
+  "competitor_exception": "explicit_subscription_only",
+  "brand_name_matching": false,
+  "rules": [
+    {
+      "id": "emi_to_financier",
+      "when": {
+        "instruments_any": [
+          "emi",
+          "no_cost_emi"
+        ]
+      },
+      "capabilities_any": [
+        "emi_financing"
+      ]
+    },
+    {
+      "id": "upi_to_upi",
+      "when": {
+        "instruments_any": [
+          "upi"
+        ]
+      },
+      "capabilities_any": [
+        "upi_payments"
+      ]
+    },
+    {
+      "id": "card_to_issuer",
+      "when": {
+        "instruments_any": [
+          "credit_card"
+        ]
+      },
+      "capabilities_any": [
+        "credit_cards"
+      ]
+    },
+    {
+      "id": "debit_to_issuer",
+      "when": {
+        "instruments_any": [
+          "debit_card"
+        ]
+      },
+      "capabilities_any": [
+        "debit_cards"
+      ]
+    },
+    {
+      "id": "wallet_to_wallet",
+      "when": {
+        "instruments_any": [
+          "wallet"
+        ]
+      },
+      "capabilities_any": [
+        "wallet_payments"
+      ]
+    },
+    {
+      "id": "food_checkout_complement",
+      "when": {
+        "categories_any": [
+          "food_delivery",
+          "quick_commerce"
+        ]
+      },
+      "capabilities_any": [
+        "upi_payments",
+        "credit_cards",
+        "wallet_payments"
+      ]
+    },
+    {
+      "id": "retail_checkout_complement",
+      "when": {
+        "categories_any": [
+          "ecommerce_marketplace",
+          "electronics_retail",
+          "fashion_retail"
+        ]
+      },
+      "capabilities_any": [
+        "upi_payments",
+        "credit_cards",
+        "wallet_payments"
+      ]
+    },
+    {
+      "id": "festive_electronics_finance",
+      "when": {
+        "categories_any": [
+          "electronics_retail"
+        ],
+        "offer_types_any": [
+          "festive_sale"
+        ]
+      },
+      "capabilities_any": [
+        "emi_financing"
+      ]
+    },
+    {
+      "id": "two_wheeler_purchase_finance",
+      "when": {
+        "categories_any": [
+          "auto_manufacturing"
+        ]
+      },
+      "capabilities_any": [
+        "two_wheeler_financing"
+      ]
+    },
+    {
+      "id": "upi_provider_to_merchant",
+      "when": {
+        "instruments_any": [
+          "upi"
+        ],
+        "author_capabilities_any": [
+          "upi_payments"
+        ]
+      },
+      "capabilities_any": [
+        "food_delivery",
+        "ecommerce_marketplace",
+        "fashion_retail",
+        "travel_booking"
+      ]
+    },
+    {
+      "id": "declared_partner_types",
+      "when": {
+        "partner_types_wanted": true
+      },
+      "capabilities_from": "partner_types_wanted"
+    }
+  ],
+  "hard_filters": [
+    "self",
+    "inactive_or_suspended",
+    "excluded_industry",
+    "notification_cap",
+    "expiry",
+    "quarantine",
+    "competitor_unless_subscribed",
+    "instrument_compatibility"
+  ],
+  "judge_note": "All candidates passed hard filters. Competitor policy belongs only to the hard filter; the judge cannot add recipients.",
+  "relationship_time_policy": "valid_from <= now and (valid_until is null or now <= valid_until)",
+  "declared_partner_policy": "Use a matching date-valid edge only; static declared_partners must not bypass time filtering.",
+  "undated_relationship_policy": "Current product pages use first-observed snapshot date, not an invented historical start.",
+  "thresholds": {
+    "status": "unselected",
+    "initial_guesses_not_decisions": {
+      "T_ACCEPT": 0.45,
+      "T_REJECT": 0.35,
+      "T_JUDGE": 0.6
+    }
+  }
+}

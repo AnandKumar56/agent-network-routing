@@ -1,0 +1,49 @@
+{
+  "agent_id": "c0bffdcd-b729-5d6e-ad69-e5ef58ca0c3e",
+  "agent_slug": "phonepe",
+  "is_synthetic": false,
+  "facts": [
+    {
+      "fact_id": "p04_phonepe_upi_cashback_update",
+      "text": "During Flipkart’s Big Billion Days 2018, UPI accounted for over 55% of payments on PhonePe. Shoppers could transact and get instant cashbacks without delays. This is a historical checkout update, not a new cashback amount, promise or eligibility announcement.",
+      "source_id": "phonepe_bbd_2018",
+      "source_url": "https://www.phonepe.com/press/phonepe-sees-a-150per-growth-in-transactions-during-flipkarts-big-billion-days/",
+      "as_of": "2018-10-22T00:00:00+00:00",
+      "valid_until": null,
+      "historical_only": true,
+      "allowed_numeric_tokens": [
+        "2018,",
+        "55%"
+      ]
+    },
+    {
+      "fact_id": "p08_phonepe_swiggy_first_cashback",
+      "text": "PhonePe's March 2018 Swiggy introduction offers 25% cashback up to ₹100 on the first order paid through PhonePe. The source supports UPI, wallet and card checkout but does not state an offer end date. Swiggy Android rollout and offer terms apply.",
+      "source_id": "phonepe_swiggy",
+      "source_url": "https://www.phonepe.com/press/swiggy-and-phonepe-partner-to-grow-cashless-transactions/",
+      "as_of": "2018-03-22T00:00:00+00:00",
+      "valid_until": null,
+      "historical_only": true,
+      "allowed_numeric_tokens": [
+        "2018",
+        "25%",
+        "100"
+      ]
+    },
+    {
+      "fact_id": "p09_phonepe_swiggy_repeat_cashback",
+      "text": "PhonePe's March 2018 Swiggy introduction offers 25% cashback up to ₹50 on the subsequent order during the offer period. Payment options include UPI, wallet and cards. The source leaves the offer end date unspecified; do not present this as a current offer.",
+      "source_id": "phonepe_swiggy",
+      "source_url": "https://www.phonepe.com/press/swiggy-and-phonepe-partner-to-grow-cashless-transactions/",
+      "as_of": "2018-03-22T00:00:00+00:00",
+      "valid_until": null,
+      "historical_only": true,
+      "allowed_numeric_tokens": [
+        "2018",
+        "25%",
+        "50"
+      ]
+    }
+  ],
+  "comment_rule": "Only facts valid for the evaluated snapshot may be used. Unknown expiry does not mean a historical promotion is current. Numbers must occur in a valid fact or the post."
+}
